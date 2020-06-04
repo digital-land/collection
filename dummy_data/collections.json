@@ -1,0 +1,55 @@
+{
+  "collections": {
+    "active": [
+      {
+        "collection": "Brownfield land collection",
+        "active": true,
+        "resource_count": "909",
+        "last_run": {
+          "date": "02/06/2020",
+          "endpoints": {
+            "success": 541,
+            "fail": 54
+          }
+        }
+      },
+      {
+        "collection": "AddressBase Collection",
+        "active": true,
+        "resource_count": "2",
+        "last_run": {
+          "date": "02/06/2020",
+          "endpoints": {
+            "success": 2,
+            "fail": 0
+          }
+        }
+      },
+      {
+        "collection": "Region collection",
+        "active": true,
+        "resource_count": "4",
+        "last_run": {
+          "date": "02/06/2020",
+          "endpoints": {
+            "success": 4,
+            "fail": 0
+          }
+        }
+      },
+      {
+        "collection": "Organisation collection",
+        "active": true,
+        "resource_count": "128",
+        "last_run": {
+          "date": "02/06/2020",
+          "endpoints": {
+            "success": 32,
+            "fail": 1
+          }
+        }
+      }
+    ],
+    "inactive": []
+  }
+}

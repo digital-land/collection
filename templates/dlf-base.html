@@ -3,7 +3,37 @@
 {% from "govuk-jinja-components/breadcrumbs/macro.jinja" import govukBreadcrumbs %}
 {% from "dl-macros/page-feedback/macro.jinja" import dlfPageFeedback %}
 
-{% block main %}{% endblock %}
+{% block head %}
+<link href="{{ staticPath | default('/static') }}/stylesheets/dl-frontend.css" rel="stylesheet" />
+{% endblock %}
+
+{% block header %}
+{% include 'dl-partials/dl-header.html' %}
+{% endblock %}
+
+{% block beforeContent %}
+	{{ govukPhaseBanner({
+		"classes": "govuk-width-container",
+		"tag": {
+			"text": "prototype"
+		},
+		"html": 'This is a prototype. Please provide feedback to the Digital Land team.'
+	}) }}
+
+	{{ govukBreadcrumbs({
+	  "items": [
+	    {
+	      "text": "Digital Land",
+	      "href": "https://digital-land.github.io/"
+	    },
+	    {
+	      "text": "Collections"
+	    }
+	  ]
+	}) }}
+
+{% endblock %}
+
 
 {% block bodyEnd %}
 	{%- block googleAnalytics -%}
@@ -23,10 +53,10 @@
 
 	{#- optional jQuery include -#}
 	{%- if includeJQuery == "true" -%}
-	<script src="/static/javascripts/vendor/jquery-3.4.1.min.js"></script>
+	<script src="{{ staticPath | default('/static') }}/javascripts/vendor/jquery-3.4.1.min.js"></script>
 	{% endif %}
 
-	<script src="/static/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+	<script src="{{ staticPath | default('/static') }}/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
 	<script>
 		// initiate all GOVUK components
 		window.GOVUKFrontend.initAll();
@@ -34,7 +64,7 @@
 
 	{% block bodyEndScripts %}
 	{# needs to come after govuk frontend #}
-	<script src="/static/javascripts/dl-frontend.js"></script>
+	<script src="{{ staticPath | default('/static') }}/javascripts/dl-frontend.js"></script>
 	<script>
 		// adds any necessary polyfills
 		window.DLFrontend.polyfill();
