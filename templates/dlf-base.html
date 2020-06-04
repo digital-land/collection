@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% from "govuk-jinja-components/phase-banner/macro.jinja" import govukPhaseBanner %}
+{% from "govuk-jinja-components/breadcrumbs/macro.jinja" import govukBreadcrumbs %}
+{% from "dl-macros/page-feedback/macro.jinja" import dlfPageFeedback %}
+
+{% block main %}{% endblock %}
+
+{% block bodyEnd %}
+	{%- block googleAnalytics -%}
+	<!-- google analytics -->
+	<script type="application/javascript">
+		var doNotTrack = false;
+		if (!doNotTrack) {
+			window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+			ga('create', 'UA-127566551-1', 'auto');
+			
+			ga('send', 'pageview');
+		}
+	</script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<!-- end google analytics -->
+	{% endblock googleAnalytics %}
+
+	{#- optional jQuery include -#}
+	{%- if includeJQuery == "true" -%}
+	<script src="/static/javascripts/vendor/jquery-3.4.1.min.js"></script>
+	{% endif %}
+
+	<script src="/static/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+	<script>
+		// initiate all GOVUK components
+		window.GOVUKFrontend.initAll();
+	</script>
+
+	{% block bodyEndScripts %}
+	{# needs to come after govuk frontend #}
+	<script src="/static/javascripts/dl-frontend.js"></script>
+	<script>
+		// adds any necessary polyfills
+		window.DLFrontend.polyfill();
+	</script>
+	{% endblock %}
+
+{% endblock %}
