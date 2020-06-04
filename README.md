@@ -8,3 +8,7 @@ Install requirements
 
     make init
 
+Render all pages
+
+    make render
+
