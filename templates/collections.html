@@ -54,6 +54,23 @@
 
 {% if data['collections']['inactive']|length > 0 %}
 <h2 class="govuk-heading-l">Deactivated collections</h2>
+
+<ul class="collection-list">
+    {% for collection in data['collections']['inactive'] %}
+    <li class="technical-summary-card">
+        <div class="govuk-grid-column-one-third">
+            <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="" class="govuk-link">{{ collection['collection'] }}</a></h3>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="#" class="govuk-link govuk-body-s">see details</a>)
+            <div class="technical-summary-card__section">
+                <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['resource_count'] }}</a>
+            </div>
+
+        </div>
+    </li>
+    {% endfor %}
+</ul>
 {% endif %}
 
 

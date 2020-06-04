@@ -50,6 +50,15 @@
         }
       }
     ],
-    "inactive": []
+    "inactive": [
+      {
+        "collection": "Boundary collection",
+        "active": false,
+        "resource_count": "128",
+        "last_run": {
+          "date": "02/06/2020"
+        }
+      }
+    ]
   }
 }
