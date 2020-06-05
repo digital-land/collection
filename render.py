@@ -7,7 +7,7 @@ import jinja2
 
 dummy_data_path = "dummy_data"
 docs_path = "docs/"
-static_folder_path = "http://digital-land-design.herokuapp.com/static"
+static_folder_path = "https://digital-land-design.herokuapp.com/static"
 
 # jinja setup
 multi_loader = jinja2.ChoiceLoader([
