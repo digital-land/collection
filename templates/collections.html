@@ -30,13 +30,23 @@
                 <div class="govuk-grid-column-one-half">
                     <p class="govuk-body-s govuk-!-margin-bottom-1">Last run:</p>
                     <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">{{ collection['last_run']['date'] }}</p>
-                    <p class="govuk-body-s govuk-!-margin-bottom-0 govuk-!-padding-top-1"><a href="#" class="govuk-link">See earlier runs</a></p>
+                    <p class="govuk-body-s govuk-!-margin-bottom-0 govuk-!-padding-top-1"><a href="#" class="govuk-link">See <span class="govuk-visually-hidden">results from </span>earlier runs<span class="govuk-visually-hidden"> of the {{ collection['collection'] }}</span></a></p>
                 </div>
                 <div class="govuk-grid-column-one-half">
                     <p class="govuk-body-s govuk-!-margin-bottom-1">Endpoint results:</p>
                     <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
-                        <span class="technical-summary-card__result technical-summary-card__result--success">{{ collection['last_run']['endpoints']['success'] }} succeeded</span>
-                        <span class="technical-summary-card__result technical-summary-card__result--fail"><a href="#" class="govuk-link--text-colour">{{ collection['last_run']['endpoints']['fail'] }} failed</a></span>
+                        <span class="technical-summary-card__result technical-summary-card__result--success">
+                            {{ collection['last_run']['endpoints']['success'] }}
+                            <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['last_run']['endpoints']['success'] > 1 else "" }}</span>
+                             succeeded
+                        </span>
+                        <span class="technical-summary-card__result technical-summary-card__result--fail">
+                            <a href="#" class="govuk-link--text-colour">
+                                {{ collection['last_run']['endpoints']['fail'] }}
+                                <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['last_run']['endpoints']['fail'] > 1 else "" }}</span>
+                                 failed
+                            </a>
+                        </span>
                     </p>
                 </div>
                 <div class="govuk-grid-column-full">
@@ -61,9 +71,9 @@
             <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="" class="govuk-link">{{ collection['collection'] }}</a></h3>
         </div>
         <div class="govuk-grid-column-two-thirds">
-            <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="#" class="govuk-link govuk-body-s">see details</a>)
+            <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="#" class="govuk-link govuk-body-s">see details<span class="govuk-visually-hidden"> of the last run by the {{ collection['collection'] }}</span></a>)
             <div class="technical-summary-card__section">
-                <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['resource_count'] }}</a>
+                <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
             </div>
 
         </div>
