@@ -44,4 +44,4 @@ def render(path, template, **kwargs):
 
 
 collections_data = get_dummy_data("collections")
-render("collection/index.html", collections_template, data=collections_data)
+render("index.html", collections_template, data=collections_data)
