@@ -3,6 +3,31 @@
 
 {% block pageTitle %}Collections log for {{ data['date'] }} | Digital Land{% endblock %}
 
+{% block beforeContent %}
+	{{ super() }}
+
+	{{ govukBreadcrumbs({
+	  "items": [
+	    {
+	        "text": "Digital Land",
+	        "href": "https://digital-land.github.io/"
+	    },
+	    {
+            "text": "Collections",
+            "href": "/collections"
+        },
+        {
+            "text": "Log",
+            "href": "/collections/log"
+        },
+        {
+            "text": data['date']
+        }
+	  ]
+	}) }}
+
+{% endblock %}
+
 {% block content %}
 
 <span class="govuk-caption-xl">Collections log</span>
