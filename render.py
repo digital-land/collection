@@ -4,6 +4,8 @@ import os
 import json
 import jinja2
 
+from filters import slash_to_dash
+
 
 dummy_data_path = "dummy_data"
 docs_path = "docs/"
@@ -17,6 +19,9 @@ multi_loader = jinja2.ChoiceLoader([
     })
 ])
 env = jinja2.Environment(loader=multi_loader)
+
+# load any filters the templates need
+env.filters["slash_to_dash"] = slash_to_dash
 
 # retrieve page templates
 collections_template = env.get_template("collections.html")
