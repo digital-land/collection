@@ -20,6 +20,7 @@ env = jinja2.Environment(loader=multi_loader)
 
 # retrieve page templates
 collections_template = env.get_template("collections.html")
+collections_log_date_template = env.get_template("collections-log-date.html")
 
 
 def get_dummy_data(filename):
@@ -30,6 +31,11 @@ def get_dummy_data(filename):
     # parse file
     return json.loads(data)
 
+
+# To be replaced
+# get dummy data for templates
+collections_data = get_dummy_data("collections")
+collections_log_date_data = get_dummy_data("collections-log-date")
 
 
 # render pages
@@ -43,5 +49,5 @@ def render(path, template, **kwargs):
         f.write(template.render(staticPath=static_folder_path, **kwargs))
 
 
-collections_data = get_dummy_data("collections")
 render("index.html", collections_template, data=collections_data)
+render("log/04-06-2020/index.html", collections_log_date_template, data=collections_log_date_data)

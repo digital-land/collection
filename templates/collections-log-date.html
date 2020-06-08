@@ -1,0 +1,69 @@
+{% extends "dlf-base.html" %}
+
+{% block pageTitle %}Collections | Digital Land{% endblock %}
+
+{% block content %}
+
+<h1 class="govuk-heading-xl">{{ data['date'] }}</h1>
+
+
+<ul class="collection-list">
+    {% for collection in data['collections_ordered_by_issue_count'] %}
+    <li class="technical-summary-card">
+        <div class="govuk-grid-column-full">
+            <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="" class="govuk-link">{{ collection['collection'] }}</a></h3>
+        </div>
+
+        <div class="govuk-grid-column-one-third">
+            <p class="govuk-body-s govuk-!-margin-bottom-1">Endpoint results:</p>
+            <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
+                <span class="technical-summary-card__result technical-summary-card__result--success">
+                    {{ collection['run']['endpoints']['success'] }}
+                    <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['endpoints']['success'] > 1 else "" }}</span>
+                        succeeded
+                </span>
+                <span class="technical-summary-card__result technical-summary-card__result--fail">
+                    <a href="#" class="govuk-link--text-colour">
+                        {{ collection['run']['endpoints']['fail'] }}
+                        <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['endpoints']['fail'] > 1 else "" }}</span>
+                            failed
+                    </a>
+                </span>
+            </p>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <p class="govuk-body-s govuk-!-margin-bottom-1">Documentation URLs:</p>
+            <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
+                <span class="technical-summary-card__result technical-summary-card__result--success">
+                    {{ collection['run']['documentation_urls']['active'] }}
+                    <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['documentation_urls']['active'] > 1 else "" }}</span>
+                        active
+                </span>
+                <span class="technical-summary-card__result technical-summary-card__result--fail">
+                    <a href="#" class="govuk-link--text-colour">
+                        {{ collection['run']['documentation_urls']['inactive'] }}
+                        <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['documentation_urls']['inactive'] > 1 else "" }}</span>
+                            inactive
+                    </a>
+                </span>
+            </p>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <p>
+                <span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">{{ collection['run']['new_resources'] }}</span>
+                <span class="govuk-body-l">New resources</span>
+            </p>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
+
+{% block footer %}
+  {{ dlfPageFeedback({
+    "text": "Do you have feedback about this page?",
+    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collections page"
+  }) }}
+  {{ super() }}
+{% endblock %}
