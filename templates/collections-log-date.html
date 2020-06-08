@@ -1,0 +1,110 @@
+{% extends "dlf-base.html" %}
+{%- from "dl-macros/data-item/macro.jinja" import dlfDataItem %}
+
+{% block pageTitle %}Collections log for {{ data['date'] }} | Digital Land{% endblock %}
+
+{% block beforeContent %}
+	{{ super() }}
+
+	{{ govukBreadcrumbs({
+	  "items": [
+	    {
+	        "text": "Digital Land",
+	        "href": "https://digital-land.github.io/"
+	    },
+	    {
+            "text": "Collections",
+            "href": "/collections"
+        },
+        {
+            "text": "Log",
+            "href": "/collections/log"
+        },
+        {
+            "text": data['date'] | slash_to_dash
+        }
+	  ]
+	}) }}
+
+{% endblock %}
+
+{% block content %}
+
+<span class="govuk-caption-xl">Collections log</span>
+<h1 class="govuk-heading-xl">{{ data['date'] }}</h1>
+
+<p class="govuk-body-l">A summary of results of each of the {{ data['collections_ordered_by_issue_count']|length }} collections that ran on {{ data['date'] }}.</p>
+
+<ul class="collection-list">
+    {% for collection in data['collections_ordered_by_issue_count'] %}
+    <li class="technical-summary-card">
+        <div class="govuk-grid-column-full govuk-!-margin-bottom-3">
+            <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="" class="govuk-link">{{ collection['collection'] }}</a></h3>
+        </div>
+
+        <div class="govuk-grid-column-one-third">
+            <p class="govuk-body-s govuk-!-margin-bottom-1">Endpoint results:</p>
+            <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
+                <span class="technical-summary-card__result technical-summary-card__result--success">
+                    {{ collection['run']['endpoints']['success'] }}
+                    <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['endpoints']['success'] > 1 else "" }}</span>
+                        succeeded
+                </span>
+                <span class="technical-summary-card__result technical-summary-card__result--fail">
+                    {%- set failHtml %}
+                    {{ collection['run']['endpoints']['fail'] }}
+                    <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['endpoints']['fail'] > 1 else "" }}</span>
+                        failed
+                    {% endset -%}
+                    {%- if collection['run']['endpoints']['fail'] == 0 -%}
+                        {{ failHtml }}
+                    {%- else -%}
+                    <a href="#" class="govuk-link--text-colour">{{ failHtml }}</a>
+                    {%- endif %}
+                </span>
+            </p>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <p class="govuk-body-s govuk-!-margin-bottom-1">Documentation URLs:</p>
+            <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
+                <span class="technical-summary-card__result technical-summary-card__result--success">
+                    {{ collection['run']['documentation_urls']['active'] }}
+                    <span class="govuk-visually-hidden"> documentation url{{ "s" if collection['run']['documentation_urls']['active'] > 1 else "" }} {{ "are" if collection['run']['documentation_urls']['active'] > 1 else "is" }} </span>
+                        active
+                </span>
+                <span class="technical-summary-card__result technical-summary-card__result--fail">
+                    {%- set inactiveHtml %}
+                    {{ collection['run']['documentation_urls']['inactive'] }}
+                    <span class="govuk-visually-hidden"> documentation url{{ "s" if collection['run']['documentation_urls']['inactive'] > 1 else "" }} {{ "are" if collection['run']['documentation_urls']['inactive'] > 1 else "is" }} </span>
+                        inactive
+                    {% endset -%}
+                    {%- if collection['run']['documentation_urls']['inactive'] == 0  -%}
+                    {{ inactiveHtml }}
+                    {%- else -%}
+                    <a href="#" class="govuk-link--text-colour">{{ inactiveHtml }}</a>
+                    {%- endif %}
+                </span>
+            </p>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% set label = "New resource" if collection['run']['new_resources'] == 1 else "New resources" %}
+            {{ dlfDataItem({
+                "number": collection['run']['new_resources'],
+                "text": label,
+                "classes": "data-item--inline data-item--s govuk-!-margin-top-4"
+                })
+            }}
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
+
+{% block footer %}
+  {{ dlfPageFeedback({
+    "text": "Do you have feedback about this page?",
+    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collections page"
+  }) }}
+  {{ super() }}
+{% endblock %}

@@ -2,6 +2,23 @@
 
 {% block pageTitle %}Collections | Digital Land{% endblock %}
 
+{% block beforeContent %}
+	{{ super() }}
+
+	{{ govukBreadcrumbs({
+	  "items": [
+	    {
+	      "text": "Digital Land",
+	      "href": "https://digital-land.github.io/"
+	    },
+	    {
+	      "text": "Collections"
+	    }
+	  ]
+	}) }}
+
+{% endblock %}
+
 {% block content %}
 <h1 class="govuk-heading-xl">Collections</h1>
 
