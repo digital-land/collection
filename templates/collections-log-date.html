@@ -1,6 +1,7 @@
 {% extends "dlf-base.html" %}
+{%- from "dl-macros/data-item/macro.jinja" import dlfDataItem %}
 
-{% block pageTitle %}Collections | Digital Land{% endblock %}
+{% block pageTitle %}Collections log for {{ data['date'] }} | Digital Land{% endblock %}
 
 {% block content %}
 
@@ -49,10 +50,13 @@
             </p>
         </div>
         <div class="govuk-grid-column-one-third">
-            <p>
-                <span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">{{ collection['run']['new_resources'] }}</span>
-                <span class="govuk-body-l">New resources</span>
-            </p>
+            {% set label = "New resource" if collection['run']['new_resources'] == 1 else "New resources" %}
+            {{ dlfDataItem({
+                "number": collection['run']['new_resources'],
+                "text": label,
+                "classes": "data-item--inline data-item--s govuk-!-margin-top-4"
+                })
+            }}
         </div>
     </li>
     {% endfor %}
