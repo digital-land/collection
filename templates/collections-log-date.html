@@ -51,11 +51,16 @@
                         succeeded
                 </span>
                 <span class="technical-summary-card__result technical-summary-card__result--fail">
-                    <a href="#" class="govuk-link--text-colour">
-                        {{ collection['run']['endpoints']['fail'] }}
-                        <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['endpoints']['fail'] > 1 else "" }}</span>
-                            failed
-                    </a>
+                    {%- set failHtml %}
+                    {{ collection['run']['endpoints']['fail'] }}
+                    <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['endpoints']['fail'] > 1 else "" }}</span>
+                        failed
+                    {% endset -%}
+                    {%- if collection['run']['endpoints']['fail'] == 0 -%}
+                        {{ failHtml }}
+                    {%- else -%}
+                    <a href="#" class="govuk-link--text-colour">{{ failHtml }}</a>
+                    {%- endif %}
                 </span>
             </p>
         </div>
@@ -64,15 +69,20 @@
             <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
                 <span class="technical-summary-card__result technical-summary-card__result--success">
                     {{ collection['run']['documentation_urls']['active'] }}
-                    <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['documentation_urls']['active'] > 1 else "" }}</span>
+                    <span class="govuk-visually-hidden"> documentation url{{ "s" if collection['run']['documentation_urls']['active'] > 1 else "" }} {{ "are" if collection['run']['documentation_urls']['active'] > 1 else "is" }} </span>
                         active
                 </span>
                 <span class="technical-summary-card__result technical-summary-card__result--fail">
-                    <a href="#" class="govuk-link--text-colour">
-                        {{ collection['run']['documentation_urls']['inactive'] }}
-                        <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['run']['documentation_urls']['inactive'] > 1 else "" }}</span>
-                            inactive
-                    </a>
+                    {%- set inactiveHtml %}
+                    {{ collection['run']['documentation_urls']['inactive'] }}
+                    <span class="govuk-visually-hidden"> documentation url{{ "s" if collection['run']['documentation_urls']['inactive'] > 1 else "" }} {{ "are" if collection['run']['documentation_urls']['inactive'] > 1 else "is" }} </span>
+                        inactive
+                    {% endset -%}
+                    {%- if collection['run']['documentation_urls']['inactive'] == 0  -%}
+                    {{ inactiveHtml }}
+                    {%- else -%}
+                    <a href="#" class="govuk-link--text-colour">{{ inactiveHtml }}</a>
+                    {%- endif %}
                 </span>
             </p>
         </div>
