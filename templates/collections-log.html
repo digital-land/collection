@@ -27,6 +27,63 @@
 <span class="govuk-caption-xl">Collections</span>
 <h1 class="govuk-heading-xl">Log</h1>
 
+<p class="govuk-body-l">Collectors are run regularly. Their output is logged so that we can monitor performance and correct issues.</p>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <details class="govuk-details" data-module="govuk-details">
+            <summary class="govuk-details__summary">
+              <span class="govuk-details__summary-text">
+                What do we log?
+              </span>
+            </summary>
+            <div class="govuk-details__text">
+                For each collector we record; the endpoints and documentation URLs reached and the endpoints and documentation URLs we couldn't reach. We also record the number of new resources collected.
+            </div>
+        </details>
+    </div>
+</div>
+
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+        <h1 class="govuk-heading-l">Run history</h1>
+        <ol class="dl-timeline">
+            {% for date, run in data['date'].items() %}
+            <li class="dl-timeline__entry">
+                <h3 class="govuk-heading-s dl-timeline__entry-heading">{{ date }}</h3>
+                <div class="dl-timeline__entry__content">
+                {% for collection, run_data in run['collection'].items() %}
+                    <div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+                        {% set collectionName %}
+                        <a href="#">{{ run_data['name'] }}</a>
+                        {% endset %}
+                        {%- if not run_data['run'] -%}
+                        <span><strong class="govuk-tag govuk-tag--red">
+                            Not run
+                        </strong>{{ collectionName }}</span>
+                        <span>Collector did not run.</span>
+                        {%- else -%}
+                        {% set total = run_data['new_resources'] + run_data['issues'] %}
+                        <span>{{ collectionName }}</span>
+                            {%- if total == 0 -%}
+                            <span>No new resources or issues.</span>
+                            {%- else -%}
+                            <span>{{ run_data['new_resources']}} new resource{{ "s" if not run_data['new_resources'] == 1 else "" }} collected.</span>
+                            <span>{{ run_data['issues']}} issue{{ "s" if not run_data['issues'] == 1 else "" }} encountered.</span>
+                            {%- endif -%}
+                        {%- endif -%}
+                    </div>
+                {% endfor %}
+                </div>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</div>
+
+
+
 {% endblock %}
 
 {% block footer %}

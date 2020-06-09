@@ -1,3 +1,114 @@
 {
-    "date": []
+    "date": {
+        "2020-06-04": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "run": true,
+                    "new_resources": 3,
+                    "issues": 0
+                },
+                "addressbase": {
+                    "name": "AddressBase",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 0
+                },
+                "region": {
+                    "name": "Region",
+                    "run": false
+                },
+                "organisation": {
+                    "name": "Organisation",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 3
+                }
+            }
+        },
+        "2020-06-03": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "run": true,
+                    "new_resources": 3,
+                    "issues": 0
+                },
+                "addressbase": {
+                    "name": "AddressBase",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 0
+                },
+                "region": {
+                    "name": "Region",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 0
+                },
+                "organisation": {
+                    "name": "Organisation",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 3
+                }
+            }
+        },
+        "2020-06-02": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "run": true,
+                    "new_resources": 4,
+                    "issues": 5
+                },
+                "addressbase": {
+                    "name": "AddressBase",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 0
+                },
+                "region": {
+                    "name": "Region",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 0
+                },
+                "organisation": {
+                    "name": "Organisation",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 2
+                }
+            }
+        },
+        "2020-06-01": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "run": true,
+                    "new_resources": 3,
+                    "issues": 0
+                },
+                "addressbase": {
+                    "name": "AddressBase",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 1
+                },
+                "region": {
+                    "name": "Region",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 0
+                },
+                "organisation": {
+                    "name": "Organisation",
+                    "run": true,
+                    "new_resources": 0,
+                    "issues": 1
+                }
+            }
+        }
+    }
 }
