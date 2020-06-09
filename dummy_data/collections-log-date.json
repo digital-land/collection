@@ -1,10 +1,10 @@
 {
-  "date": "04/06/2020",
+  "date": "2020-06-04",
   "collections_ordered_by_issue_count": [
     {
       "collection": "Brownfield land collection",
       "run": {
-        "date": "04/06/2020",
+        "date": "2020-06-04",
         "endpoints": {
           "success": 541,
           "fail": 54
@@ -19,7 +19,7 @@
     {
       "collection": "Organisation collection",
       "run": {
-        "date": "04/06/2020",
+        "date": "2020-06-04",
         "endpoints": {
           "success": 32,
           "fail": 5
@@ -34,7 +34,7 @@
     {
       "collection": "AddressBase Collection",
       "run": {
-        "date": "04/06/2020",
+        "date": "2020-06-04",
         "endpoints": {
           "success": 2,
           "fail": 0
@@ -49,7 +49,7 @@
     {
       "collection": "Region collection",
       "run": {
-        "date": "04/06/2020",
+        "date": "2020-06-04",
         "endpoints": {
           "success": 4,
           "fail": 0
