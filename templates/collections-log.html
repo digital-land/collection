@@ -70,8 +70,8 @@
                             {%- if total == 0 -%}
                             <span>No new resources or issues.</span>
                             {%- else -%}
-                            <span>{{ run_data['new_resources']}} new resource{{ "s" if not run_data['new_resources'] == 1 else "" }} collected.</span>
-                            <span>{{ run_data['issues']}} issue{{ "s" if not run_data['issues'] == 1 else "" }} encountered.</span>
+                                {% if run_data['new_resources'] > 0 %}<span>{{ run_data['new_resources']}} new resource{{ "s" if not run_data['new_resources'] == 1 else "" }} collected.</span>{% endif %}
+                                {% if run_data['issues'] > 0 %}<span>{{ run_data['issues']}} issue{{ "s" if not run_data['issues'] == 1 else "" }} encountered.</span>{% endif %}
                             {%- endif -%}
                         {%- endif -%}
                     </div>
