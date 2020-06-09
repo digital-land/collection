@@ -51,7 +51,7 @@
         <ol class="dl-timeline">
             {% for date, run in data['date'].items() %}
             <li class="dl-timeline__entry">
-                <h3 class="govuk-heading-s dl-timeline__entry-heading">{{ date }}</h3>
+                <h3 class="govuk-heading-s dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{date}}">{{ date }}</a></h3>
                 <div class="dl-timeline__entry__content">
                 {% for collection, run_data in run['collection'].items() %}
                     <div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
