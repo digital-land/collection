@@ -25,9 +25,14 @@ env.filters["slash_to_dash"] = slash_to_dash
 
 # retrieve page templates
 collections_template = env.get_template("collections.html")
+collections_log_template = env.get_template("collections-log.html")
 collections_log_date_template = env.get_template("collections-log-date.html")
 
+a_collection_template = env.get_template("a-collection.html")
+a_collection_log_template = env.get_template("a-collection-log.html")
+a_collection_log_date_template = env.get_template("a-collection-log-date.html")
 
+# --- To be replaced ---
 def get_dummy_data(filename):
     # read file
     with open(f"{dummy_data_path}/{filename}.json", 'r') as f:
@@ -36,11 +41,16 @@ def get_dummy_data(filename):
     # parse file
     return json.loads(data)
 
-
-# To be replaced
 # get dummy data for templates
 collections_data = get_dummy_data("collections")
+collections_log_data = get_dummy_data("collections-log")
 collections_log_date_data = get_dummy_data("collections-log-date")
+
+collection_data = get_dummy_data("collection")
+# get for single example
+brownfield_collection_log_data = get_dummy_data("brownfield-collection-log")
+brownfield_collection_log_date_data = get_dummy_data("brownfield-collection-log-date")
+# --- --- --- --- --- ---
 
 
 # render pages
@@ -55,4 +65,10 @@ def render(path, template, **kwargs):
 
 
 render("index.html", collections_template, data=collections_data)
+# render("log/index.html", collections_log_template, data=collections_log_data)
 render("log/04-06-2020/index.html", collections_log_date_template, data=collections_log_date_data)
+# for collection in collection_data:
+#     render(f"{collection['collection']}/index.html", a_collection_template, data=collection)
+# render("brownfield-land/log/index.html", a_collection_log_template, data=brownfield_collection_log_data)
+# render("brownfield-land/log/04-06-2020/index.html", a_collection_log_date_template, data=brownfield_collection_log_date_data)
+

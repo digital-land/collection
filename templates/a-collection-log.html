@@ -1,0 +1,42 @@
+{% extends "dlf-base.html" %}
+
+{% block pageTitle %}Collections | Digital Land{% endblock %}
+
+{% block beforeContent %}
+	{{ super() }}
+
+	{{ govukBreadcrumbs({
+	  "items": [
+	    {
+	      "text": "Digital Land",
+	      "href": "https://digital-land.github.io/"
+	    },
+	    {
+            "text": "Collections",
+            "href": "/collection"
+        },
+        {
+            "text": data['name'],
+            "href": "/collection/" + data['collection']
+        },
+        {
+            "text": "log"
+        }
+	  ]
+	}) }}
+
+{% endblock %}
+
+{% block content %}
+<span class="govuk-caption-xl">Collection</span>
+<h1 class="govuk-heading-xl">{{ data['name'] }} log</h1>
+
+{% endblock %}
+
+{% block footer %}
+  {{ dlfPageFeedback({
+    "text": "Do you have feedback about this page?",
+    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collection/"+ data['collection'] +"/log page"
+  }) }}
+  {{ super() }}
+{% endblock %}
