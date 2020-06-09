@@ -1,6 +1,60 @@
 [
     {
         "collection": "brownfield-land",
-        "name": "Brownfield land collection"
+        "name": "Brownfield land collection",
+        "last_run": {
+            "date": "2020-06-04",
+            "endpoints": {
+                "success": 541,
+                "fail": 54
+              },
+              "documentation_urls": {
+                "active": 339,
+                "inactive": 1
+              },
+              "new_resources": 4
+        },
+        "history": {
+            "2020-06-04": {
+                "collection": {
+                    "brownfield-land": {
+                        "name": "Brownfield land",
+                        "run": true,
+                        "new_resources": 3,
+                        "issues": 0
+                    }
+                }
+            },
+            "2020-06-03": {
+                "collection": {
+                    "brownfield-land": {
+                        "name": "Brownfield land",
+                        "run": true,
+                        "new_resources": 3,
+                        "issues": 0
+                    }
+                }
+            },
+            "2020-06-02": {
+                "collection": {
+                    "brownfield-land": {
+                        "name": "Brownfield land",
+                        "run": true,
+                        "new_resources": 4,
+                        "issues": 5
+                    }
+                }
+            },
+            "2020-06-01": {
+                "collection": {
+                    "brownfield-land": {
+                        "name": "Brownfield land",
+                        "run": true,
+                        "new_resources": 3,
+                        "issues": 0
+                    }
+                }
+            }
+        }
     }
 ]

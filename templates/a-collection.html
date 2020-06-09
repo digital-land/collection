@@ -1,4 +1,5 @@
 {% extends "dlf-base.html" %}
+{%- from "dl-macros/data-item/macro.jinja" import dlfDataItem %}
 
 {% block pageTitle %}Collections | Digital Land{% endblock %}
 
@@ -26,6 +27,105 @@
 {% block content %}
 <span class="govuk-caption-xl">Collection</span>
 <h1 class="govuk-heading-xl">{{ data['name'] }}</h1>
+
+<h2 class="govuk-heading-l">Last run</h2>
+
+<p class="govuk-body">This collection last ran on {{ data['last_run']['date'] }}</p>
+
+<div class="technical-summary-card govuk-!-margin-bottom-9">
+  <div class="govuk-grid-column-one-third">
+      <p class="govuk-body-s govuk-!-margin-bottom-1">Endpoint results:</p>
+      <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
+          <span class="technical-summary-card__result technical-summary-card__result--success">
+              {{ data['last_run']['endpoints']['success'] }}
+              <span class="govuk-visually-hidden"> endpoint{{ "s" if data['last_run']['endpoints']['success'] > 1 else "" }}</span>
+                  succeeded
+          </span>
+          <span class="technical-summary-card__result technical-summary-card__result--fail">
+              {%- set failHtml %}
+              {{ data['last_run']['endpoints']['fail'] }}
+              <span class="govuk-visually-hidden"> endpoint{{ "s" if data['last_run']['endpoints']['fail'] > 1 else "" }}</span>
+                  failed
+              {% endset -%}
+              {%- if data['last_run']['endpoints']['fail'] == 0 -%}
+                  {{ failHtml }}
+              {%- else -%}
+              <a href="#" class="govuk-link--text-colour">{{ failHtml }}</a>
+              {%- endif %}
+          </span>
+      </p>
+  </div>
+  <div class="govuk-grid-column-one-third">
+      <p class="govuk-body-s govuk-!-margin-bottom-1">Documentation URLs:</p>
+      <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
+          <span class="technical-summary-card__result technical-summary-card__result--success">
+              {{ data['last_run']['documentation_urls']['active'] }}
+              <span class="govuk-visually-hidden"> documentation url{{ "s" if data['last_run']['documentation_urls']['active'] > 1 else "" }} {{ "are" if data['last_run']['documentation_urls']['active'] > 1 else "is" }} </span>
+                  active
+          </span>
+          <span class="technical-summary-card__result technical-summary-card__result--fail">
+              {%- set inactiveHtml %}
+              {{ data['last_run']['documentation_urls']['inactive'] }}
+              <span class="govuk-visually-hidden"> documentation url{{ "s" if data['last_run']['documentation_urls']['inactive'] > 1 else "" }} {{ "are" if data['last_run']['documentation_urls']['inactive'] > 1 else "is" }} </span>
+                  inactive
+              {% endset -%}
+              {%- if data['last_run']['documentation_urls']['inactive'] == 0  -%}
+              {{ inactiveHtml }}
+              {%- else -%}
+              <a href="#" class="govuk-link--text-colour">{{ inactiveHtml }}</a>
+              {%- endif %}
+          </span>
+      </p>
+  </div>
+  <div class="govuk-grid-column-one-third">
+      {% set label = "New resource" if data['last_run']['new_resources'] == 1 else "New resources" %}
+      {{ dlfDataItem({
+          "number": data['last_run']['new_resources'],
+          "text": label,
+          "classes": "data-item--inline data-item--s govuk-!-margin-top-4"
+          })
+      }}
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-three-quarters">
+      <h2 class="govuk-heading-l">Recent history</h2>
+      <ol class="dl-timeline dl-timeline--dates">
+          {% for date, run in data['history'].items() %}
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{date}}">{{ date }}</a></h3>
+              <div class="dl-timeline__entry__content">
+              {% for collection, run_data in run['collection'].items() %}
+                  <div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+                      {% set collectionName %}
+                      <a href="#">{{ run_data['name'] }}</a>
+                      {% endset %}
+                      {%- if not run_data['run'] -%}
+                      <span><strong class="govuk-tag govuk-tag--red">
+                          Not run
+                      </strong>{{ collectionName }}</span>
+                      <span>Collector did not run.</span>
+                      {%- else -%}
+                      {% set total = run_data['new_resources'] + run_data['issues'] %}
+                      {%- if run_data['issues'] > 0 -%}<span class="dlf-warning__icon--inline" aria-hidden="true">!</span>{%- endif -%}
+                      <span>{{ collectionName }}</span>
+                          {%- if total == 0 -%}
+                          <span>No new resources or issues.</span>
+                          {%- else -%}
+                              {% if run_data['new_resources'] > 0 %}<span>{{ run_data['new_resources']}} new resource{{ "s" if not run_data['new_resources'] == 1 else "" }} collected.</span>{% endif %}
+                              {% if run_data['issues'] > 0 %}<span>{{ run_data['issues']}} issue{{ "s" if not run_data['issues'] == 1 else "" }} encountered.</span>{% endif %}
+                          {%- endif -%}
+                      {%- endif -%}
+                  </div>
+              {% endfor %}
+              </div>
+          </li>
+          {% endfor %}
+      </ol>
+  </div>
+</div>
 
 {% endblock %}
 
