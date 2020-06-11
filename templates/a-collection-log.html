@@ -2,6 +2,8 @@
 
 {% block pageTitle %}Collections | Digital Land{% endblock %}
 
+{% from 'collection-macros/short-summary.html' import shortRunSummary  %}
+
 {% block beforeContent %}
 	{{ super() }}
 
@@ -30,6 +32,30 @@
 {% block content %}
 <span class="govuk-caption-xl">Collection</span>
 <h1 class="govuk-heading-xl">{{ data['name'] }} log</h1>
+
+
+
+<h2 class="govuk-heading-l dl-heading-section-break">Complete run history</h2>
+<p class="govuk-body">Since {{ data['first_run_date'] }} thie collector has been run a total of {{ data['complete_history'].keys()|length }} times, collecting <a href="#" class="govuk-link">{{ data['resource_count'] }} resource{{"" if data['resource_count'] == 1 else "s" }}</a>.</p>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-three-quarters">
+      <ol class="dl-timeline dl-timeline--dates">
+          {% for date, run in data['complete_history'].items() %}
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{date}}">{{ date }}</a></h3>
+              <div class="dl-timeline__entry__content">
+              {% for collection, run_data in run['collection'].items() %}
+                {{ shortRunSummary({
+                  "classes": "govuk-!-margin-bottom-1",
+                  "run": run_data
+                }) }}
+              {% endfor %}
+              </div>
+          </li>
+          {% endfor %}
+      </ol>
+  </div>
+</div>
 
 {% endblock %}
 

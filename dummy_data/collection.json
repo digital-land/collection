@@ -25,7 +25,7 @@
                 "collection": {
                     "brownfield-land": {
                         "name": "Brownfield land",
-                        "run": true,
+                        "completed": true,
                         "new_resources": 4,
                         "issues": 55
                     }
@@ -35,7 +35,7 @@
                 "collection": {
                     "brownfield-land": {
                         "name": "Brownfield land",
-                        "run": true,
+                        "completed": true,
                         "new_resources": 3,
                         "issues": 0
                     }
@@ -45,7 +45,7 @@
                 "collection": {
                     "brownfield-land": {
                         "name": "Brownfield land",
-                        "run": true,
+                        "completed": true,
                         "new_resources": 4,
                         "issues": 5
                     }
@@ -55,7 +55,7 @@
                 "collection": {
                     "brownfield-land": {
                         "name": "Brownfield land",
-                        "run": true,
+                        "completed": true,
                         "new_resources": 3,
                         "issues": 0
                     }
