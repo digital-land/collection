@@ -47,10 +47,18 @@
         <div class="govuk-grid-column-two-thirds">
             <div class="govuk-grid-row">
                 <div class="govuk-grid-column-one-half">
+                    {% if collection['last_run']['ran'] %}
                     <p class="govuk-body-s govuk-!-margin-bottom-1">Last run:</p>
                     <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">{{ collection['last_run']['date'] }}</p>
+                    {% else %}
+                    <p class="govuk-body-s govuk-!-margin-bottom-1"><strong class="govuk-tag govuk-tag--red">
+                      Did not run
+                  </strong></p>
+                    <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">The collector failed to run.</p>
+                    {% endif %}
                     <p class="govuk-body-s govuk-!-margin-bottom-0 govuk-!-padding-top-1"><a href="#" class="govuk-link">See <span class="govuk-visually-hidden">results from </span>earlier runs<span class="govuk-visually-hidden"> of the {{ collection['collection'] }}</span></a></p>
                 </div>
+                {% if collection['last_run']['ran'] %} 
                 <div class="govuk-grid-column-one-half">
                     <p class="govuk-body-s govuk-!-margin-bottom-1">Endpoint results:</p>
                     <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
@@ -73,6 +81,7 @@
                         <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['resource_count'] }}</a>
                     </div>
                 </div>
+                {% endif %}
             </div>
         </div>
     </li>

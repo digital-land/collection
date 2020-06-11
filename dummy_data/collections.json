@@ -6,6 +6,7 @@
         "active": true,
         "resource_count": "909",
         "last_run": {
+          "ran": true,
           "date": "02/06/2020",
           "endpoints": {
             "success": 541,
@@ -18,6 +19,7 @@
         "active": true,
         "resource_count": "2",
         "last_run": {
+          "ran": true,
           "date": "02/06/2020",
           "endpoints": {
             "success": 2,
@@ -30,6 +32,7 @@
         "active": true,
         "resource_count": "4",
         "last_run": {
+          "ran": true,
           "date": "02/06/2020",
           "endpoints": {
             "success": 4,
@@ -42,11 +45,20 @@
         "active": true,
         "resource_count": "128",
         "last_run": {
+          "ran": true,
           "date": "02/06/2020",
           "endpoints": {
             "success": 32,
             "fail": 1
           }
+        }
+      },
+      {
+        "collection": "Local resilience forum collection",
+        "active": true,
+        "resource_count": "1",
+        "last_run": {
+          "ran": false
         }
       }
     ],
