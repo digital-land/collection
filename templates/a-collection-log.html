@@ -36,7 +36,7 @@
 
 
 <h2 class="govuk-heading-l dl-heading-section-break">Complete run history</h2>
-<p class="govuk-body">Since {{ data['first_run_date'] }} thie collector has been run a total of {{ data['complete_history'].keys()|length }} times, collecting <a href="#" class="govuk-link">{{ data['resource_count'] }} resource{{"" if data['resource_count'] == 1 else "s" }}</a>.</p>
+<p class="govuk-body">Since {{ data['first_run_date'] }} this collector has been run a total of {{ data['complete_history'].keys()|length }} times, collecting <a href="#" class="govuk-link">{{ data['resource_count'] }} resource{{"" if data['resource_count'] == 1 else "s" }}</a>.</p>
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-three-quarters">
       <ol class="dl-timeline dl-timeline--dates">

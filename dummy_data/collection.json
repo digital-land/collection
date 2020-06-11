@@ -3,6 +3,8 @@
         "collection": "brownfield-land",
         "name": "Brownfield land collection",
         "repository": "https://github.com/digital-land/brownfield-land-collection",
+        "resource_count": "909",
+        "run_count": 16,
         "first_run_date": "2019-03-03",
         "endpoints": {
             "count": 545,
