@@ -136,7 +136,6 @@
 <h2 class="govuk-heading-l dl-heading-section-break">Recent history</h2>
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-three-quarters">
-      
       <ol class="dl-timeline dl-timeline--dates">
           {% for date, run in data['history'].items() %}
           <li class="dl-timeline__entry">
@@ -169,6 +168,7 @@
           </li>
           {% endfor %}
       </ol>
+      <p class="govuk-body"><a href="#" class="govuk-link">See all previous runs of the collection</a></p>
   </div>
 </div>
 
