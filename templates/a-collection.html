@@ -1,5 +1,6 @@
 {% extends "dlf-base.html" %}
 {%- from "dl-macros/data-item/macro.jinja" import dlfDataItem %}
+{% from 'collection-macros/short-summary.html' import shortRunSummary  %}
 
 {% block pageTitle %}Collections | Digital Land{% endblock %}
 
@@ -138,32 +139,15 @@
   <div class="govuk-grid-column-three-quarters">
       <ol class="dl-timeline dl-timeline--dates">
           {% for date, run in data['history'].items() %}
+          {# only show last 5 runs #}
           <li class="dl-timeline__entry">
               <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{date}}">{{ date }}</a></h3>
               <div class="dl-timeline__entry__content">
               {% for collection, run_data in run['collection'].items() %}
-                {# only show last 5 runs #}
-                <div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
-                    {% set collectionName %}
-                    <a href="#">{{ run_data['name'] }}</a>
-                    {% endset %}
-                    {%- if not run_data['run'] -%}
-                    <span><strong class="govuk-tag govuk-tag--red">
-                        Not run
-                    </strong>{{ collectionName }}</span>
-                    <span>Collector did not run.</span>
-                    {%- else -%}
-                    {% set total = run_data['new_resources'] + run_data['issues'] %}
-                    {%- if run_data['issues'] > 0 -%}<span class="dlf-warning__icon--inline" aria-hidden="true">!</span>{%- endif -%}
-                    <span>{{ collectionName }}</span>
-                        {%- if total == 0 -%}
-                        <span>No new resources or issues.</span>
-                        {%- else -%}
-                            {% if run_data['new_resources'] > 0 %}<span>{{ run_data['new_resources']}} new resource{{ "s" if not run_data['new_resources'] == 1 else "" }} collected.</span>{% endif %}
-                            {% if run_data['issues'] > 0 %}<span>{{ run_data['issues']}} issue{{ "s" if not run_data['issues'] == 1 else "" }} encountered.</span>{% endif %}
-                        {%- endif -%}
-                    {%- endif -%}
-                </div>
+                {{ shortRunSummary({
+                  "classes": "govuk-!-margin-bottom-1",
+                  "run": run_data
+                }) }}
               {% endfor %}
               </div>
           </li>
