@@ -3,6 +3,8 @@
         "collection": "brownfield-land",
         "name": "Brownfield land collection",
         "repository": "https://github.com/digital-land/brownfield-land-collection",
+        "resource_count": "909",
+        "run_count": 16,
         "first_run_date": "2019-03-03",
         "endpoints": {
             "count": 545,
@@ -25,7 +27,7 @@
                 "collection": {
                     "brownfield-land": {
                         "name": "Brownfield land",
-                        "run": true,
+                        "completed": true,
                         "new_resources": 4,
                         "issues": 55
                     }
@@ -35,7 +37,7 @@
                 "collection": {
                     "brownfield-land": {
                         "name": "Brownfield land",
-                        "run": true,
+                        "completed": true,
                         "new_resources": 3,
                         "issues": 0
                     }
@@ -45,7 +47,7 @@
                 "collection": {
                     "brownfield-land": {
                         "name": "Brownfield land",
-                        "run": true,
+                        "completed": true,
                         "new_resources": 4,
                         "issues": 5
                     }
@@ -55,7 +57,7 @@
                 "collection": {
                     "brownfield-land": {
                         "name": "Brownfield land",
-                        "run": true,
+                        "completed": true,
                         "new_resources": 3,
                         "issues": 0
                     }

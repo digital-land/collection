@@ -69,6 +69,10 @@ render("log/index.html", collections_log_template, data=collections_log_data)
 render("log/2020-06-04/index.html", collections_log_date_template, data=collections_log_date_data)
 for collection in collection_data:
     render(f"{collection['collection']}/index.html", a_collection_template, data=collection)
-# render("brownfield-land/log/index.html", a_collection_log_template, data=brownfield_collection_log_data)
-# render("brownfield-land/log/04-06-2020/index.html", a_collection_log_date_template, data=brownfield_collection_log_date_data)
+render("brownfield-land/log/index.html", a_collection_log_template, data=brownfield_collection_log_data)
+
+for d in brownfield_collection_log_date_data['result'].keys():
+    run_result_data = brownfield_collection_log_date_data['result'][d]
+    run_result_data['date'] = d
+    render(f"brownfield-land/log/{d}/index.html", a_collection_log_date_template, collection=brownfield_collection_log_date_data['collection'], data=run_result_data)
 

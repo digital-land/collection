@@ -8,7 +8,7 @@ Install requirements
 
     make init
 
-Render all pages
+Render all pages. It will output them to the `docs/` directory.
 
     make render
 

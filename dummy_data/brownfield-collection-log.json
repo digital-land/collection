@@ -1,4 +1,168 @@
 {
     "collection": "brownfield-land",
-    "name": "Brownfield land collection"
+    "name": "Brownfield land collection",
+    "first_run_date": "2020-05-20",
+    "resource_count": "909",
+    "complete_history": {
+        "2020-06-04": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 4,
+                    "issues": 55
+                }
+            }
+        },
+        "2020-06-03": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 3,
+                    "issues": 0
+                }
+            }
+        },
+        "2020-06-02": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 4,
+                    "issues": 5
+                }
+            }
+        },
+        "2020-06-01": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 3,
+                    "issues": 0
+                }
+            }
+        },
+        "2020-05-31": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 4,
+                    "issues": 55
+                }
+            }
+        },
+        "2020-05-30": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 3,
+                    "issues": 0
+                }
+            }
+        },
+        "2020-05-29": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 4,
+                    "issues": 5
+                }
+            }
+        },
+        "2020-05-28": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 3,
+                    "issues": 0
+                }
+            }
+        },
+        "2020-05-27": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 4,
+                    "issues": 55
+                }
+            }
+        },
+        "2020-05-26": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 3,
+                    "issues": 0
+                }
+            }
+        },
+        "2020-05-25": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 4,
+                    "issues": 5
+                }
+            }
+        },
+        "2020-05-24": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 3,
+                    "issues": 0
+                }
+            }
+        },
+        "2020-05-23": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 4,
+                    "issues": 55
+                }
+            }
+        },
+        "2020-05-22": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 3,
+                    "issues": 0
+                }
+            }
+        },
+        "2020-05-21": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 4,
+                    "issues": 5
+                }
+            }
+        },
+        "2020-05-20": {
+            "collection": {
+                "brownfield-land": {
+                    "name": "Brownfield land",
+                    "completed": true,
+                    "new_resources": 3,
+                    "issues": 0
+                }
+            }
+        }
+    }
 }
