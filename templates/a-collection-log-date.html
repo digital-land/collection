@@ -16,12 +16,12 @@
             "href": "/collection"
         },
         {
-            "text": data['name'],
-            "href": "/collection/" + data['collection']
+            "text": collection['name'],
+            "href": "/collection/" + collection['collection']
         },
         {
-            "text": log,
-            "href": "/collection/" + data['collection'] + "/log"
+            "text": "log",
+            "href": "/collection/" + collection['collection'] + "/log"
         },
         {
             "text": data['date']
@@ -32,15 +32,59 @@
 {% endblock %}
 
 {% block content %}
-<span class="govuk-caption-xl">{{data['name']}} collection</span>
-<h1 class="govuk-heading-xl">Log &mdash; {{ data['date'] }}</h1>
+<span class="govuk-caption-xl">Log results</span>
+<h1 class="govuk-heading-xl">{{ collection['name'] }} &mdash; {{ data['date'] }}</h1>
+
+<p class="govuk-body-l">The collector attempted to collect resources from {{ data['endpoints']['total'] }} endpoint{{"" if data['endpoints']['total'] == 1 else "s"}}.</p>
+
+<h2 class="govuk-heading-l">Issues</h2>
+
+<p class="govuk-body">Issues occur when the collector can't reach an endpoint and retrieve a resource, or when a documentation URL is no longer available. They often need manual intervention to fix.</p>
+
+<div class="highlight-box--cta">
+  <a href="{{ collection['endpoint_register'] }}" class="govuk-link">Edit endpoint.csv</a>
+</div>
+
+<h3 class="govuk-heading-m">Endpoints</h3>
+
+{% set total_endpoint_issues = data['endpoints']["total"] - data['endpoints']["success_count"] %}
+<p class="govuk-body">The collector failed to collect resources from {{total_endpoint_issues}} endpoint{{"" if total_endpoint_issues == 1 else "s"}}.</p>
+<p class="govuk-body">Problems with endpoints usually occur when an endpoint no longer exists.</p>
+
+{% if total_endpoint_issues > 0 %}
+<div class="govuk-accordion" data-module="govuk-accordion" id="endpoint-error-type">
+  {% for error_type in data['endpoints']['issue'].keys() %}
+  {% set error_data = data['endpoints']['issue'][error_type] %}
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="endpoint-error-type-heading-{{ loop.index }}">
+          {{ error_data|length }} endpoint{{"" if error_data|length == 1 else "s"}} failed with {{error_type}}
+        </span>
+      </h2>
+    </div>
+    <div id="endpoint-error-type-content-{{ loop.index }}" class="govuk-accordion__section-content" aria-labelledby="endpoint-error-type-heading-{{ loop.index }}">
+      <ul class="govuk-list">
+        {% for ept in error_data %}
+          <li><a href="{{ ept['endpoint'] }}">{{ ept['endpoint'] }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<h3 class="govuk-heading-m">Documentation URLs</h3>
+
+<h2 class="govuk-heading-l">Resources</h2>
 
 {% endblock %}
 
 {% block footer %}
   {{ dlfPageFeedback({
     "text": "Do you have feedback about this page?",
-    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collection/"+ data['collection'] +"/log/"+data['date']+" page"
+    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collection/"+ collection['collection'] +"/log/"+data['date']+" page"
   }) }}
   {{ super() }}
 {% endblock %}

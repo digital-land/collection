@@ -1,5 +1,217 @@
 {
-    "collection": "brownfield-land",
-    "name": "Brownfield land collection",
-    "date": "04/06/2020"
+    "collection": {
+        "collection": "brownfield-land",
+        "name": "Brownfield land",
+        "repository": "https://github.com/digital-land/brownfield-land-collection",
+        "endpoint_register": "https://github.com/digital-land/brownfield-land-collection/blob/master/dataset/brownfield-land.csv"
+    },
+    "result": {
+        "2020-06-04": {
+            "new_resources": [
+                {
+                    "new": "9e5adef0597372561818008ad25e8e5274d4857158fdbff61416df414f4132b8",
+                    "old": "db3345b883bd7d69fafdfe848959b80a80e53b4d84b47b60292f4dca303e403a"
+                },
+                {
+                    "new": "9e5adef0597372561818008ad25e8e5274d4857158fdbff61416df414f4132b8"
+                },
+                {
+                    "new": "9e5adef0597372561818008ad25e8e5274d4857158fdbff61416df414f4132b8",
+                    "old": "db3345b883bd7d69fafdfe848959b80a80e53b4d84b47b60292f4dca303e403a"
+                }
+            ],
+            "endpoints": {
+                "total": 594,
+                "success_count": 545,
+                "issue": {
+                    "404": [
+                        {
+                            "endpoint": "https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://consult.cheshirewestandchester.gov.uk/file/5387565",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=37431",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=49407",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                            "documentation_url": ""
+                        }
+                    ],
+                    "ConnectionError": [
+                        {
+                            "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                            "documentation_url": ""
+                        }
+                    ],
+                    "SSLError": [
+                        {
+                            "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                            "documentation_url": ""
+                        },
+                        {
+                            "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                            "documentation_url": ""
+                        }
+                    ]
+                }
+            }
+        }
+    }
 }
