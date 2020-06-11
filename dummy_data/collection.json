@@ -26,8 +26,8 @@
                     "brownfield-land": {
                         "name": "Brownfield land",
                         "run": true,
-                        "new_resources": 3,
-                        "issues": 0
+                        "new_resources": 4,
+                        "issues": 55
                     }
                 }
             },
