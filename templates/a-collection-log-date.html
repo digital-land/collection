@@ -37,7 +37,7 @@
 
 <p class="govuk-body-l">The collector attempted to collect resources from {{ data['endpoints']['total'] }} endpoint{{"" if data['endpoints']['total'] == 1 else "s"}}.</p>
 
-<h2 class="govuk-heading-l">Issues</h2>
+<h2 id="issues" class="govuk-heading-l">Issues</h2>
 
 <p class="govuk-body">Issues occur when the collector can't reach an endpoint and retrieve a resource, or when a documentation URL is no longer available. They often need manual intervention to fix.</p>
 
@@ -45,7 +45,7 @@
   <a href="{{ collection['endpoint_register'] }}" class="govuk-link">Edit endpoint.csv</a>
 </div>
 
-<h3 class="govuk-heading-m">Endpoints</h3>
+<h3 id="endpoint-issues" class="govuk-heading-m">Endpoints</h3>
 
 {% set total_endpoint_issues = data['endpoints']["total"] - data['endpoints']["success_count"] %}
 <p class="govuk-body">The collector failed to collect resources from {{total_endpoint_issues}} endpoint{{"" if total_endpoint_issues == 1 else "s"}}.</p>
@@ -82,7 +82,7 @@
 {% endif %}
 
 {% if data['documentation_url']|length > 0 %}
-<h3 class="govuk-heading-m govuk-!-margin-top-9">Documentation URLs</h3>
+<h3 id="documentation-url-issues" class="govuk-heading-m govuk-!-margin-top-9">Documentation URLs</h3>
 
 <details class="govuk-details" data-module="govuk-details">
   <summary class="govuk-details__summary">
@@ -104,7 +104,7 @@
 </ul>
 {% endif %}
 
-<h2 class="govuk-heading-l">Resources</h2>
+<h2 id="resources" class="govuk-heading-l">Resources</h2>
 
 <details class="govuk-details" data-module="govuk-details">
   <summary class="govuk-details__summary">
