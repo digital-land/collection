@@ -81,7 +81,28 @@
 </div>
 {% endif %}
 
-<h3 class="govuk-heading-m">Documentation URLs</h3>
+{% if data['documentation_url']|length > 0 %}
+<h3 class="govuk-heading-m govuk-!-margin-top-9">Documentation URLs</h3>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      What is a documentation URL?
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+    <p class="govuk-body">A documentation URL is the location of a webpage which references the endpoint. It is common for this page to include supplimentary information about the endpoint E.g. how to use the data or what license does the data have.</p>
+    <p class="govuk-body">The documentation URL for an endpoint is a useful starting point when diagnosing any issues with an endpoint. The collector checks whether each documentation URL still exists so that they can be kept up to date.</p>
+  </div>
+</details>
+
+<p class="govuk-body">The collector was unable to reach {{ data['documentation_url']|length }} documentation URL{{"" if data['documentation_url']|length == 1 else "s"}}.</p>
+<ul class="govuk-list govuk-list--bullet">
+  {% for url in data['documentation_url'] %}
+    <li>{{ url }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
 
 <h2 class="govuk-heading-l">Resources</h2>
 

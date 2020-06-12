@@ -211,7 +211,12 @@
                         }
                     ]
                 }
-            }
+            },
+            "documentation_url": [
+                "https://www.adur-worthing.gov.uk/planning-policy/joint-aw/brownfield-land-register/",
+                "https://www.arun.gov.uk/helaa-brownfield-land-self-build-registers/",
+                "https://www.breckland.gov.uk/BrownfieldLandRegister"
+            ]
         }
     }
 }
