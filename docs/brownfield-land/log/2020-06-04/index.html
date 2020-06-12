@@ -132,7 +132,7 @@
 
 <p class="govuk-body-l">The collector attempted to collect resources from 594 endpoints.</p>
 
-<h2 class="govuk-heading-l">Issues</h2>
+<h2 id="issues" class="govuk-heading-l">Issues</h2>
 
 <p class="govuk-body">Issues occur when the collector can't reach an endpoint and retrieve a resource, or when a documentation URL is no longer available. They often need manual intervention to fix.</p>
 
@@ -140,7 +140,7 @@
   <a href="https://github.com/digital-land/brownfield-land-collection/blob/master/dataset/brownfield-land.csv" class="govuk-link">Edit endpoint.csv</a>
 </div>
 
-<h3 class="govuk-heading-m">Endpoints</h3>
+<h3 id="endpoint-issues" class="govuk-heading-m">Endpoints</h3>
 
 
 <p class="govuk-body">The collector failed to collect resources from 49 endpoints.</p>
@@ -560,9 +560,72 @@
 </div>
 
 
-<h3 class="govuk-heading-m">Documentation URLs</h3>
 
-<h2 class="govuk-heading-l">Resources</h2>
+<h3 id="documentation-url-issues" class="govuk-heading-m govuk-!-margin-top-9">Documentation URLs</h3>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      What is a documentation URL?
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+    <p class="govuk-body">A documentation URL is the location of a webpage which references the endpoint. It is common for this page to include supplimentary information about the endpoint E.g. how to use the data or what license does the data have.</p>
+    <p class="govuk-body">The documentation URL for an endpoint is a useful starting point when diagnosing any issues with an endpoint. The collector checks whether each documentation URL still exists so that they can be kept up to date.</p>
+  </div>
+</details>
+
+<p class="govuk-body">The collector was unable to reach 3 documentation URLs.</p>
+<ul class="govuk-list govuk-list--bullet">
+  
+    <li>https://www.adur-worthing.gov.uk/planning-policy/joint-aw/brownfield-land-register/</li>
+  
+    <li>https://www.arun.gov.uk/helaa-brownfield-land-self-build-registers/</li>
+  
+    <li>https://www.breckland.gov.uk/BrownfieldLandRegister</li>
+  
+</ul>
+
+
+<h2 id="resources" class="govuk-heading-l">Resources</h2>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      What is a resource?
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+    <p class="govuk-body">A resource is the name given to anything collected by the collector. It usually refers to a file collected from an endpoint.</p>
+    <p class="govuk-body">A new resource is either something collected for the first time or an updated version of a file previously collected.</p>
+  </div>
+</details>
+
+
+<p class="govuk-body">3 new resources collected.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  
+  <li>
+    
+    <a href="#">9e5adef0...</a> replaces <a href="#">bba32123...</a>
+    
+  </li>
+  
+  <li>
+    
+    <a href="#">37aeee67...</a>, first resource collected from <a href="https://www.molevalley.gov.uk/media.cfm?mediaid=49407">endpoint</a>.
+    
+  </li>
+  
+  <li>
+    
+    <a href="#">78d9cs25...</a> replaces <a href="#">db3345b8...</a>
+    
+  </li>
+  
+</ul>
+
 
 
         </main>
