@@ -106,6 +106,32 @@
 
 <h2 class="govuk-heading-l">Resources</h2>
 
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      What is a resource?
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+    <p class="govuk-body">A resource is the name given to anything collected by the collector. It usually refers to a file collected from an endpoint.</p>
+    <p class="govuk-body">A new resource is either something collected for the first time or an updated version of a file previously collected.</p>
+  </div>
+</details>
+
+<p class="govuk-body">{{ data['new_resources']|length }} new resource{{"" if data['new_resources']|length == 1 else "s"}} collected.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  {% for new_res in data['new_resources'] %}
+  <li>
+    {% if new_res['old'] %}
+    <a href="#">{{ new_res['new']|truncate(11,true) }}</a> replaces <a href="#">{{ new_res['old']|truncate(11,true) }}</a>
+    {% else %}
+    <a href="#">{{ new_res['new']|truncate(11,true) }}</a>, first resource collected from <a href="{{ new_res['from'] }}">endpoint</a>.
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
 {% endblock %}
 
 {% block footer %}

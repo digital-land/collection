@@ -10,14 +10,17 @@
             "new_resources": [
                 {
                     "new": "9e5adef0597372561818008ad25e8e5274d4857158fdbff61416df414f4132b8",
-                    "old": "db3345b883bd7d69fafdfe848959b80a80e53b4d84b47b60292f4dca303e403a"
+                    "old": "bba32123d69fafdfe848959b80a80e53b4d84b47b60292f4dca303e403a",
+                    "from": "https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv"
                 },
                 {
-                    "new": "9e5adef0597372561818008ad25e8e5274d4857158fdbff61416df414f4132b8"
+                    "new": "37aeee67897372561818008ad25e8e5274d4857158fdbff61416df414f4132b8",
+                    "from": "https://www.molevalley.gov.uk/media.cfm?mediaid=49407"
                 },
                 {
-                    "new": "9e5adef0597372561818008ad25e8e5274d4857158fdbff61416df414f4132b8",
-                    "old": "db3345b883bd7d69fafdfe848959b80a80e53b4d84b47b60292f4dca303e403a"
+                    "new": "78d9cs2561818008ad25e8e5274d4857158fdbff61416df414f4132b8",
+                    "old": "db3345b883bd7d69fafdfe848959b80a80e53b4d84b47b60292f4dca303e403a",
+                    "from": "https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv"
                 }
             ],
             "endpoints": {
