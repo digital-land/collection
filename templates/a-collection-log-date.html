@@ -118,6 +118,7 @@
   </div>
 </details>
 
+{% if data['new_resources']|length > 0 %}
 <p class="govuk-body">{{ data['new_resources']|length }} new resource{{"" if data['new_resources']|length == 1 else "s"}} collected.</p>
 
 <ul class="govuk-list govuk-list--bullet">
@@ -131,6 +132,9 @@
   </li>
   {% endfor %}
 </ul>
+{% else %}
+<p class="govuk-body">No new resources collected.</p>
+{% endif %}
 
 {% endblock %}
 
