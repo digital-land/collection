@@ -26,8 +26,18 @@
 {% endblock %}
 
 {% block content %}
-<span class="govuk-caption-xl">Collection</span>
-<h1 class="govuk-heading-xl">{{ data['name'] }}</h1>
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <span class="govuk-caption-xl">Collection</span>
+        <h1 class="govuk-heading-xl">{{ data['name'] }}</h1>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <div class="related-stat-summary">
+            <h4 class="related-stat-summary__heading">Total resources collected</h4>
+            <a href="/resources" class="govuk-link--text-colour govuk-!-font-size-19">{{ data['total_resource_count'] }}<span class="govuk-visually-hidden"> {{ data['name'] }} resources</span></a>
+        </div>
+    </div>
+</div>
 
 <dl class="govuk-summary-list app-summary-list--key-weight-regular govuk-!-margin-bottom-9">
   
