@@ -3,6 +3,7 @@
 {% block pageTitle %}Collections | Digital Land{% endblock %}
 
 {% from 'collection-macros/short-summary.html' import shortRunSummary  %}
+{% from 'dl-macros/heatmap/macro.jinja' import heatMap  %}
 
 {% block beforeContent %}
 	{{ super() }}
@@ -52,11 +53,20 @@
     </li>
   </ul>
   <div class="govuk-tabs__panel" id="resources">
-    <h2 class="govuk-heading-l">New resources</h2>
+      {{ heatMap({
+        "weeks": heatmap['new_resources']['weeks'],
+        "highest":heatmap['new_resources']['highest']
+        }) 
+      }}
   </div>
 
   <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="issues">
-    <h2 class="govuk-heading-l">Issues</h2>
+    {{ heatMap({
+      "weeks": heatmap['issues']['weeks'],
+      "highest": heatmap['issues']['highest'],
+      "classes": "dlf-svg-heatmap--red"
+      })
+    }}
   </div>
  
 </div>
