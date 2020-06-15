@@ -4,7 +4,7 @@ import os
 import json
 import jinja2
 
-from filters import slash_to_dash
+from filters import slash_to_dash, extract_month, map_month
 
 
 dummy_data_path = "dummy_data"
@@ -22,6 +22,8 @@ env = jinja2.Environment(loader=multi_loader)
 
 # load any filters the templates need
 env.filters["slash_to_dash"] = slash_to_dash
+env.filters["get_month"] = extract_month
+env.filters["map_month"] = map_month
 
 # retrieve page templates
 collections_template = env.get_template("collections.html")
@@ -49,6 +51,7 @@ collections_log_date_data = get_dummy_data("collections-log-date")
 collection_data = get_dummy_data("collection")
 # get for single example
 brownfield_collection_log_data = get_dummy_data("brownfield-collection-log")
+heatmap_example_data = get_dummy_data("heatmaps")
 brownfield_collection_log_date_data = get_dummy_data("brownfield-collection-log-date")
 # --- --- --- --- --- ---
 
@@ -69,7 +72,7 @@ render("log/index.html", collections_log_template, data=collections_log_data)
 render("log/2020-06-04/index.html", collections_log_date_template, data=collections_log_date_data)
 for collection in collection_data:
     render(f"{collection['collection']}/index.html", a_collection_template, data=collection)
-render("brownfield-land/log/index.html", a_collection_log_template, data=brownfield_collection_log_data)
+render("brownfield-land/log/index.html", a_collection_log_template, data=brownfield_collection_log_data, heatmap=heatmap_example_data)
 
 for d in brownfield_collection_log_date_data['result'].keys():
     run_result_data = brownfield_collection_log_date_data['result'][d]
