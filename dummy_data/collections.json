@@ -2,9 +2,10 @@
   "collections": {
     "active": [
       {
-        "collection": "Brownfield land collection",
+        "collection": "brownfield-land",
+        "name": "Brownfield land",
         "active": true,
-        "resource_count": "909",
+        "total_resource_count": "909",
         "last_run": {
           "ran": true,
           "date": "02/06/2020",
@@ -15,22 +16,10 @@
         }
       },
       {
-        "collection": "AddressBase Collection",
+        "collection": "region",
+        "name": "Region",
         "active": true,
-        "resource_count": "2",
-        "last_run": {
-          "ran": true,
-          "date": "02/06/2020",
-          "endpoints": {
-            "success": 2,
-            "fail": 0
-          }
-        }
-      },
-      {
-        "collection": "Region collection",
-        "active": true,
-        "resource_count": "4",
+        "total_resource_count": "4",
         "last_run": {
           "ran": true,
           "date": "02/06/2020",
@@ -41,9 +30,10 @@
         }
       },
       {
-        "collection": "Organisation collection",
+        "collection": "organisation",
+        "name": "Organisation",
         "active": true,
-        "resource_count": "128",
+        "total_resource_count": "128",
         "last_run": {
           "ran": true,
           "date": "02/06/2020",
@@ -54,9 +44,10 @@
         }
       },
       {
-        "collection": "Local resilience forum collection",
+        "collection": "local-resilience-forum",
+        "name": "Local resilience forum",
         "active": true,
-        "resource_count": "1",
+        "total_resource_count": "1",
         "last_run": {
           "ran": false
         }
@@ -64,11 +55,12 @@
     ],
     "inactive": [
       {
-        "collection": "Boundary collection",
+        "collection": "boundary",
+        "name": "Boundary",
         "active": false,
-        "resource_count": "128",
+        "total_resource_count": "128",
         "last_run": {
-          "date": "02/06/2020"
+          "date": "02/05/2020"
         }
       }
     ]
