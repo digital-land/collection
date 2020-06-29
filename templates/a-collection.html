@@ -2,11 +2,10 @@
 {%- from "dl-macros/data-item/macro.jinja" import dlfDataItem %}
 {% from 'collection-macros/short-summary.html' import shortRunSummary  %}
 
-{% block pageTitle %}Collections | Digital Land{% endblock %}
+{% block pageTitle %}{{ data.name }} | Collections | Digital Land{% endblock %}
 
 {% block beforeContent %}
 	{{ super() }}
-
 	{{ govukBreadcrumbs({
 	  "items": [
 	    {
@@ -22,7 +21,6 @@
         }
 	  ]
 	}) }}
-
 {% endblock %}
 
 {% block content %}
@@ -40,15 +38,13 @@
 </div>
 
 <dl class="govuk-summary-list app-summary-list--key-weight-regular govuk-!-margin-bottom-9">
-  
     <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">
             First run
         </dt>
         <dd class="govuk-summary-list__value">
-            {{ data['first_run_date'] }}
+            {{ data['first_run']['date'] }}
         </dd>
-
     </div>
 
     <div class="govuk-summary-list__row">
@@ -56,9 +52,8 @@
             Endpoints
         </dt>
         <dd class="govuk-summary-list__value">
-            {{ data['endpoints']['count'] }}
+            {{ data['endpoints']['total_count'] }}
         </dd>
-        <dd class="govuk-summary-list__actions"></dd>
     </div>
 
     <div class="govuk-summary-list__row">
@@ -66,9 +61,9 @@
             Endpoints.csv last edited
         </dt>
         <dd class="govuk-summary-list__value">
-            {{ data['endpoints']['updated'] }}
-            <span class="govuk-body-s">(<a class="govuk-link" href="#">Update endpoints</a>)</span>
-        </dd> 
+            {{ data['endpoints']['last_updated'] }}
+            <span class="govuk-body-s">(<a class="govuk-link" href="{{ data['repository'] }}/blob/master/collection/endpoint.csv">Update endpoints</a>)</span>
+        </dd>
     </div>
 
     <div class="govuk-summary-list__row">
@@ -78,13 +73,11 @@
         <dd class="govuk-summary-list__value">
             <a href="{{ data['repository'] }}" class="govuk-link--text-colour">{{ data['repository'] }}</a>
         </dd>
-
     </div>
-  
+
 </dl>
 
 <h2 class="govuk-heading-l">Last run</h2>
-
 <p class="govuk-body">This collection last ran on {{ data['last_run']['date'] }}</p>
 
 <div class="technical-summary-card govuk-!-margin-bottom-9">
@@ -143,23 +136,22 @@
   </div>
 </div>
 
-
 <h2 class="govuk-heading-l dl-heading-section-break">Recent history</h2>
-<p class="govuk-body">Since {{ data['first_run_date'] }} this collector has been run a total of <a href="log" class="govuk-link">{{ data['run_count'] }} times</a>, collecting <a href="#" class="govuk-link">{{ data['resource_count'] }} resource{{"" if data['resource_count'] == 1 else "s" }}</a>.</p>
+<p class="govuk-body">Since {{ data['first_run']['date'] }} this collector has been run a total of <a href="log" class="govuk-link">{{ data['total_runs'] }} times</a>, collecting <a href="#" class="govuk-link">{{ data['total_resource_count'] }} resource{{"" if data['total_resource_count'] == 1 else "s" }}</a>.</p>
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-three-quarters">
       <ol class="dl-timeline dl-timeline--dates">
-          {% for date, run in data['history'].items() %}
-          {# only show last 5 runs #}
+          {# only show last 5 runs ([:5]) #}
+          {% for run in data['history'][:5] %}
           <li class="dl-timeline__entry">
-              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{date}}">{{ date }}</a></h3>
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{run['date']}}">{{ run['date'] }}</a></h3>
               <div class="dl-timeline__entry__content">
-              {% for collection, run_data in run['collection'].items() %}
+              {# {% for collection, run_data in run['collection'].items() %}
                 {{ shortRunSummary({
                   "classes": "govuk-!-margin-bottom-1",
                   "run": run_data
                 }) }}
-              {% endfor %}
+              {% endfor %} #}
               </div>
           </li>
           {% endfor %}

@@ -1,6 +1,6 @@
 {% extends "dlf-base.html" %}
 
-{% block pageTitle %}Collections | Digital Land{% endblock %}
+{% block pageTitle %}Log | Collections | Digital Land{% endblock %}
 
 {% block beforeContent %}
 	{{ super() }}
@@ -20,7 +20,6 @@
         }
 	  ]
 	}) }}
-
 {% endblock %}
 
 {% block content %}
@@ -44,53 +43,55 @@
     </div>
 </div>
 
-
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-three-quarters">
         <h1 class="govuk-heading-l">Run history</h1>
         <ol class="dl-timeline dl-timeline--dates">
-            {% for date, run in data['date'].items() %}
-            <li class="dl-timeline__entry">
-                <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{date}}">{{ date }}</a></h3>
-                <div class="dl-timeline__entry__content">
-                {% for collection, run_data in run['collection'].items() %}
-                    <div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
-                        {% set collectionName %}
-                        <a href="#">{{ run_data['name'] }}</a>
-                        {% endset %}
-                        {%- if not run_data['run'] -%}
-                        <span><strong class="govuk-tag govuk-tag--red">
-                            Not run
-                        </strong>{{ collectionName }}</span>
-                        <span>Collector did not run.</span>
-                        {%- else -%}
-                        {% set total = run_data['new_resources'] + run_data['issues'] %}
-                        {%- if run_data['issues'] > 0 -%}<span class="dlf-warning__icon--inline" aria-hidden="true">!</span>{%- endif -%}
-                        <span>{{ collectionName }}</span>
-                            {%- if total == 0 -%}
-                            <span>No new resources or issues.</span>
-                            {%- else -%}
-                                {% if run_data['new_resources'] > 0 %}<span>{{ run_data['new_resources']}} new resource{{ "s" if not run_data['new_resources'] == 1 else "" }} collected.</span>{% endif %}
-                                {% if run_data['issues'] > 0 %}<span>{{ run_data['issues']}} issue{{ "s" if not run_data['issues'] == 1 else "" }} encountered.</span>{% endif %}
-                            {%- endif -%}
-                        {%- endif -%}
+            {% for log in data %}
+                <li class="dl-timeline__entry">
+                    <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{ log['date'] }}">{{ log['date'] }}</a></h3>
+                    <div class="dl-timeline__entry__content">
+                        {% for collection in log['collections'] %}
+                            <div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+                                <span>{{ collection['name'] }}</span>
+                            </div>
+                        {% endfor %}
+
+{#                         {% for collection, run_data in run['collection'].items() %}
+                            <div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+                                {% set collectionName %}
+                                <a href="#">{{ run_data['name'] }}</a>
+                                {% endset %}
+                                {%- if not run_data['run'] -%}
+                                <span><strong class="govuk-tag govuk-tag--red">
+                                    Not run
+                                </strong>{{ collectionName }}</span>
+                                <span>Collector did not run.</span>
+                                {%- else -%}
+                                {% set total = run_data['new_resources'] + run_data['issues'] %}
+                                {%- if run_data['issues'] > 0 -%}<span class="dlf-warning__icon--inline" aria-hidden="true">!</span>{%- endif -%}
+                                <span>{{ collectionName }}</span>
+                                    {%- if total == 0 -%}
+                                    <span>No new resources or issues.</span>
+                                    {%- else -%}
+                                        {% if run_data['new_resources'] > 0 %}<span>{{ run_data['new_resources']}} new resource{{ "s" if not run_data['new_resources'] == 1 else "" }} collected.</span>{% endif %}
+                                        {% if run_data['issues'] > 0 %}<span>{{ run_data['issues']}} issue{{ "s" if not run_data['issues'] == 1 else "" }} encountered.</span>{% endif %}
+                                    {%- endif -%}
+                                {%- endif -%}
+                            </div>
+                        {% endfor %} #}
                     </div>
-                {% endfor %}
-                </div>
-            </li>
+                </li>
             {% endfor %}
         </ol>
     </div>
 </div>
-
-
-
 {% endblock %}
 
 {% block footer %}
   {{ dlfPageFeedback({
     "text": "Do you have feedback about this page?",
-    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collections/log page"
+    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on Digital Land /collections/log page"
   }) }}
   {{ super() }}
 {% endblock %}
