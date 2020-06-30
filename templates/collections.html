@@ -3,19 +3,18 @@
 {% block pageTitle %}Collections | Digital Land{% endblock %}
 
 {% block beforeContent %}
-	{{ super() }}
-
-	{{ govukBreadcrumbs({
-	  "items": [
-	    {
-	      "text": "Digital Land",
-	      "href": "https://digital-land.github.io/"
-	    },
-	    {
-	      "text": "Collections"
-	    }
-	  ]
-	}) }}
+    {{ super() }}
+    {{ govukBreadcrumbs({
+      "items": [
+        {
+          "text": "Digital Land",
+          "href": "https://digital-land.github.io/"
+        },
+        {
+          "text": "Collections"
+        }
+      ]
+    }) }}
 {% endblock %}
 
 {% block content %}
@@ -90,25 +89,26 @@
 </ul>
 
 {% if data['inactive_count'] > 0 %}
-<h2 class="govuk-heading-l govuk-!-margin-top-9">Deactivated collections</h2>
-<ul class="collection-list">
-    {% for collection in data['collections'] %}
-        {% if collection['active'] == false %}
-            <li class="technical-summary-card">
-                <div class="govuk-grid-column-one-third">
-                    <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="{{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
-                </div>
-                <div class="govuk-grid-column-two-thirds">
-                    <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="#" class="govuk-link govuk-body-s">see details<span class="govuk-visually-hidden"> of the last run by the {{ collection['collection'] }}</span></a>)
-                    <div class="technical-summary-card__section">
-                        <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
-                    </div>
+    <h2 class="govuk-heading-l govuk-!-margin-top-9">Deactivated collections</h2>
 
-                </div>
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+    <ul class="collection-list">
+        {% for collection in data['collections'] %}
+            {% if collection['active'] == false %}
+                <li class="technical-summary-card">
+                    <div class="govuk-grid-column-one-third">
+                        <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
+                    </div>
+                    <div class="govuk-grid-column-two-thirds">
+                        <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="#" class="govuk-link govuk-body-s">see details<span class="govuk-visually-hidden"> of the last run by the {{ collection['collection'] }}</span></a>)
+                        <div class="technical-summary-card__section">
+                            <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
+                        </div>
+
+                    </div>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 {% endif %}
 
 {% endblock %}
