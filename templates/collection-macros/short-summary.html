@@ -1,7 +1,7 @@
 {% macro shortRunSummary(params) %}
 <div class="technical-summary-card technical-summary-card--compressed{% if params.classes %} {{params.classes}}{% endif %}">
     {% set collectionName %}
-    <a href="#">{{ params['run']['name'] }}</a>
+    <a href="/collection/{{ params['run']['collection'] }}/log/{{ params['run']['date'] }}">{{ params['run']['name'] }}</a>
     {% endset %}
     {%- if not params['run']['ran'] -%}
     {{  params['run']['ran'] }}

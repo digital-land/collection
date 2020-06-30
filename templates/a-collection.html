@@ -95,7 +95,7 @@
               {%- if data['last_run']['endpoints']['fail'] == 0 -%}
                   {{ failHtml }}
               {%- else -%}
-              <a href="#" class="govuk-link--text-colour">{{ failHtml }}</a>
+              <a href="/collection/{{ data['collection'] }}/log/{{ data['last_run']['date'] }}#issues" class="govuk-link--text-colour">{{ failHtml }}</a>
               {%- endif %}
           </span>
       </p>
@@ -117,6 +117,7 @@
               {%- if data['last_run']['documentation_urls']['inactive'] == 0  -%}
               {{ inactiveHtml }}
               {%- else -%}
+              <!-- TODO: Figure out where this link goes -->
               <a href="#" class="govuk-link--text-colour">{{ inactiveHtml }}</a>
               {%- endif %}
           </span>
@@ -135,14 +136,15 @@
 
 
 <h2 class="govuk-heading-l dl-heading-section-break">Recent history</h2>
-<p class="govuk-body">Since {{ data['first_run']['date'] }} this collector has been run a total of <a href="log" class="govuk-link">{{ data['total_runs'] }} times</a>, collecting <a href="#" class="govuk-link">{{ data['total_resource_count'] }} resource{{"" if data['total_resource_count'] == 1 else "s" }}</a>.</p>
+<!-- TODO: Figure out where resource link goes -->
+<p class="govuk-body">Since {{ data['first_run']['date'] }} this collector has been run a total of <a href="/collection/{{ data['collection'] }}/log" class="govuk-link">{{ data['total_runs'] }} times</a>, collecting <a href="#" class="govuk-link">{{ data['total_resource_count'] }} resource{{"" if data['total_resource_count'] == 1 else "s" }}</a>.</p>
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-three-quarters">
       <ol class="dl-timeline dl-timeline--dates">
           {% for run in data['history'][:5] %}
           {# only show last 5 runs #}
           <li class="dl-timeline__entry">
-              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{ run['date'] }}">{{ run['date'] }}</a></h3>
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/{{ data['collection'] }}/log/{{ run['date'] }}">{{ run['date'] }}</a></h3>
               <div class="dl-timeline__entry__content">
                 {{ shortRunSummary({
                   "classes": "govuk-!-margin-bottom-1",
@@ -152,7 +154,7 @@
           </li>
           {% endfor %}
       </ol>
-      <p class="govuk-body"><a href="#" class="govuk-link">See all previous runs of the collection</a></p>
+      <p class="govuk-body"><a href="/collection/{{ data['collection'] }}/log" class="govuk-link">See all previous runs of the collection</a></p>
   </div>
 </div>
 

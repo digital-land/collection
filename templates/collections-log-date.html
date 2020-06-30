@@ -37,7 +37,7 @@
     {% for collection in data['collections'] %}
     <li class="technical-summary-card">
         <div class="govuk-grid-column-full govuk-!-margin-bottom-3">
-            <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="" class="govuk-link">{{ collection['name'] }}</a></h3>
+            <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="/collection/{{ collection['collection'] }}/log/{{ data['date'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
         </div>
 
         <div class="govuk-grid-column-one-third">
@@ -57,7 +57,7 @@
                     {%- if collection['endpoints']['fail'] == 0 -%}
                         {{ failHtml }}
                     {%- else -%}
-                    <a href="#" class="govuk-link--text-colour">{{ failHtml }}</a>
+                    <a href="/collection/{{ collection['collection'] }}/log/{{ data['date'] }}#issues" class="govuk-link--text-colour">{{ failHtml }}</a>
                     {%- endif %}
                 </span>
             </p>
@@ -79,6 +79,7 @@
                     {%- if collection['documentation_urls']['inactive'] == 0  -%}
                     {{ inactiveHtml }}
                     {%- else -%}
+                    <!-- TODO: Figure out where this link goes -->
                     <a href="#" class="govuk-link--text-colour">{{ inactiveHtml }}</a>
                     {%- endif %}
                 </span>

@@ -133,7 +133,7 @@ const actions = {
       const todayLog = log.filter(entry => entry['date'] === date)
 
       history.push({
-        collection: collection,
+        collection: collection.replace('-pipeline', ''),
         ran: true, // figure out what to do with this
         date: date,
         endpoints: {

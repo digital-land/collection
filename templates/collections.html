@@ -19,9 +19,8 @@
 
 {% block content %}
 <h1 class="govuk-heading-xl">Collections</h1>
-
 <p class="govuk-body-l">There are currently {{ data['active_count'] }} active collections.</p>
-<p class="govuk-body">The active collections run every night. We log the output of each run. You can <a href="#">view a full history of the collection runs</a>.</p>
+<p class="govuk-body">The active collections run every night. We log the output of each run. You can <a href="/collection/log">view a full history of the collection runs</a>.</p>
 
 <details class="govuk-details" data-module="govuk-details">
     <summary class="govuk-details__summary">
@@ -35,13 +34,12 @@
 </details>
 
 <h2 class="govuk-heading-l govuk-!-margin-top-9">Active collections</h2>
-
 <ul class="collection-list">
     {% for collection in data['collections'] %}
         {% if collection['active'] %}
             <li class="technical-summary-card">
                 <div class="govuk-grid-column-one-third">
-                    <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="{{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
+                    <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="/collection/{{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
                 </div>
                 <div class="govuk-grid-column-two-thirds">
                     <div class="govuk-grid-row">
@@ -55,7 +53,7 @@
                           </strong></p>
                             <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">The collector failed to run.</p>
                             {% endif %}
-                            <p class="govuk-body-s govuk-!-margin-bottom-0 govuk-!-padding-top-1"><a href="#" class="govuk-link">See <span class="govuk-visually-hidden">results from </span>earlier runs<span class="govuk-visually-hidden"> of the {{ collection['collection'] }}</span></a></p>
+                            <p class="govuk-body-s govuk-!-margin-bottom-0 govuk-!-padding-top-1"><a href="/collection/{{ collection['collection'] }}" class="govuk-link">See <span class="govuk-visually-hidden">results from </span>earlier runs<span class="govuk-visually-hidden"> of {{ collection['name'] }}</span></a></p>
                         </div>
                         {% if collection['last_run']['ran'] %}
                         <div class="govuk-grid-column-one-half">
@@ -67,7 +65,7 @@
                                      succeeded
                                 </span>
                                 <span class="technical-summary-card__result technical-summary-card__result--fail">
-                                    <a href="#" class="govuk-link--text-colour">
+                                    <a href="/collection/{{ collection['collection'] }}/log/{{ collection['last_run']['date'] }}#issues" class="govuk-link--text-colour">
                                         {{ collection['last_run']['endpoints']['fail'] }}
                                         <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['last_run']['endpoints']['fail'] > 1 else "" }}</span>
                                          failed
@@ -78,6 +76,7 @@
                         {% endif %}
                         <div class="govuk-grid-column-full">
                           <div class="technical-summary-card__section">
+                              <!-- TODO: Define where this link should go -->
                               <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}</a>
                           </div>
                       </div>
@@ -96,11 +95,12 @@
             {% if collection['active'] == false %}
                 <li class="technical-summary-card">
                     <div class="govuk-grid-column-one-third">
-                        <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
+                        <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="/collection/{{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
                     </div>
                     <div class="govuk-grid-column-two-thirds">
-                        <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="#" class="govuk-link govuk-body-s">see details<span class="govuk-visually-hidden"> of the last run by the {{ collection['collection'] }}</span></a>)
+                        <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="/collection/{{ collection['collection'] }}/log/{{ collection['last_run']['date'] }}" class="govuk-link govuk-body-s">see details<span class="govuk-visually-hidden"> of the last run by the {{ collection['collection'] }}</span></a>)
                         <div class="technical-summary-card__section">
+                            <!-- TODO: Define where this link should go -->
                             <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
                         </div>
 
@@ -116,7 +116,7 @@
 {% block footer %}
   {{ dlfPageFeedback({
     "text": "Do you have feedback about this page?",
-    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collections page"
+    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on Digital Land /collections page"
   }) }}
   {{ super() }}
 {% endblock %}

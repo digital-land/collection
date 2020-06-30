@@ -48,12 +48,12 @@
         <ol class="dl-timeline dl-timeline--dates">
             {% for run in data %}
             <li class="dl-timeline__entry">
-                <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{ run['date'] }}">{{  run['date']  }}</a></h3>
+                <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/log/{{ run['date'] }}">{{  run['date']  }}</a></h3>
                 <div class="dl-timeline__entry__content">
                 {% for collection in run['collections'] %}
                     <div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
                         {% set collectionName %}
-                        <a href="#">{{ collection['name'] }}</a>
+                        <a href="/collection/{{ collection['collection'] }}/log/{{ run['date'] }}">{{ collection['name'] }}</a>
                         {% endset %}
                         {%- if not collection['ran'] -%}
                         <span><strong class="govuk-tag govuk-tag--red">

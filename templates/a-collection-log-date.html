@@ -3,32 +3,29 @@
 {% block pageTitle %}Collections | Digital Land{% endblock %}
 
 {% block beforeContent %}
-	{{ super() }}
-
-	{{ govukBreadcrumbs({
-	  "items": [
-	    {
-	      "text": "Digital Land",
-	      "href": "https://digital-land.github.io/"
-	    },
-	    {
+  {{ super() }}
+  {{ govukBreadcrumbs({
+    "items": [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
             "text": "Collections",
             "href": "/collection"
-        },
-        {
-            "text": collection['name'],
-            "href": "/collection/" + collection['collection']
-        },
-        {
-            "text": "Log",
-            "href": "/collection/" + collection['collection'] + "/log"
-        },
-        {
-            "text": data['date']
-        }
-	  ]
-	}) }}
-
+      },
+      {
+          "text": collection['name'],
+          "href": "/collection/" + collection['collection']
+      },
+      {
+          "text": "Log",
+          "href": "/collection/" + collection['collection'] + "/log"
+      },
+      {
+          "text": data['date']
+      }]
+  }) }}
 {% endblock %}
 
 {% block content %}
@@ -47,13 +44,13 @@
 
 <h3 id="endpoint-issues" class="govuk-heading-m">Endpoints</h3>
 
-{% set total_endpoint_issues = data['endpoints']["fail"] %}
+{% set total_endpoint_issues = data['endpoints']['fail'] %}
 <p class="govuk-body">The collector failed to collect resources from {{total_endpoint_issues}} endpoint{{"" if total_endpoint_issues == 1 else "s"}}.</p>
 <p class="govuk-body">Problems with endpoints usually occur when an endpoint no longer exists.</p>
 
 {% if total_endpoint_issues > 0 %}
 <div class="govuk-accordion" data-module="govuk-accordion" id="endpoint-error-type">
-{#   {% for error_type in data['endpoints']['issue'].keys() %}
+  {# {% for error_type in data['endpoints']['issue'].keys() %}
   {% set error_data = data['endpoints']['issue'][error_type] %}
   <div class="govuk-accordion__section ">
     <div class="govuk-accordion__section-header">
@@ -81,7 +78,7 @@
 </div>
 {% endif %}
 
-{% if data['documentation_url']|length > 0 %}
+{# {% if data['documentation_url']|length > 0 %}
 <h3 id="documentation-url-issues" class="govuk-heading-m govuk-!-margin-top-9">Documentation URLs</h3>
 
 <details class="govuk-details" data-module="govuk-details">
@@ -102,7 +99,7 @@
     <li>{{ url }}</li>
   {% endfor %}
 </ul>
-{% endif %}
+{% endif %} #}
 
 <h2 id="resources" class="govuk-heading-l">Resources</h2>
 
@@ -118,30 +115,30 @@
   </div>
 </details>
 
-{# {% if data['new_resources']|length > 0 %}
+{% if data['new_resources']|length > 0 %}
 <p class="govuk-body">{{ data['new_resources']|length }} new resource{{"" if data['new_resources']|length == 1 else "s"}} collected.</p>
 
 <ul class="govuk-list govuk-list--bullet">
   {% for new_res in data['new_resources'] %}
   <li>
-    {% if new_res['old'] %}
+{#     {% if new_res['old'] %}
     <a href="#">{{ new_res['new']|truncate(11,true) }}</a> replaces <a href="#">{{ new_res['old']|truncate(11,true) }}</a>
     {% else %}
     <a href="#">{{ new_res['new']|truncate(11,true) }}</a>, first resource collected from <a href="{{ new_res['from'] }}">endpoint</a>.
     {% endif %}
-  </li>
+ #}  </li>
   {% endfor %}
 </ul>
 {% else %}
 <p class="govuk-body">No new resources collected.</p>
 {% endif %}
- #}
+
 {% endblock %}
 
 {% block footer %}
   {{ dlfPageFeedback({
     "text": "Do you have feedback about this page?",
-    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collection/"+ collection['collection'] +"/log/"+data['date']+" page"
+    "href": "mailto:digitalland@communities.gov.uk?subject=Feedback on Digital Land /collection/"+ collection['collection'] +"/log/"+data['date']+" page"
   }) }}
   {{ super() }}
 {% endblock %}
