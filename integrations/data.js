@@ -43,27 +43,47 @@ const actions = {
     const weeks = []
     const size = 7
     for (let i = 0; i < array.length; i += size) {
-      weeks.push(array.slice(i, i + size))
+      const week = array.slice(i, i + size)
+      const obj = {}
+
+      week.forEach(function (day) {
+        obj[day.toISOString().split('T')[0]] = { count: 0, tooltip: '' }
+      })
+
+      weeks.push(obj)
     }
     return weeks
   },
   async generateHeatmaps (history, tooltip) {
-    const newResourceWeeks = actions.generateDays().map(date => {
-      const parsed = new Date(date).toISOString().split('T')[0]
+    const splitWeeks = actions.splitByWeek(actions.generateDays())
 
-      return {
-        [parsed]: { count: 0, tooltip: tooltip }
-      }
+    const newResourceWeeks = splitWeeks.map(function (week) {
+      Object.keys(week).map(function (day) {
+        const runDay = history.find(function (run) {
+          return run['date'] === day
+        })
+
+        var count = runDay ? runDay.new_resources.length : 0
+
+        week[day] = {
+          tooltip: count + ' new resources',
+          count: count
+        }
+      })
+
+      return week
     })
+
+    const issuesWeeks = splitWeeks
 
     return {
       new_resources: {
         highest: Math.max.apply(Math, history.map(run => run.new_resources.length)),
-        weeks: actions.splitByWeek(newResourceWeeks, 'x number of resources')
+        weeks: newResourceWeeks
       },
       issues: {
         highest: Math.max.apply(Math, history.map(run => run.issues.length)),
-        weeks: actions.splitByWeek(newResourceWeeks, 'x number of issues')
+        weeks: issuesWeeks
       }
     }
   },
