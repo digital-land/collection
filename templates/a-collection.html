@@ -5,22 +5,22 @@
 {% block pageTitle %}{{ data.name }} | Collections | Digital Land{% endblock %}
 
 {% block beforeContent %}
-	{{ super() }}
-	{{ govukBreadcrumbs({
-	  "items": [
-	    {
-	      "text": "Digital Land",
-	      "href": "https://digital-land.github.io/"
-	    },
-	    {
-            "text": "Collections",
-            "href": "/collection"
-        },
-        {
-            "text": data['name']
-        }
-	  ]
-	}) }}
+  {{ super() }}
+  {{ govukBreadcrumbs({
+    "items": [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Collections",
+        "href": "/collection"
+      },
+      {
+          "text": data['name']
+      }
+    ]
+  }) }}
 {% endblock %}
 
 {% block content %}
@@ -46,7 +46,6 @@
             {{ data['first_run']['date'] }}
         </dd>
     </div>
-
     <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">
             Endpoints
@@ -55,7 +54,6 @@
             {{ data['endpoints']['total_count'] }}
         </dd>
     </div>
-
     <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">
             Endpoints.csv last edited
@@ -65,7 +63,6 @@
             <span class="govuk-body-s">(<a class="govuk-link" href="{{ data['repository'] }}/blob/master/collection/endpoint.csv">Update endpoints</a>)</span>
         </dd>
     </div>
-
     <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">
             Repository
@@ -136,22 +133,21 @@
   </div>
 </div>
 
+
 <h2 class="govuk-heading-l dl-heading-section-break">Recent history</h2>
 <p class="govuk-body">Since {{ data['first_run']['date'] }} this collector has been run a total of <a href="log" class="govuk-link">{{ data['total_runs'] }} times</a>, collecting <a href="#" class="govuk-link">{{ data['total_resource_count'] }} resource{{"" if data['total_resource_count'] == 1 else "s" }}</a>.</p>
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-three-quarters">
       <ol class="dl-timeline dl-timeline--dates">
-          {# only show last 5 runs ([:5]) #}
           {% for run in data['history'][:5] %}
+          {# only show last 5 runs #}
           <li class="dl-timeline__entry">
-              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{run['date']}}">{{ run['date'] }}</a></h3>
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="{{ run['date'] }}">{{ run['date'] }}</a></h3>
               <div class="dl-timeline__entry__content">
-              {# {% for collection, run_data in run['collection'].items() %}
                 {{ shortRunSummary({
                   "classes": "govuk-!-margin-bottom-1",
-                  "run": run_data
+                  "run": run
                 }) }}
-              {% endfor %} #}
               </div>
           </li>
           {% endfor %}

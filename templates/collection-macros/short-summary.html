@@ -3,21 +3,21 @@
     {% set collectionName %}
     <a href="#">{{ params['run']['name'] }}</a>
     {% endset %}
-    {%- if not params['run']['completed'] -%}
-    {{  params['run']['completed'] }}
+    {%- if not params['run']['ran'] -%}
+    {{  params['run']['ran'] }}
     <span><strong class="govuk-tag govuk-tag--red">
         Not run
     </strong>{{ collectionName }}</span>
     <span>Collector did not run.</span>
     {%- else -%}
-        {% set total = params['run']['new_resources'] + params['run']['issues'] %}
-        {%- if params['run']['issues'] > 0 -%}<span class="dlf-warning__icon--inline" aria-hidden="true">!</span>{%- endif -%}
+        {% set total = params['run']['new_resources']|length + params['run']['issues']|length %}
+        {%- if params['run']['issues']|length > 0 -%}<span class="dlf-warning__icon--inline" aria-hidden="true">!</span>{%- endif -%}
         <span>{{ collectionName }}</span>
         {%- if total == 0 -%}
         <span>No new resources or issues.</span>
         {%- else -%}
-            {% if params['run']['new_resources'] > 0 %}<span>{{ params['run']['new_resources']}} new resource{{ "s" if not params['run']['new_resources'] == 1 else "" }} collected.</span>{% endif %}
-            {% if params['run']['issues'] > 0 %}<span>{{ params['run']['issues']}} issue{{ "s" if not params['run']['issues'] == 1 else "" }} encountered.</span>{% endif %}
+            {% if params['run']['new_resources']|length > 0 %}<span>{{ params['run']['new_resources']|length}} new resource{{ "s" if not params['run']['new_resources']|length == 1 else "" }} collected.</span>{% endif %}
+            {% if params['run']['issues']|length > 0 %}<span>{{ params['run']['issues']|length }} issue{{ "s" if not params['run']['issues']|length == 1 else "" }} encountered.</span>{% endif %}
         {%- endif -%}
     {%- endif -%}
 </div>
