@@ -4,7 +4,7 @@ import os
 import json
 import jinja2
 
-from filters import slash_to_dash, extract_month, map_month
+from filters import slash_to_dash, extract_month, map_month, extract_day
 
 data_path = "data"
 dummy_data_path = "dummy_data"
@@ -22,6 +22,7 @@ env = jinja2.Environment(loader=multi_loader)
 
 # load any filters the templates need
 env.filters["slash_to_dash"] = slash_to_dash
+env.filters["extract_day"] = extract_day
 env.filters["get_month"] = extract_month
 env.filters["map_month"] = map_month
 

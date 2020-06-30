@@ -3,6 +3,12 @@ def slash_to_dash(text):
     return text.replace("/", "-")
 
 
+def extract_day(date_str):
+    if date_str:
+        return int(date_str.split("-")[2])
+    return None
+
+
 def extract_month(date_str):
     if date_str:
         return date_str.split("-")[1]
