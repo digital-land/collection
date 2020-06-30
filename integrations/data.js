@@ -47,42 +47,23 @@ const actions = {
     }
     return weeks
   },
-  async generateHeatmaps (history) {
+  async generateHeatmaps (history, tooltip) {
     const newResourceWeeks = actions.generateDays().map(date => {
       const parsed = new Date(date).toISOString().split('T')[0]
 
       return {
-        [parsed]: { count: 0, tooltip: 'x number of resources' }
+        [parsed]: { count: 0, tooltip: tooltip }
       }
     })
 
     return {
       new_resources: {
         highest: Math.max.apply(Math, history.map(run => run.new_resources.length)),
-        weeks: actions.splitByWeek(newResourceWeeks)
+        weeks: actions.splitByWeek(newResourceWeeks, 'x number of resources')
       },
       issues: {
-        highest: 1,
-        weeks: [
-          {
-            '2019-06-16': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-17': { count: 1, tooltip: 'x number of new resources' },
-            '2019-06-18': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-19': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-20': { count: 2, tooltip: 'x number of new resources' },
-            '2019-06-21': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-22': { count: 0, tooltip: 'x number of new resources' }
-          },
-          {
-            '2019-06-23': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-24': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-25': { count: 5, tooltip: 'x number of new resources' },
-            '2019-06-26': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-27': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-28': { count: 0, tooltip: 'x number of new resources' },
-            '2019-06-29': { count: 0, tooltip: 'x number of new resources' }
-          }
-        ]
+        highest: Math.max.apply(Math, history.map(run => run.issues.length)),
+        weeks: actions.splitByWeek(newResourceWeeks, 'x number of issues')
       }
     }
   },
