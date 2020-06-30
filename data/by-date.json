@@ -9,14 +9,14 @@
           "success": 537,
           "fail": 59,
           "total_count": 596,
-          "last_updated": "2020-05-06"
+          "last_updated": "2020-06-30"
         },
         "documentation_urls": {
-          "active": 100,
-          "inactive": 100
+          "active": 0,
+          "inactive": 0
         },
         "new_resources": [],
-        "issues": 0,
+        "issues": [],
         "name": "Brownfield land"
       }
     ]
@@ -31,11 +31,11 @@
           "success": 538,
           "fail": 58,
           "total_count": 596,
-          "last_updated": "2020-05-06"
+          "last_updated": "2020-06-30"
         },
         "documentation_urls": {
-          "active": 100,
-          "inactive": 100
+          "active": 0,
+          "inactive": 0
         },
         "new_resources": [
           {
@@ -43,7 +43,7 @@
             "first_appeared": "2020-06-29"
           }
         ],
-        "issues": 0,
+        "issues": [],
         "name": "Brownfield land"
       }
     ]
@@ -58,11 +58,11 @@
           "success": 539,
           "fail": 57,
           "total_count": 596,
-          "last_updated": "2020-05-06"
+          "last_updated": "2020-06-30"
         },
         "documentation_urls": {
-          "active": 100,
-          "inactive": 100
+          "active": 0,
+          "inactive": 0
         },
         "new_resources": [
           {
@@ -2054,7 +2054,7 @@
             "first_appeared": "2020-06-25"
           }
         ],
-        "issues": 0,
+        "issues": [],
         "name": "Brownfield land"
       }
     ]

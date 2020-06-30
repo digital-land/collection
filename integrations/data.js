@@ -158,15 +158,15 @@ const actions = {
           success: todayLog.filter(entry => parseInt(entry['status']) === 200).length,
           fail: todayLog.filter(entry => parseInt(entry['status']) !== 200).length,
           total_count: todayLog.length,
-          last_updated: '2020-05-06' // need to get this from github
+          last_updated: new Date().toISOString().split('T')[0] // need to get this from github
         },
         // collection.json
         documentation_urls: {
-          active: 100,
-          inactive: 100
+          active: 0,
+          inactive: 0
         },
         new_resources: resourceHistory.filter(entry => entry['first_appeared'] === date),
-        issues: 0
+        issues: []
       })
     })
 
