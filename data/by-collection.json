@@ -8512,3893 +8512,3159 @@
         "new_resources": {
           "highest": 497,
           "weeks": [
-            [
-              {
-                "2019-06-30": {
-                  "count": 0
-                }
+            {
+              "2019-06-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-01": {
-                  "count": 0
-                }
+              "2019-07-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-02": {
-                  "count": 0
-                }
+              "2019-07-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-03": {
-                  "count": 0
-                }
+              "2019-07-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-04": {
-                  "count": 0
-                }
+              "2019-07-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-05": {
-                  "count": 0
-                }
+              "2019-07-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-06": {
-                  "count": 0
-                }
+              "2019-07-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-07-07": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-07-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-08": {
-                  "count": 0
-                }
+              "2019-07-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-09": {
-                  "count": 0
-                }
+              "2019-07-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-10": {
-                  "count": 0
-                }
+              "2019-07-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-11": {
-                  "count": 0
-                }
+              "2019-07-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-12": {
-                  "count": 0
-                }
+              "2019-07-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-13": {
-                  "count": 0
-                }
+              "2019-07-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-07-14": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-07-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-15": {
-                  "count": 0
-                }
+              "2019-07-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-16": {
-                  "count": 0
-                }
+              "2019-07-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-17": {
-                  "count": 0
-                }
+              "2019-07-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-18": {
-                  "count": 0
-                }
+              "2019-07-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-19": {
-                  "count": 0
-                }
+              "2019-07-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-20": {
-                  "count": 0
-                }
+              "2019-07-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-07-21": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-07-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-22": {
-                  "count": 0
-                }
+              "2019-07-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-23": {
-                  "count": 0
-                }
+              "2019-07-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-24": {
-                  "count": 0
-                }
+              "2019-07-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-25": {
-                  "count": 0
-                }
+              "2019-07-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-26": {
-                  "count": 0
-                }
+              "2019-07-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-27": {
-                  "count": 0
-                }
+              "2019-07-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-07-28": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-07-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-29": {
-                  "count": 0
-                }
+              "2019-07-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-30": {
-                  "count": 0
-                }
+              "2019-07-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-31": {
-                  "count": 0
-                }
+              "2019-07-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-01": {
-                  "count": 0
-                }
+              "2019-08-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-02": {
-                  "count": 0
-                }
+              "2019-08-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-03": {
-                  "count": 0
-                }
+              "2019-08-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-08-04": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-08-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-05": {
-                  "count": 0
-                }
+              "2019-08-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-06": {
-                  "count": 0
-                }
+              "2019-08-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-07": {
-                  "count": 0
-                }
+              "2019-08-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-08": {
-                  "count": 0
-                }
+              "2019-08-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-09": {
-                  "count": 0
-                }
+              "2019-08-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-10": {
-                  "count": 0
-                }
+              "2019-08-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-08-11": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-08-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-12": {
-                  "count": 0
-                }
+              "2019-08-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-13": {
-                  "count": 0
-                }
+              "2019-08-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-14": {
-                  "count": 0
-                }
+              "2019-08-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-15": {
-                  "count": 0
-                }
+              "2019-08-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-16": {
-                  "count": 0
-                }
+              "2019-08-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-17": {
-                  "count": 0
-                }
+              "2019-08-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-08-18": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-08-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-19": {
-                  "count": 0
-                }
+              "2019-08-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-20": {
-                  "count": 0
-                }
+              "2019-08-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-21": {
-                  "count": 0
-                }
+              "2019-08-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-22": {
-                  "count": 0
-                }
+              "2019-08-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-23": {
-                  "count": 0
-                }
+              "2019-08-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-24": {
-                  "count": 0
-                }
+              "2019-08-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-08-25": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-08-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-26": {
-                  "count": 0
-                }
+              "2019-08-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-27": {
-                  "count": 0
-                }
+              "2019-08-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-28": {
-                  "count": 0
-                }
+              "2019-08-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-29": {
-                  "count": 0
-                }
+              "2019-08-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-30": {
-                  "count": 0
-                }
+              "2019-08-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-31": {
-                  "count": 0
-                }
+              "2019-08-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-01": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-02": {
-                  "count": 0
-                }
+              "2019-09-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-03": {
-                  "count": 0
-                }
+              "2019-09-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-04": {
-                  "count": 0
-                }
+              "2019-09-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-05": {
-                  "count": 0
-                }
+              "2019-09-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-06": {
-                  "count": 0
-                }
+              "2019-09-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-07": {
-                  "count": 0
-                }
+              "2019-09-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-08": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-09": {
-                  "count": 0
-                }
+              "2019-09-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-10": {
-                  "count": 0
-                }
+              "2019-09-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-11": {
-                  "count": 0
-                }
+              "2019-09-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-12": {
-                  "count": 0
-                }
+              "2019-09-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-13": {
-                  "count": 0
-                }
+              "2019-09-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-14": {
-                  "count": 0
-                }
+              "2019-09-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-15": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-16": {
-                  "count": 0
-                }
+              "2019-09-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-17": {
-                  "count": 0
-                }
+              "2019-09-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-18": {
-                  "count": 0
-                }
+              "2019-09-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-19": {
-                  "count": 0
-                }
+              "2019-09-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-20": {
-                  "count": 0
-                }
+              "2019-09-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-21": {
-                  "count": 0
-                }
+              "2019-09-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-22": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-23": {
-                  "count": 0
-                }
+              "2019-09-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-24": {
-                  "count": 0
-                }
+              "2019-09-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-25": {
-                  "count": 0
-                }
+              "2019-09-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-26": {
-                  "count": 0
-                }
+              "2019-09-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-27": {
-                  "count": 0
-                }
+              "2019-09-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-28": {
-                  "count": 0
-                }
+              "2019-09-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-29": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-30": {
-                  "count": 0
-                }
+              "2019-09-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-01": {
-                  "count": 0
-                }
+              "2019-10-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-02": {
-                  "count": 0
-                }
+              "2019-10-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-03": {
-                  "count": 0
-                }
+              "2019-10-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-04": {
-                  "count": 0
-                }
+              "2019-10-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-05": {
-                  "count": 0
-                }
+              "2019-10-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-10-06": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-10-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-07": {
-                  "count": 0
-                }
+              "2019-10-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-08": {
-                  "count": 0
-                }
+              "2019-10-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-09": {
-                  "count": 0
-                }
+              "2019-10-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-10": {
-                  "count": 0
-                }
+              "2019-10-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-11": {
-                  "count": 0
-                }
+              "2019-10-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-12": {
-                  "count": 0
-                }
+              "2019-10-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-10-13": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-10-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-14": {
-                  "count": 0
-                }
+              "2019-10-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-15": {
-                  "count": 0
-                }
+              "2019-10-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-16": {
-                  "count": 0
-                }
+              "2019-10-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-17": {
-                  "count": 0
-                }
+              "2019-10-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-18": {
-                  "count": 0
-                }
+              "2019-10-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-19": {
-                  "count": 0
-                }
+              "2019-10-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-10-20": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-10-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-21": {
-                  "count": 0
-                }
+              "2019-10-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-22": {
-                  "count": 0
-                }
+              "2019-10-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-23": {
-                  "count": 0
-                }
+              "2019-10-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-24": {
-                  "count": 0
-                }
+              "2019-10-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-25": {
-                  "count": 0
-                }
+              "2019-10-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-26": {
-                  "count": 0
-                }
+              "2019-10-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-10-27": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-10-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-28": {
-                  "count": 0
-                }
+              "2019-10-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-29": {
-                  "count": 0
-                }
+              "2019-10-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-30": {
-                  "count": 0
-                }
+              "2019-10-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-31": {
-                  "count": 0
-                }
+              "2019-10-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-01": {
-                  "count": 0
-                }
+              "2019-11-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-02": {
-                  "count": 0
-                }
+              "2019-11-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-11-03": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-11-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-04": {
-                  "count": 0
-                }
+              "2019-11-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-05": {
-                  "count": 0
-                }
+              "2019-11-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-06": {
-                  "count": 0
-                }
+              "2019-11-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-07": {
-                  "count": 0
-                }
+              "2019-11-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-08": {
-                  "count": 0
-                }
+              "2019-11-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-09": {
-                  "count": 0
-                }
+              "2019-11-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-11-10": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-11-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-11": {
-                  "count": 0
-                }
+              "2019-11-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-12": {
-                  "count": 0
-                }
+              "2019-11-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-13": {
-                  "count": 0
-                }
+              "2019-11-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-14": {
-                  "count": 0
-                }
+              "2019-11-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-15": {
-                  "count": 0
-                }
+              "2019-11-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-16": {
-                  "count": 0
-                }
+              "2019-11-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-11-17": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-11-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-18": {
-                  "count": 0
-                }
+              "2019-11-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-19": {
-                  "count": 0
-                }
+              "2019-11-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-20": {
-                  "count": 0
-                }
+              "2019-11-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-21": {
-                  "count": 0
-                }
+              "2019-11-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-22": {
-                  "count": 0
-                }
+              "2019-11-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-23": {
-                  "count": 0
-                }
+              "2019-11-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-11-24": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-11-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-25": {
-                  "count": 0
-                }
+              "2019-11-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-26": {
-                  "count": 0
-                }
+              "2019-11-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-27": {
-                  "count": 0
-                }
+              "2019-11-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-28": {
-                  "count": 0
-                }
+              "2019-11-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-29": {
-                  "count": 0
-                }
+              "2019-11-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-30": {
-                  "count": 0
-                }
+              "2019-11-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-01": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-02": {
-                  "count": 0
-                }
+              "2019-12-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-03": {
-                  "count": 0
-                }
+              "2019-12-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-04": {
-                  "count": 0
-                }
+              "2019-12-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-05": {
-                  "count": 0
-                }
+              "2019-12-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-06": {
-                  "count": 0
-                }
+              "2019-12-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-07": {
-                  "count": 0
-                }
+              "2019-12-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-08": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-09": {
-                  "count": 0
-                }
+              "2019-12-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-10": {
-                  "count": 0
-                }
+              "2019-12-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-11": {
-                  "count": 0
-                }
+              "2019-12-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-12": {
-                  "count": 0
-                }
+              "2019-12-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-13": {
-                  "count": 0
-                }
+              "2019-12-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-14": {
-                  "count": 0
-                }
+              "2019-12-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-15": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-16": {
-                  "count": 0
-                }
+              "2019-12-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-17": {
-                  "count": 0
-                }
+              "2019-12-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-18": {
-                  "count": 0
-                }
+              "2019-12-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-19": {
-                  "count": 0
-                }
+              "2019-12-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-20": {
-                  "count": 0
-                }
+              "2019-12-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-21": {
-                  "count": 0
-                }
+              "2019-12-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-22": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-23": {
-                  "count": 0
-                }
+              "2019-12-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-24": {
-                  "count": 0
-                }
+              "2019-12-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-25": {
-                  "count": 0
-                }
+              "2019-12-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-26": {
-                  "count": 0
-                }
+              "2019-12-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-27": {
-                  "count": 0
-                }
+              "2019-12-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-28": {
-                  "count": 0
-                }
+              "2019-12-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-29": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-30": {
-                  "count": 0
-                }
+              "2019-12-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-31": {
-                  "count": 0
-                }
+              "2019-12-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-01": {
-                  "count": 0
-                }
+              "2020-01-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-02": {
-                  "count": 0
-                }
+              "2020-01-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-03": {
-                  "count": 0
-                }
+              "2020-01-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-04": {
-                  "count": 0
-                }
+              "2020-01-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-01-05": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-01-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-06": {
-                  "count": 0
-                }
+              "2020-01-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-07": {
-                  "count": 0
-                }
+              "2020-01-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-08": {
-                  "count": 0
-                }
+              "2020-01-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-09": {
-                  "count": 0
-                }
+              "2020-01-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-10": {
-                  "count": 0
-                }
+              "2020-01-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-11": {
-                  "count": 0
-                }
+              "2020-01-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-01-12": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-01-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-13": {
-                  "count": 0
-                }
+              "2020-01-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-14": {
-                  "count": 0
-                }
+              "2020-01-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-15": {
-                  "count": 0
-                }
+              "2020-01-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-16": {
-                  "count": 0
-                }
+              "2020-01-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-17": {
-                  "count": 0
-                }
+              "2020-01-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-18": {
-                  "count": 0
-                }
+              "2020-01-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-01-19": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-01-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-20": {
-                  "count": 0
-                }
+              "2020-01-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-21": {
-                  "count": 0
-                }
+              "2020-01-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-22": {
-                  "count": 0
-                }
+              "2020-01-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-23": {
-                  "count": 0
-                }
+              "2020-01-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-24": {
-                  "count": 0
-                }
+              "2020-01-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-25": {
-                  "count": 0
-                }
+              "2020-01-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-01-26": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-01-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-27": {
-                  "count": 0
-                }
+              "2020-01-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-28": {
-                  "count": 0
-                }
+              "2020-01-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-29": {
-                  "count": 0
-                }
+              "2020-01-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-30": {
-                  "count": 0
-                }
+              "2020-01-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-31": {
-                  "count": 0
-                }
+              "2020-01-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-01": {
-                  "count": 0
-                }
+              "2020-02-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-02-02": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-02-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-03": {
-                  "count": 0
-                }
+              "2020-02-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-04": {
-                  "count": 0
-                }
+              "2020-02-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-05": {
-                  "count": 0
-                }
+              "2020-02-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-06": {
-                  "count": 0
-                }
+              "2020-02-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-07": {
-                  "count": 0
-                }
+              "2020-02-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-08": {
-                  "count": 0
-                }
+              "2020-02-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-02-09": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-02-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-10": {
-                  "count": 0
-                }
+              "2020-02-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-11": {
-                  "count": 0
-                }
+              "2020-02-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-12": {
-                  "count": 0
-                }
+              "2020-02-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-13": {
-                  "count": 0
-                }
+              "2020-02-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-14": {
-                  "count": 0
-                }
+              "2020-02-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-15": {
-                  "count": 0
-                }
+              "2020-02-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-02-16": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-02-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-17": {
-                  "count": 0
-                }
+              "2020-02-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-18": {
-                  "count": 0
-                }
+              "2020-02-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-19": {
-                  "count": 0
-                }
+              "2020-02-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-20": {
-                  "count": 0
-                }
+              "2020-02-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-21": {
-                  "count": 0
-                }
+              "2020-02-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-22": {
-                  "count": 0
-                }
+              "2020-02-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-02-23": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-02-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-24": {
-                  "count": 0
-                }
+              "2020-02-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-25": {
-                  "count": 0
-                }
+              "2020-02-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-26": {
-                  "count": 0
-                }
+              "2020-02-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-27": {
-                  "count": 0
-                }
+              "2020-02-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-28": {
-                  "count": 0
-                }
+              "2020-02-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-29": {
-                  "count": 0
-                }
+              "2020-02-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-01": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-02": {
-                  "count": 0
-                }
+              "2020-03-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-03": {
-                  "count": 0
-                }
+              "2020-03-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-04": {
-                  "count": 0
-                }
+              "2020-03-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-05": {
-                  "count": 0
-                }
+              "2020-03-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-06": {
-                  "count": 0
-                }
+              "2020-03-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-07": {
-                  "count": 0
-                }
+              "2020-03-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-08": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-09": {
-                  "count": 0
-                }
+              "2020-03-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-10": {
-                  "count": 0
-                }
+              "2020-03-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-11": {
-                  "count": 0
-                }
+              "2020-03-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-12": {
-                  "count": 0
-                }
+              "2020-03-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-13": {
-                  "count": 0
-                }
+              "2020-03-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-14": {
-                  "count": 0
-                }
+              "2020-03-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-15": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-16": {
-                  "count": 0
-                }
+              "2020-03-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-17": {
-                  "count": 0
-                }
+              "2020-03-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-18": {
-                  "count": 0
-                }
+              "2020-03-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-19": {
-                  "count": 0
-                }
+              "2020-03-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-20": {
-                  "count": 0
-                }
+              "2020-03-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-21": {
-                  "count": 0
-                }
+              "2020-03-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-22": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-23": {
-                  "count": 0
-                }
+              "2020-03-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-24": {
-                  "count": 0
-                }
+              "2020-03-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-25": {
-                  "count": 0
-                }
+              "2020-03-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-26": {
-                  "count": 0
-                }
+              "2020-03-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-27": {
-                  "count": 0
-                }
+              "2020-03-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-28": {
-                  "count": 0
-                }
+              "2020-03-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-29": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-30": {
-                  "count": 0
-                }
+              "2020-03-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-31": {
-                  "count": 0
-                }
+              "2020-03-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-01": {
-                  "count": 0
-                }
+              "2020-04-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-02": {
-                  "count": 0
-                }
+              "2020-04-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-03": {
-                  "count": 0
-                }
+              "2020-04-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-04": {
-                  "count": 0
-                }
+              "2020-04-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-04-05": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-04-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-06": {
-                  "count": 0
-                }
+              "2020-04-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-07": {
-                  "count": 0
-                }
+              "2020-04-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-08": {
-                  "count": 0
-                }
+              "2020-04-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-09": {
-                  "count": 0
-                }
+              "2020-04-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-10": {
-                  "count": 0
-                }
+              "2020-04-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-11": {
-                  "count": 0
-                }
+              "2020-04-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-04-12": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-04-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-13": {
-                  "count": 0
-                }
+              "2020-04-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-14": {
-                  "count": 0
-                }
+              "2020-04-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-15": {
-                  "count": 0
-                }
+              "2020-04-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-16": {
-                  "count": 0
-                }
+              "2020-04-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-17": {
-                  "count": 0
-                }
+              "2020-04-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-18": {
-                  "count": 0
-                }
+              "2020-04-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-04-19": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-04-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-20": {
-                  "count": 0
-                }
+              "2020-04-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-21": {
-                  "count": 0
-                }
+              "2020-04-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-22": {
-                  "count": 0
-                }
+              "2020-04-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-23": {
-                  "count": 0
-                }
+              "2020-04-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-24": {
-                  "count": 0
-                }
+              "2020-04-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-25": {
-                  "count": 0
-                }
+              "2020-04-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-04-26": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-04-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-27": {
-                  "count": 0
-                }
+              "2020-04-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-28": {
-                  "count": 0
-                }
+              "2020-04-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-29": {
-                  "count": 0
-                }
+              "2020-04-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-30": {
-                  "count": 0
-                }
+              "2020-04-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-01": {
-                  "count": 0
-                }
+              "2020-05-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-02": {
-                  "count": 0
-                }
+              "2020-05-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-03": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-04": {
-                  "count": 0
-                }
+              "2020-05-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-05": {
-                  "count": 0
-                }
+              "2020-05-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-06": {
-                  "count": 0
-                }
+              "2020-05-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-07": {
-                  "count": 0
-                }
+              "2020-05-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-08": {
-                  "count": 0
-                }
+              "2020-05-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-09": {
-                  "count": 0
-                }
+              "2020-05-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-10": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-11": {
-                  "count": 0
-                }
+              "2020-05-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-12": {
-                  "count": 0
-                }
+              "2020-05-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-13": {
-                  "count": 0
-                }
+              "2020-05-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-14": {
-                  "count": 0
-                }
+              "2020-05-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-15": {
-                  "count": 0
-                }
+              "2020-05-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-16": {
-                  "count": 0
-                }
+              "2020-05-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-17": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-18": {
-                  "count": 0
-                }
+              "2020-05-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-19": {
-                  "count": 0
-                }
+              "2020-05-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-20": {
-                  "count": 0
-                }
+              "2020-05-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-21": {
-                  "count": 0
-                }
+              "2020-05-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-22": {
-                  "count": 0
-                }
+              "2020-05-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-23": {
-                  "count": 0
-                }
+              "2020-05-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-24": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-25": {
-                  "count": 0
-                }
+              "2020-05-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-26": {
-                  "count": 0
-                }
+              "2020-05-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-27": {
-                  "count": 0
-                }
+              "2020-05-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-28": {
-                  "count": 0
-                }
+              "2020-05-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-29": {
-                  "count": 0
-                }
+              "2020-05-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-30": {
-                  "count": 0
-                }
+              "2020-05-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-31": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-01": {
-                  "count": 0
-                }
+              "2020-06-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-02": {
-                  "count": 0
-                }
+              "2020-06-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-03": {
-                  "count": 0
-                }
+              "2020-06-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-04": {
-                  "count": 0
-                }
+              "2020-06-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-05": {
-                  "count": 0
-                }
+              "2020-06-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-06": {
-                  "count": 0
-                }
+              "2020-06-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-06-07": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-06-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-08": {
-                  "count": 0
-                }
+              "2020-06-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-09": {
-                  "count": 0
-                }
+              "2020-06-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-10": {
-                  "count": 0
-                }
+              "2020-06-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-11": {
-                  "count": 0
-                }
+              "2020-06-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-12": {
-                  "count": 0
-                }
+              "2020-06-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-13": {
-                  "count": 0
-                }
+              "2020-06-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-06-14": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-06-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-15": {
-                  "count": 0
-                }
+              "2020-06-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-16": {
-                  "count": 0
-                }
+              "2020-06-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-17": {
-                  "count": 0
-                }
+              "2020-06-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-18": {
-                  "count": 0
-                }
+              "2020-06-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-19": {
-                  "count": 0
-                }
+              "2020-06-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-20": {
-                  "count": 0
-                }
+              "2020-06-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-06-21": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-06-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-22": {
-                  "count": 0
-                }
+              "2020-06-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-23": {
-                  "count": 0
-                }
+              "2020-06-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-24": {
-                  "count": 0
-                }
+              "2020-06-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-25": {
-                  "count": 0
-                }
+              "2020-06-25": {
+                "tooltip": "497 new resources",
+                "count": 497
               },
-              {
-                "2020-06-26": {
-                  "count": 0
-                }
+              "2020-06-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-27": {
-                  "count": 0
-                }
+              "2020-06-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-06-28": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-06-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-29": {
-                  "count": 0
-                }
+              "2020-06-29": {
+                "tooltip": "1 new resources",
+                "count": 1
               },
-              {
-                "2020-06-30": {
-                  "count": 0
-                }
+              "2020-06-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ]
+            }
           ]
         },
         "issues": {
           "highest": 0,
           "weeks": [
-            [
-              {
-                "2019-06-30": {
-                  "count": 0
-                }
+            {
+              "2019-06-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-01": {
-                  "count": 0
-                }
+              "2019-07-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-02": {
-                  "count": 0
-                }
+              "2019-07-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-03": {
-                  "count": 0
-                }
+              "2019-07-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-04": {
-                  "count": 0
-                }
+              "2019-07-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-05": {
-                  "count": 0
-                }
+              "2019-07-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-06": {
-                  "count": 0
-                }
+              "2019-07-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-07-07": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-07-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-08": {
-                  "count": 0
-                }
+              "2019-07-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-09": {
-                  "count": 0
-                }
+              "2019-07-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-10": {
-                  "count": 0
-                }
+              "2019-07-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-11": {
-                  "count": 0
-                }
+              "2019-07-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-12": {
-                  "count": 0
-                }
+              "2019-07-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-13": {
-                  "count": 0
-                }
+              "2019-07-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-07-14": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-07-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-15": {
-                  "count": 0
-                }
+              "2019-07-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-16": {
-                  "count": 0
-                }
+              "2019-07-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-17": {
-                  "count": 0
-                }
+              "2019-07-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-18": {
-                  "count": 0
-                }
+              "2019-07-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-19": {
-                  "count": 0
-                }
+              "2019-07-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-20": {
-                  "count": 0
-                }
+              "2019-07-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-07-21": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-07-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-22": {
-                  "count": 0
-                }
+              "2019-07-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-23": {
-                  "count": 0
-                }
+              "2019-07-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-24": {
-                  "count": 0
-                }
+              "2019-07-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-25": {
-                  "count": 0
-                }
+              "2019-07-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-26": {
-                  "count": 0
-                }
+              "2019-07-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-27": {
-                  "count": 0
-                }
+              "2019-07-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-07-28": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-07-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-29": {
-                  "count": 0
-                }
+              "2019-07-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-30": {
-                  "count": 0
-                }
+              "2019-07-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-07-31": {
-                  "count": 0
-                }
+              "2019-07-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-01": {
-                  "count": 0
-                }
+              "2019-08-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-02": {
-                  "count": 0
-                }
+              "2019-08-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-03": {
-                  "count": 0
-                }
+              "2019-08-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-08-04": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-08-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-05": {
-                  "count": 0
-                }
+              "2019-08-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-06": {
-                  "count": 0
-                }
+              "2019-08-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-07": {
-                  "count": 0
-                }
+              "2019-08-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-08": {
-                  "count": 0
-                }
+              "2019-08-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-09": {
-                  "count": 0
-                }
+              "2019-08-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-10": {
-                  "count": 0
-                }
+              "2019-08-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-08-11": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-08-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-12": {
-                  "count": 0
-                }
+              "2019-08-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-13": {
-                  "count": 0
-                }
+              "2019-08-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-14": {
-                  "count": 0
-                }
+              "2019-08-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-15": {
-                  "count": 0
-                }
+              "2019-08-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-16": {
-                  "count": 0
-                }
+              "2019-08-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-17": {
-                  "count": 0
-                }
+              "2019-08-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-08-18": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-08-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-19": {
-                  "count": 0
-                }
+              "2019-08-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-20": {
-                  "count": 0
-                }
+              "2019-08-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-21": {
-                  "count": 0
-                }
+              "2019-08-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-22": {
-                  "count": 0
-                }
+              "2019-08-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-23": {
-                  "count": 0
-                }
+              "2019-08-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-24": {
-                  "count": 0
-                }
+              "2019-08-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-08-25": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-08-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-26": {
-                  "count": 0
-                }
+              "2019-08-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-27": {
-                  "count": 0
-                }
+              "2019-08-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-28": {
-                  "count": 0
-                }
+              "2019-08-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-29": {
-                  "count": 0
-                }
+              "2019-08-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-30": {
-                  "count": 0
-                }
+              "2019-08-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-08-31": {
-                  "count": 0
-                }
+              "2019-08-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-01": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-02": {
-                  "count": 0
-                }
+              "2019-09-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-03": {
-                  "count": 0
-                }
+              "2019-09-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-04": {
-                  "count": 0
-                }
+              "2019-09-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-05": {
-                  "count": 0
-                }
+              "2019-09-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-06": {
-                  "count": 0
-                }
+              "2019-09-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-07": {
-                  "count": 0
-                }
+              "2019-09-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-08": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-09": {
-                  "count": 0
-                }
+              "2019-09-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-10": {
-                  "count": 0
-                }
+              "2019-09-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-11": {
-                  "count": 0
-                }
+              "2019-09-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-12": {
-                  "count": 0
-                }
+              "2019-09-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-13": {
-                  "count": 0
-                }
+              "2019-09-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-14": {
-                  "count": 0
-                }
+              "2019-09-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-15": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-16": {
-                  "count": 0
-                }
+              "2019-09-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-17": {
-                  "count": 0
-                }
+              "2019-09-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-18": {
-                  "count": 0
-                }
+              "2019-09-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-19": {
-                  "count": 0
-                }
+              "2019-09-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-20": {
-                  "count": 0
-                }
+              "2019-09-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-21": {
-                  "count": 0
-                }
+              "2019-09-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-22": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-23": {
-                  "count": 0
-                }
+              "2019-09-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-24": {
-                  "count": 0
-                }
+              "2019-09-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-25": {
-                  "count": 0
-                }
+              "2019-09-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-26": {
-                  "count": 0
-                }
+              "2019-09-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-27": {
-                  "count": 0
-                }
+              "2019-09-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-28": {
-                  "count": 0
-                }
+              "2019-09-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-09-29": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-09-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-09-30": {
-                  "count": 0
-                }
+              "2019-09-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-01": {
-                  "count": 0
-                }
+              "2019-10-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-02": {
-                  "count": 0
-                }
+              "2019-10-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-03": {
-                  "count": 0
-                }
+              "2019-10-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-04": {
-                  "count": 0
-                }
+              "2019-10-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-05": {
-                  "count": 0
-                }
+              "2019-10-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-10-06": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-10-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-07": {
-                  "count": 0
-                }
+              "2019-10-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-08": {
-                  "count": 0
-                }
+              "2019-10-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-09": {
-                  "count": 0
-                }
+              "2019-10-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-10": {
-                  "count": 0
-                }
+              "2019-10-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-11": {
-                  "count": 0
-                }
+              "2019-10-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-12": {
-                  "count": 0
-                }
+              "2019-10-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-10-13": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-10-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-14": {
-                  "count": 0
-                }
+              "2019-10-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-15": {
-                  "count": 0
-                }
+              "2019-10-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-16": {
-                  "count": 0
-                }
+              "2019-10-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-17": {
-                  "count": 0
-                }
+              "2019-10-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-18": {
-                  "count": 0
-                }
+              "2019-10-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-19": {
-                  "count": 0
-                }
+              "2019-10-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-10-20": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-10-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-21": {
-                  "count": 0
-                }
+              "2019-10-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-22": {
-                  "count": 0
-                }
+              "2019-10-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-23": {
-                  "count": 0
-                }
+              "2019-10-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-24": {
-                  "count": 0
-                }
+              "2019-10-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-25": {
-                  "count": 0
-                }
+              "2019-10-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-26": {
-                  "count": 0
-                }
+              "2019-10-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-10-27": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-10-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-28": {
-                  "count": 0
-                }
+              "2019-10-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-29": {
-                  "count": 0
-                }
+              "2019-10-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-30": {
-                  "count": 0
-                }
+              "2019-10-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-10-31": {
-                  "count": 0
-                }
+              "2019-10-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-01": {
-                  "count": 0
-                }
+              "2019-11-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-02": {
-                  "count": 0
-                }
+              "2019-11-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-11-03": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-11-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-04": {
-                  "count": 0
-                }
+              "2019-11-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-05": {
-                  "count": 0
-                }
+              "2019-11-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-06": {
-                  "count": 0
-                }
+              "2019-11-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-07": {
-                  "count": 0
-                }
+              "2019-11-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-08": {
-                  "count": 0
-                }
+              "2019-11-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-09": {
-                  "count": 0
-                }
+              "2019-11-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-11-10": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-11-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-11": {
-                  "count": 0
-                }
+              "2019-11-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-12": {
-                  "count": 0
-                }
+              "2019-11-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-13": {
-                  "count": 0
-                }
+              "2019-11-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-14": {
-                  "count": 0
-                }
+              "2019-11-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-15": {
-                  "count": 0
-                }
+              "2019-11-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-16": {
-                  "count": 0
-                }
+              "2019-11-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-11-17": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-11-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-18": {
-                  "count": 0
-                }
+              "2019-11-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-19": {
-                  "count": 0
-                }
+              "2019-11-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-20": {
-                  "count": 0
-                }
+              "2019-11-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-21": {
-                  "count": 0
-                }
+              "2019-11-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-22": {
-                  "count": 0
-                }
+              "2019-11-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-23": {
-                  "count": 0
-                }
+              "2019-11-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-11-24": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-11-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-25": {
-                  "count": 0
-                }
+              "2019-11-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-26": {
-                  "count": 0
-                }
+              "2019-11-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-27": {
-                  "count": 0
-                }
+              "2019-11-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-28": {
-                  "count": 0
-                }
+              "2019-11-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-29": {
-                  "count": 0
-                }
+              "2019-11-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-11-30": {
-                  "count": 0
-                }
+              "2019-11-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-01": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-02": {
-                  "count": 0
-                }
+              "2019-12-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-03": {
-                  "count": 0
-                }
+              "2019-12-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-04": {
-                  "count": 0
-                }
+              "2019-12-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-05": {
-                  "count": 0
-                }
+              "2019-12-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-06": {
-                  "count": 0
-                }
+              "2019-12-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-07": {
-                  "count": 0
-                }
+              "2019-12-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-08": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-09": {
-                  "count": 0
-                }
+              "2019-12-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-10": {
-                  "count": 0
-                }
+              "2019-12-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-11": {
-                  "count": 0
-                }
+              "2019-12-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-12": {
-                  "count": 0
-                }
+              "2019-12-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-13": {
-                  "count": 0
-                }
+              "2019-12-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-14": {
-                  "count": 0
-                }
+              "2019-12-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-15": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-16": {
-                  "count": 0
-                }
+              "2019-12-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-17": {
-                  "count": 0
-                }
+              "2019-12-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-18": {
-                  "count": 0
-                }
+              "2019-12-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-19": {
-                  "count": 0
-                }
+              "2019-12-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-20": {
-                  "count": 0
-                }
+              "2019-12-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-21": {
-                  "count": 0
-                }
+              "2019-12-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-22": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-23": {
-                  "count": 0
-                }
+              "2019-12-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-24": {
-                  "count": 0
-                }
+              "2019-12-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-25": {
-                  "count": 0
-                }
+              "2019-12-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-26": {
-                  "count": 0
-                }
+              "2019-12-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-27": {
-                  "count": 0
-                }
+              "2019-12-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-28": {
-                  "count": 0
-                }
+              "2019-12-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2019-12-29": {
-                  "count": 0
-                }
+            },
+            {
+              "2019-12-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-30": {
-                  "count": 0
-                }
+              "2019-12-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2019-12-31": {
-                  "count": 0
-                }
+              "2019-12-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-01": {
-                  "count": 0
-                }
+              "2020-01-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-02": {
-                  "count": 0
-                }
+              "2020-01-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-03": {
-                  "count": 0
-                }
+              "2020-01-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-04": {
-                  "count": 0
-                }
+              "2020-01-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-01-05": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-01-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-06": {
-                  "count": 0
-                }
+              "2020-01-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-07": {
-                  "count": 0
-                }
+              "2020-01-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-08": {
-                  "count": 0
-                }
+              "2020-01-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-09": {
-                  "count": 0
-                }
+              "2020-01-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-10": {
-                  "count": 0
-                }
+              "2020-01-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-11": {
-                  "count": 0
-                }
+              "2020-01-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-01-12": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-01-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-13": {
-                  "count": 0
-                }
+              "2020-01-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-14": {
-                  "count": 0
-                }
+              "2020-01-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-15": {
-                  "count": 0
-                }
+              "2020-01-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-16": {
-                  "count": 0
-                }
+              "2020-01-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-17": {
-                  "count": 0
-                }
+              "2020-01-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-18": {
-                  "count": 0
-                }
+              "2020-01-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-01-19": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-01-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-20": {
-                  "count": 0
-                }
+              "2020-01-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-21": {
-                  "count": 0
-                }
+              "2020-01-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-22": {
-                  "count": 0
-                }
+              "2020-01-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-23": {
-                  "count": 0
-                }
+              "2020-01-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-24": {
-                  "count": 0
-                }
+              "2020-01-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-25": {
-                  "count": 0
-                }
+              "2020-01-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-01-26": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-01-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-27": {
-                  "count": 0
-                }
+              "2020-01-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-28": {
-                  "count": 0
-                }
+              "2020-01-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-29": {
-                  "count": 0
-                }
+              "2020-01-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-30": {
-                  "count": 0
-                }
+              "2020-01-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-01-31": {
-                  "count": 0
-                }
+              "2020-01-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-01": {
-                  "count": 0
-                }
+              "2020-02-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-02-02": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-02-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-03": {
-                  "count": 0
-                }
+              "2020-02-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-04": {
-                  "count": 0
-                }
+              "2020-02-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-05": {
-                  "count": 0
-                }
+              "2020-02-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-06": {
-                  "count": 0
-                }
+              "2020-02-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-07": {
-                  "count": 0
-                }
+              "2020-02-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-08": {
-                  "count": 0
-                }
+              "2020-02-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-02-09": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-02-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-10": {
-                  "count": 0
-                }
+              "2020-02-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-11": {
-                  "count": 0
-                }
+              "2020-02-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-12": {
-                  "count": 0
-                }
+              "2020-02-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-13": {
-                  "count": 0
-                }
+              "2020-02-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-14": {
-                  "count": 0
-                }
+              "2020-02-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-15": {
-                  "count": 0
-                }
+              "2020-02-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-02-16": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-02-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-17": {
-                  "count": 0
-                }
+              "2020-02-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-18": {
-                  "count": 0
-                }
+              "2020-02-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-19": {
-                  "count": 0
-                }
+              "2020-02-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-20": {
-                  "count": 0
-                }
+              "2020-02-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-21": {
-                  "count": 0
-                }
+              "2020-02-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-22": {
-                  "count": 0
-                }
+              "2020-02-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-02-23": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-02-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-24": {
-                  "count": 0
-                }
+              "2020-02-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-25": {
-                  "count": 0
-                }
+              "2020-02-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-26": {
-                  "count": 0
-                }
+              "2020-02-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-27": {
-                  "count": 0
-                }
+              "2020-02-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-28": {
-                  "count": 0
-                }
+              "2020-02-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-02-29": {
-                  "count": 0
-                }
+              "2020-02-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-01": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-02": {
-                  "count": 0
-                }
+              "2020-03-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-03": {
-                  "count": 0
-                }
+              "2020-03-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-04": {
-                  "count": 0
-                }
+              "2020-03-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-05": {
-                  "count": 0
-                }
+              "2020-03-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-06": {
-                  "count": 0
-                }
+              "2020-03-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-07": {
-                  "count": 0
-                }
+              "2020-03-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-08": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-09": {
-                  "count": 0
-                }
+              "2020-03-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-10": {
-                  "count": 0
-                }
+              "2020-03-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-11": {
-                  "count": 0
-                }
+              "2020-03-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-12": {
-                  "count": 0
-                }
+              "2020-03-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-13": {
-                  "count": 0
-                }
+              "2020-03-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-14": {
-                  "count": 0
-                }
+              "2020-03-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-15": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-16": {
-                  "count": 0
-                }
+              "2020-03-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-17": {
-                  "count": 0
-                }
+              "2020-03-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-18": {
-                  "count": 0
-                }
+              "2020-03-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-19": {
-                  "count": 0
-                }
+              "2020-03-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-20": {
-                  "count": 0
-                }
+              "2020-03-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-21": {
-                  "count": 0
-                }
+              "2020-03-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-22": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-23": {
-                  "count": 0
-                }
+              "2020-03-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-24": {
-                  "count": 0
-                }
+              "2020-03-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-25": {
-                  "count": 0
-                }
+              "2020-03-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-26": {
-                  "count": 0
-                }
+              "2020-03-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-27": {
-                  "count": 0
-                }
+              "2020-03-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-28": {
-                  "count": 0
-                }
+              "2020-03-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-03-29": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-03-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-30": {
-                  "count": 0
-                }
+              "2020-03-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-03-31": {
-                  "count": 0
-                }
+              "2020-03-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-01": {
-                  "count": 0
-                }
+              "2020-04-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-02": {
-                  "count": 0
-                }
+              "2020-04-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-03": {
-                  "count": 0
-                }
+              "2020-04-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-04": {
-                  "count": 0
-                }
+              "2020-04-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-04-05": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-04-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-06": {
-                  "count": 0
-                }
+              "2020-04-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-07": {
-                  "count": 0
-                }
+              "2020-04-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-08": {
-                  "count": 0
-                }
+              "2020-04-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-09": {
-                  "count": 0
-                }
+              "2020-04-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-10": {
-                  "count": 0
-                }
+              "2020-04-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-11": {
-                  "count": 0
-                }
+              "2020-04-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-04-12": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-04-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-13": {
-                  "count": 0
-                }
+              "2020-04-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-14": {
-                  "count": 0
-                }
+              "2020-04-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-15": {
-                  "count": 0
-                }
+              "2020-04-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-16": {
-                  "count": 0
-                }
+              "2020-04-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-17": {
-                  "count": 0
-                }
+              "2020-04-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-18": {
-                  "count": 0
-                }
+              "2020-04-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-04-19": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-04-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-20": {
-                  "count": 0
-                }
+              "2020-04-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-21": {
-                  "count": 0
-                }
+              "2020-04-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-22": {
-                  "count": 0
-                }
+              "2020-04-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-23": {
-                  "count": 0
-                }
+              "2020-04-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-24": {
-                  "count": 0
-                }
+              "2020-04-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-25": {
-                  "count": 0
-                }
+              "2020-04-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-04-26": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-04-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-27": {
-                  "count": 0
-                }
+              "2020-04-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-28": {
-                  "count": 0
-                }
+              "2020-04-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-29": {
-                  "count": 0
-                }
+              "2020-04-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-04-30": {
-                  "count": 0
-                }
+              "2020-04-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-01": {
-                  "count": 0
-                }
+              "2020-05-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-02": {
-                  "count": 0
-                }
+              "2020-05-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-03": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-04": {
-                  "count": 0
-                }
+              "2020-05-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-05": {
-                  "count": 0
-                }
+              "2020-05-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-06": {
-                  "count": 0
-                }
+              "2020-05-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-07": {
-                  "count": 0
-                }
+              "2020-05-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-08": {
-                  "count": 0
-                }
+              "2020-05-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-09": {
-                  "count": 0
-                }
+              "2020-05-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-10": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-11": {
-                  "count": 0
-                }
+              "2020-05-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-12": {
-                  "count": 0
-                }
+              "2020-05-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-13": {
-                  "count": 0
-                }
+              "2020-05-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-14": {
-                  "count": 0
-                }
+              "2020-05-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-15": {
-                  "count": 0
-                }
+              "2020-05-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-16": {
-                  "count": 0
-                }
+              "2020-05-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-17": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-18": {
-                  "count": 0
-                }
+              "2020-05-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-19": {
-                  "count": 0
-                }
+              "2020-05-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-20": {
-                  "count": 0
-                }
+              "2020-05-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-21": {
-                  "count": 0
-                }
+              "2020-05-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-22": {
-                  "count": 0
-                }
+              "2020-05-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-23": {
-                  "count": 0
-                }
+              "2020-05-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-24": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-25": {
-                  "count": 0
-                }
+              "2020-05-25": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-26": {
-                  "count": 0
-                }
+              "2020-05-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-27": {
-                  "count": 0
-                }
+              "2020-05-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-28": {
-                  "count": 0
-                }
+              "2020-05-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-29": {
-                  "count": 0
-                }
+              "2020-05-29": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-05-30": {
-                  "count": 0
-                }
+              "2020-05-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-05-31": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-05-31": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-01": {
-                  "count": 0
-                }
+              "2020-06-01": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-02": {
-                  "count": 0
-                }
+              "2020-06-02": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-03": {
-                  "count": 0
-                }
+              "2020-06-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-04": {
-                  "count": 0
-                }
+              "2020-06-04": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-05": {
-                  "count": 0
-                }
+              "2020-06-05": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-06": {
-                  "count": 0
-                }
+              "2020-06-06": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-06-07": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-06-07": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-08": {
-                  "count": 0
-                }
+              "2020-06-08": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-09": {
-                  "count": 0
-                }
+              "2020-06-09": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-10": {
-                  "count": 0
-                }
+              "2020-06-10": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-11": {
-                  "count": 0
-                }
+              "2020-06-11": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-12": {
-                  "count": 0
-                }
+              "2020-06-12": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-13": {
-                  "count": 0
-                }
+              "2020-06-13": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-06-14": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-06-14": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-15": {
-                  "count": 0
-                }
+              "2020-06-15": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-16": {
-                  "count": 0
-                }
+              "2020-06-16": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-17": {
-                  "count": 0
-                }
+              "2020-06-17": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-18": {
-                  "count": 0
-                }
+              "2020-06-18": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-19": {
-                  "count": 0
-                }
+              "2020-06-19": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-20": {
-                  "count": 0
-                }
+              "2020-06-20": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-06-21": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-06-21": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-22": {
-                  "count": 0
-                }
+              "2020-06-22": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-23": {
-                  "count": 0
-                }
+              "2020-06-23": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-24": {
-                  "count": 0
-                }
+              "2020-06-24": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-25": {
-                  "count": 0
-                }
+              "2020-06-25": {
+                "tooltip": "497 new resources",
+                "count": 497
               },
-              {
-                "2020-06-26": {
-                  "count": 0
-                }
+              "2020-06-26": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-27": {
-                  "count": 0
-                }
+              "2020-06-27": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ],
-            [
-              {
-                "2020-06-28": {
-                  "count": 0
-                }
+            },
+            {
+              "2020-06-28": {
+                "tooltip": "0 new resources",
+                "count": 0
               },
-              {
-                "2020-06-29": {
-                  "count": 0
-                }
+              "2020-06-29": {
+                "tooltip": "1 new resources",
+                "count": 1
               },
-              {
-                "2020-06-30": {
-                  "count": 0
-                }
+              "2020-06-30": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
-            ]
+            }
           ]
         }
       }
