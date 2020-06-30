@@ -19,9 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: true
     - uses: actions/setup-python@v2
       with:
         python-version: 3.8
+    - uses: actions/setup-node@v2-beta
+      with:
+        python-version: '14.x'
     - name: Setup git
       run: |
         git config user.email "${DLB_BOT_EMAIL}"

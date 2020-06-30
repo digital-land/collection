@@ -1,0 +1,21 @@
+[submodule "brownfield-land-collection"]
+	path = brownfield-land-collection
+	url = https://github.com/digital-land/brownfield-land-collection.git
+[submodule "region-collection"]
+	path = region-collection
+	url = https://github.com/digital-land/region-collection.git
+[submodule "boundary-collection"]
+	path = boundary-collection
+	url = https://github.com/digital-land/boundary-collection.git
+[submodule "local-plan-collection"]
+	path = local-plan-collection
+	url = https://github.com/digital-land/local-plan-collection.git
+[submodule "addressbase-custodian-collection"]
+	path = addressbase-custodian-collection
+	url = https://github.com/digital-land/addressbase-custodian-collection.git
+[submodule "data-gov-uk-collection"]
+	path = data-gov-uk-collection
+	url = https://github.com/digital-land/data-gov-uk-collection.git
+[submodule "brownfield-land-pipeline"]
+	path = brownfield-land-pipeline
+	url = https://github.com/digital-land/brownfield-land-pipeline.git

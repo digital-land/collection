@@ -1,6 +1,5 @@
-
 {% macro heatMap(params) %}
-<div class="dlf-heatmap__container">
+{# <div class="dlf-heatmap__container">
   {% set svg_width = (params.weeks|length * 16) + 40 %}
   <?xml version="1.0" encoding="UTF-8"?>
   <svg width="{{svg_width}}" height="128" class="dlf-svg-heatmap{% if params.classes %} {{ params.classes }}{% endif %}"
@@ -15,7 +14,7 @@
 
               {%- set day_classes = "heatmap__day" -%}
 
-              {#- no need to do this if no values -#}
+              {#- no need to do this if no values -
               {%- if not params.highest == 0 -%}
                 {%- set percentage = (w[d]['count']/params.highest) * 100 -%}
                 {% if percentage > 0 %}
@@ -28,7 +27,7 @@
                 {% set day_classes = "heatmap__day heatmap__day--higher"  %}
                 {% endif -%}
               {%- endif -%}
-              
+
               <a xlink:href="log/{{ d }}">
               <rect class="day {{day_classes}}" width="12" height="12" x="16" y="{{ y_pos }}" fill="{{ w[d]['count'] }}" data-count="{{ w[d]['count'] }}" data-date="{{ d }}">
                   <title>{{ d }}: {{ w[d]['tooltip'] }}</title>
@@ -56,8 +55,8 @@
           <text text-anchor="start" class="wday" dx="-10" dy="71" style="display: none;">Thu</text>
           <text text-anchor="start" class="wday" dx="-10" dy="85">Fri</text>
           <text text-anchor="start" class="wday" dx="-10" dy="101" style="display: none;">Sat</text>
-          
+
       </g>
   </svg>
-</div>
+</div> #}
 {% endmacro %}

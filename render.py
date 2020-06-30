@@ -6,7 +6,7 @@ import jinja2
 
 from filters import slash_to_dash, extract_month, map_month, extract_day
 
-
+data_path = "data"
 dummy_data_path = "dummy_data"
 docs_path = "docs/"
 static_folder_path = "https://digital-land-design.herokuapp.com/static"
@@ -35,27 +35,17 @@ a_collection_template = env.get_template("a-collection.html")
 a_collection_log_template = env.get_template("a-collection-log.html")
 a_collection_log_date_template = env.get_template("a-collection-log-date.html")
 
-# --- To be replaced ---
-def get_dummy_data(filename):
+# get data
+def get_data(path):
     # read file
-    with open(f"{dummy_data_path}/{filename}.json", 'r') as f:
+    with open(f"{path}.json", 'r') as f:
         data=f.read()
 
     # parse file
     return json.loads(data)
 
-# get dummy data for templates
-collections_data = get_dummy_data("collections")
-collections_log_data = get_dummy_data("collections-log")
-collections_log_date_data = get_dummy_data("collections-log-date")
-
-collection_data = get_dummy_data("collection")
-# get for single example
-brownfield_collection_log_data = get_dummy_data("brownfield-collection-log")
-heatmap_example_data = get_dummy_data("heatmaps")
-brownfield_collection_log_date_data = get_dummy_data("brownfield-collection-log-date")
-# --- --- --- --- --- ---
-
+collections_data = get_data(f"{data_path}/by-collection")
+collections_log_data = get_data(f"{data_path}/by-date")
 
 # render pages
 def render(path, template, **kwargs):
@@ -68,15 +58,16 @@ def render(path, template, **kwargs):
         f.write(template.render(staticPath=static_folder_path, **kwargs))
 
 
+# by collection
 render("index.html", collections_template, data=collections_data)
-render("log/index.html", collections_log_template, data=collections_log_data)
-render("log/2020-06-04/index.html", collections_log_date_template, data=collections_log_date_data)
-for collection in collection_data:
+for collection in collections_data['collections']:
     render(f"{collection['collection']}/index.html", a_collection_template, data=collection)
-render("brownfield-land/log/index.html", a_collection_log_template, data=brownfield_collection_log_data, heatmap=heatmap_example_data)
+    render(f"{collection['collection']}/log/index.html", a_collection_log_template, data=collection, heatmap=collection['heatmap'])
 
-for d in brownfield_collection_log_date_data['result'].keys():
-    run_result_data = brownfield_collection_log_date_data['result'][d]
-    run_result_data['date'] = d
-    render(f"brownfield-land/log/{d}/index.html", a_collection_log_date_template, collection=brownfield_collection_log_date_data['collection'], data=run_result_data)
+    for history in collection['history']:
+        render(f"{collection['collection']}/log/{history['date']}/index.html", a_collection_log_date_template, collection=collection, data=history)
 
+# by date
+render("log/index.html", collections_log_template, data=collections_log_data)
+for log in collections_log_data:
+    render(f"log/{log['date']}/index.html", collections_log_date_template, data=log)

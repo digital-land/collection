@@ -16,13 +16,12 @@
 	    }
 	  ]
 	}) }}
-
 {% endblock %}
 
 {% block content %}
 <h1 class="govuk-heading-xl">Collections</h1>
 
-<p class="govuk-body-l">There are currently {{ data['collections']['active']|length }} active collections.</p>
+<p class="govuk-body-l">There are currently {{ data['active_count'] }} active collections.</p>
 <p class="govuk-body">The active collections run every night. We log the output of each run. You can <a href="#">view a full history of the collection runs</a>.</p>
 
 <details class="govuk-details" data-module="govuk-details">
@@ -39,73 +38,75 @@
 <h2 class="govuk-heading-l govuk-!-margin-top-9">Active collections</h2>
 
 <ul class="collection-list">
-    {% for collection in data['collections']['active'] %}
-    <li class="technical-summary-card">
-        <div class="govuk-grid-column-one-third">
-            <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="{{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
-        </div>
-        <div class="govuk-grid-column-two-thirds">
-            <div class="govuk-grid-row">
-                <div class="govuk-grid-column-one-half">
-                    {% if collection['last_run']['ran'] %}
-                    <p class="govuk-body-s govuk-!-margin-bottom-1">Last run:</p>
-                    <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">{{ collection['last_run']['date'] }}</p>
-                    {% else %}
-                    <p class="govuk-body-s govuk-!-margin-bottom-1"><strong class="govuk-tag govuk-tag--red">
-                      Did not run
-                  </strong></p>
-                    <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">The collector failed to run.</p>
-                    {% endif %}
-                    <p class="govuk-body-s govuk-!-margin-bottom-0 govuk-!-padding-top-1"><a href="#" class="govuk-link">See <span class="govuk-visually-hidden">results from </span>earlier runs<span class="govuk-visually-hidden"> of the {{ collection['collection'] }}</span></a></p>
+    {% for collection in data['collections'] %}
+        {% if collection['active'] %}
+            <li class="technical-summary-card">
+                <div class="govuk-grid-column-one-third">
+                    <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="{{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
                 </div>
-                {% if collection['last_run']['ran'] %} 
-                <div class="govuk-grid-column-one-half">
-                    <p class="govuk-body-s govuk-!-margin-bottom-1">Endpoint results:</p>
-                    <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
-                        <span class="technical-summary-card__result technical-summary-card__result--success">
-                            {{ collection['last_run']['endpoints']['success'] }}
-                            <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['last_run']['endpoints']['success'] > 1 else "" }}</span>
-                             succeeded
-                        </span>
-                        <span class="technical-summary-card__result technical-summary-card__result--fail">
-                            <a href="#" class="govuk-link--text-colour">
-                                {{ collection['last_run']['endpoints']['fail'] }}
-                                <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['last_run']['endpoints']['fail'] > 1 else "" }}</span>
-                                 failed
-                            </a>
-                        </span>
-                    </p>
+                <div class="govuk-grid-column-two-thirds">
+                    <div class="govuk-grid-row">
+                        <div class="govuk-grid-column-one-half">
+                            {% if collection['last_run']['ran'] %}
+                            <p class="govuk-body-s govuk-!-margin-bottom-1">Last run:</p>
+                            <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">{{ collection['last_run']['date'] }}</p>
+                            {% else %}
+                            <p class="govuk-body-s govuk-!-margin-bottom-1"><strong class="govuk-tag govuk-tag--red">
+                              Did not run
+                          </strong></p>
+                            <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">The collector failed to run.</p>
+                            {% endif %}
+                            <p class="govuk-body-s govuk-!-margin-bottom-0 govuk-!-padding-top-1"><a href="#" class="govuk-link">See <span class="govuk-visually-hidden">results from </span>earlier runs<span class="govuk-visually-hidden"> of the {{ collection['collection'] }}</span></a></p>
+                        </div>
+                        {% if collection['last_run']['ran'] %}
+                        <div class="govuk-grid-column-one-half">
+                            <p class="govuk-body-s govuk-!-margin-bottom-1">Endpoint results:</p>
+                            <p class="govuk-body govuk-!-margin-bottom-0 govuk-!-padding-top-1">
+                                <span class="technical-summary-card__result technical-summary-card__result--success">
+                                    {{ collection['last_run']['endpoints']['success'] }}
+                                    <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['last_run']['endpoints']['success'] > 1 else "" }}</span>
+                                     succeeded
+                                </span>
+                                <span class="technical-summary-card__result technical-summary-card__result--fail">
+                                    <a href="#" class="govuk-link--text-colour">
+                                        {{ collection['last_run']['endpoints']['fail'] }}
+                                        <span class="govuk-visually-hidden"> endpoint{{ "s" if collection['last_run']['endpoints']['fail'] > 1 else "" }}</span>
+                                         failed
+                                    </a>
+                                </span>
+                            </p>
+                        </div>
+                        {% endif %}
+                        <div class="govuk-grid-column-full">
+                          <div class="technical-summary-card__section">
+                              <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}</a>
+                          </div>
+                      </div>
+                    </div>
                 </div>
-                {% endif %}
-                <div class="govuk-grid-column-full">
-                  <div class="technical-summary-card__section">
-                      <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}</a>
-                  </div>
-              </div>
-            </div>
-        </div>
-    </li>
+            </li>
+        {% endif %}
     {% endfor %}
 </ul>
 
-
-{% if data['collections']['inactive']|length > 0 %}
+{% if data['inactive_count'] > 0 %}
 <h2 class="govuk-heading-l govuk-!-margin-top-9">Deactivated collections</h2>
-
 <ul class="collection-list">
-    {% for collection in data['collections']['inactive'] %}
-    <li class="technical-summary-card">
-        <div class="govuk-grid-column-one-third">
-            <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
-        </div>
-        <div class="govuk-grid-column-two-thirds">
-            <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="#" class="govuk-link govuk-body-s">see details<span class="govuk-visually-hidden"> of the last run by the {{ collection['collection'] }}</span></a>)
-            <div class="technical-summary-card__section">
-                <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
-            </div>
+    {% for collection in data['collections'] %}
+        {% if collection['active'] == false %}
+            <li class="technical-summary-card">
+                <div class="govuk-grid-column-one-third">
+                    <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="{{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
+                </div>
+                <div class="govuk-grid-column-two-thirds">
+                    <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="#" class="govuk-link govuk-body-s">see details<span class="govuk-visually-hidden"> of the last run by the {{ collection['collection'] }}</span></a>)
+                    <div class="technical-summary-card__section">
+                        <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
+                    </div>
 
-        </div>
-    </li>
+                </div>
+            </li>
+        {% endif %}
     {% endfor %}
 </ul>
 {% endif %}

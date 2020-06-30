@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/digital-land/collection#readme",
   "dependencies": {
+    "csv": "^5.3.2",
     "express": "^4.17.1"
   }
 }
