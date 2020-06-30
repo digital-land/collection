@@ -50,8 +50,8 @@
 
 {% if total_endpoint_issues > 0 %}
 <div class="govuk-accordion" data-module="govuk-accordion" id="endpoint-error-type">
-  {# {% for error_type in data['endpoints']['issue'].keys() %}
-  {% set error_data = data['endpoints']['issue'][error_type] %}
+  {% for error_type in data['endpoints']['issues'].keys() %}
+  {% set error_data = data['endpoints']['issues'][error_type] %}
   <div class="govuk-accordion__section ">
     <div class="govuk-accordion__section-header">
       <h2 class="govuk-accordion__section-heading">
@@ -74,7 +74,7 @@
       </ul>
     </div>
   </div>
-  {% endfor %} #}
+  {% endfor %}
 </div>
 {% endif %}
 
@@ -102,7 +102,6 @@
 {% endif %} #}
 
 <h2 id="resources" class="govuk-heading-l">Resources</h2>
-
 <details class="govuk-details" data-module="govuk-details">
   <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
@@ -121,12 +120,12 @@
 <ul class="govuk-list govuk-list--bullet">
   {% for new_res in data['new_resources'] %}
   <li>
-{#     {% if new_res['old'] %}
+    {% if new_res['old'] %}
     <a href="#">{{ new_res['new']|truncate(11,true) }}</a> replaces <a href="#">{{ new_res['old']|truncate(11,true) }}</a>
     {% else %}
     <a href="#">{{ new_res['new']|truncate(11,true) }}</a>, first resource collected from <a href="{{ new_res['from'] }}">endpoint</a>.
     {% endif %}
- #}  </li>
+  </li>
   {% endfor %}
 </ul>
 {% else %}

@@ -67,6 +67,22 @@ const actions = {
       }
     }
   },
+  generateFailureReasons (failures) {
+    const reasons = {}
+
+    failures.forEach(function (failure) {
+      if (!Object.keys(reasons).includes(failure.status)) {
+        reasons[failure.status] = []
+      }
+
+      reasons[failure.status].push({
+        endpoint: failure.link, // get actual link
+        documentation_url: '' // dunno what to do with this
+      })
+    })
+
+    return reasons
+  },
   async generateCollectionsData (datasets) {
     return {
       active_count: datasets.filter(dataset => !dataset['end-date']).length,
@@ -110,6 +126,9 @@ const actions = {
 
     return resources.map(item => ({
       resource: item,
+      new: item,
+      old: '', // need to fill out
+      from: '', // need to fill out
       first_appeared: log.filter(entry => entry['resource'] === item).map(entry => entry['datetime'].split('T')[0]).sort((a, b) => new Date(a) - new Date(b))[0]
     }))
   },
@@ -131,6 +150,7 @@ const actions = {
 
     dates.forEach(date => {
       const todayLog = log.filter(entry => entry['date'] === date)
+      const endpointFailures = todayLog.filter(entry => parseInt(entry['status']) !== 200)
 
       history.push({
         collection: collection.replace('-pipeline', ''),
@@ -138,9 +158,10 @@ const actions = {
         date: date,
         endpoints: {
           success: todayLog.filter(entry => parseInt(entry['status']) === 200).length,
-          fail: todayLog.filter(entry => parseInt(entry['status']) !== 200).length,
+          fail: endpointFailures.length,
           total_count: todayLog.length,
-          last_updated: new Date().toISOString().split('T')[0] // need to get this from github
+          last_updated: new Date().toISOString().split('T')[0], // need to get this from github,
+          issues: actions.generateFailureReasons(endpointFailures)
         },
         // collection.json
         documentation_urls: {
