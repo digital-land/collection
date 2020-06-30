@@ -11,6 +11,7 @@
       "total_resource_count": 497,
       "total_runs": 3,
       "first_run": {
+        "collection": "brownfield-land-pipeline",
         "ran": true,
         "date": "2020-06-25",
         "endpoints": {
@@ -2017,6 +2018,7 @@
         "name": "Brownfield land"
       },
       "last_run": {
+        "collection": "brownfield-land-pipeline",
         "ran": true,
         "date": "2020-06-30",
         "endpoints": {
@@ -2035,6 +2037,7 @@
       },
       "history": [
         {
+          "collection": "brownfield-land-pipeline",
           "ran": true,
           "date": "2020-06-30",
           "endpoints": {
@@ -2052,6 +2055,7 @@
           "name": "Brownfield land"
         },
         {
+          "collection": "brownfield-land-pipeline",
           "ran": true,
           "date": "2020-06-29",
           "endpoints": {
@@ -2074,6 +2078,7 @@
           "name": "Brownfield land"
         },
         {
+          "collection": "brownfield-land-pipeline",
           "ran": true,
           "date": "2020-06-25",
           "endpoints": {

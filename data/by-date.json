@@ -3,6 +3,7 @@
     "date": "2020-06-30",
     "collections": [
       {
+        "collection": "brownfield-land-pipeline",
         "ran": true,
         "date": "2020-06-30",
         "endpoints": {
@@ -25,6 +26,7 @@
     "date": "2020-06-29",
     "collections": [
       {
+        "collection": "brownfield-land-pipeline",
         "ran": true,
         "date": "2020-06-29",
         "endpoints": {
@@ -52,6 +54,7 @@
     "date": "2020-06-25",
     "collections": [
       {
+        "collection": "brownfield-land-pipeline",
         "ran": true,
         "date": "2020-06-25",
         "endpoints": {

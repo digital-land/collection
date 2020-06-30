@@ -152,6 +152,7 @@ const actions = {
       const todayLog = log.filter(entry => entry['date'] === date)
 
       history.push({
+        collection: collection,
         ran: true, // figure out what to do with this
         date: date,
         endpoints: {

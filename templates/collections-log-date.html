@@ -4,16 +4,16 @@
 {% block pageTitle %}Collections log for {{ data['date'] }} | Digital Land{% endblock %}
 
 {% block beforeContent %}
-	{{ super() }}
-	{{ govukBreadcrumbs({
-	  "items": [
-	    {
-	        "text": "Digital Land",
-	        "href": "https://digital-land.github.io/"
-	    },
-	    {
+    {{ super() }}
+    {{ govukBreadcrumbs({
+      "items": [
+        {
+            "text": "Digital Land",
+            "href": "https://digital-land.github.io/"
+        },
+        {
             "text": "Collections",
-            "href": "/collections"
+            "href": "/collection"
         },
         {
             "text": "Log",
@@ -22,8 +22,8 @@
         {
             "text": data['date']
         }
-	  ]
-	}) }}
+      ]
+    }) }}
 {% endblock %}
 
 {% block content %}
@@ -85,9 +85,9 @@
             </p>
         </div>
         <div class="govuk-grid-column-one-third">
-            {% set label = "New resource" if collection['new_resources'] == 1 else "New resources" %}
+            {% set label = "New resource" if collection['new_resources']|length == 1 else "New resources" %}
             {{ dlfDataItem({
-                "number": collection['new_resources'],
+                "number": collection['new_resources']|length,
                 "text": label,
                 "classes": "data-item--inline data-item--s govuk-!-margin-top-4"
                 })
