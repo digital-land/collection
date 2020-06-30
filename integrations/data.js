@@ -1,42 +1,35 @@
 const csv = require('csv')
 const fs = require('fs')
-// const childProcess = require('child_process')
 
 const actions = {
   csvToJSON (path) {
-    const filename = process.cwd() + '/' + path
+    const filename = `${process.cwd()}/${path}`
     const data = []
 
     if (fs.existsSync(filename)) {
       const stream = fs.createReadStream(filename).pipe(csv.parse({
         columns: true
-      })).on('data', function (row) {
+      })).on('data', row => {
         data.push(row)
       })
 
       return new Promise((resolve, reject) => {
-        stream.on('end', function () {
-          return resolve(data)
-        })
-        stream.on('error', function (error) {
-          return reject(error)
-        })
+        stream.on('end', () => resolve(data))
+        stream.on('error', error => reject(error))
       })
     } else {
       return []
     }
   },
   async getCollectionResourceCount (collection) {
-    const files = await fs.promises.readdir(process.cwd() + '/' + collection + '/collection/resource').catch(function () {
-      return []
-    })
+    const files = await fs.promises.readdir(`${process.cwd()}/${collection}/collection/resource`).catch(() => [])
     return files.length
   },
   generateDays () {
-    var dates = []
-    var currentDate = new Date(new Date().setFullYear(new Date().getFullYear() - 1))
-    var addDays = function (days) {
-      var date = new Date(this.valueOf())
+    const dates = []
+    let currentDate = new Date(new Date().setFullYear(new Date().getFullYear() - 1))
+    const addDays = function (days) {
+      const date = new Date(this.valueOf())
       date.setDate(date.getDate() + days)
       return date
     }
@@ -47,16 +40,16 @@ const actions = {
     return dates
   },
   splitByWeek (array) {
-    var weeks = []
-    var size = 7
-    for (var i = 0; i < array.length; i += size) {
+    const weeks = []
+    const size = 7
+    for (let i = 0; i < array.length; i += size) {
       weeks.push(array.slice(i, i + size))
     }
     return weeks
   },
   async generateHeatmaps (history) {
-    const newResourceWeeks = actions.generateDays().map(function (date) {
-      var parsed = new Date(date).toISOString().split('T')[0]
+    const newResourceWeeks = actions.generateDays().map(date => {
+      const parsed = new Date(date).toISOString().split('T')[0]
 
       return {
         [parsed]: { count: 0, tooltip: 'x number of resources' }
@@ -65,9 +58,7 @@ const actions = {
 
     return {
       new_resources: {
-        highest: Math.max.apply(Math, history.map(function (run) {
-          return run.new_resources.length
-        })),
+        highest: Math.max.apply(Math, history.map(run => run.new_resources.length)),
         weeks: actions.splitByWeek(newResourceWeeks)
       },
       issues: {
@@ -97,14 +88,10 @@ const actions = {
   },
   async generateCollectionsData (datasets) {
     return {
-      active_count: datasets.filter(function (dataset) {
-        return !dataset['end-date']
-      }).length,
-      inactive_count: datasets.filter(function (dataset) {
-        return dataset['end-date']
-      }).length,
+      active_count: datasets.filter(dataset => !dataset['end-date']).length,
+      inactive_count: datasets.filter(dataset => dataset['end-date']).length,
       total_count: datasets.length,
-      collections: await Promise.all(datasets.map(async function (dataset) {
+      collections: await Promise.all(datasets.map(async dataset => {
         const splitUrl = dataset.url.split('/')
         const slug = splitUrl[splitUrl.length - 1]
         const history = await actions.getCollectionLogHistory(slug)
@@ -134,32 +121,24 @@ const actions = {
   async getResourceHistory (log) {
     const resources = []
 
-    log.forEach(function (entry) {
+    log.forEach(entry => {
       if (!resources.includes(entry['resource'])) {
         resources.push(entry['resource'])
       }
     })
 
-    return resources.map(function (item) {
-      return {
-        resource: item,
-        first_appeared: log.filter(function (entry) {
-          return entry['resource'] === item
-        }).map(function (entry) {
-          return entry['datetime'].split('T')[0]
-        }).sort(function (a, b) {
-          return new Date(a) - new Date(b)
-        })[0]
-      }
-    })
+    return resources.map(item => ({
+      resource: item,
+      first_appeared: log.filter(entry => entry['resource'] === item).map(entry => entry['datetime'].split('T')[0]).sort((a, b) => new Date(a) - new Date(b))[0]
+    }))
   },
   async getCollectionLogHistory (collection) {
-    const log = await actions.csvToJSON(collection + '/index/log.csv')
+    const log = await actions.csvToJSON(`${collection}/index/log.csv`)
     const resourceHistory = await actions.getResourceHistory(log)
     const history = []
     const dates = []
 
-    log.map(function (row) {
+    log.map(row => {
       row.date = row['datetime'].split('T')[0]
 
       if (!dates.includes(row.date)) {
@@ -169,21 +148,15 @@ const actions = {
       return row
     })
 
-    dates.forEach(function (date) {
-      const todayLog = log.filter(function (entry) {
-        return entry['date'] === date
-      })
+    dates.forEach(date => {
+      const todayLog = log.filter(entry => entry['date'] === date)
 
       history.push({
         ran: true, // figure out what to do with this
         date: date,
         endpoints: {
-          success: todayLog.filter(function (entry) {
-            return parseInt(entry['status']) === 200
-          }).length,
-          fail: todayLog.filter(function (entry) {
-            return parseInt(entry['status']) !== 200
-          }).length,
+          success: todayLog.filter(entry => parseInt(entry['status']) === 200).length,
+          fail: todayLog.filter(entry => parseInt(entry['status']) !== 200).length,
           total_count: todayLog.length,
           last_updated: '2020-05-06' // need to get this from github
         },
@@ -192,33 +165,29 @@ const actions = {
           active: 100,
           inactive: 100
         },
-        new_resources: resourceHistory.filter(function (entry) {
-          return entry['first_appeared'] === date
-        }),
+        new_resources: resourceHistory.filter(entry => entry['first_appeared'] === date),
         issues: 0
       })
     })
 
-    return history.sort(function (a, b) {
-      return new Date(b.date) - new Date(a.date)
-    })
+    return history.sort((a, b) => new Date(b.date) - new Date(a.date))
   },
   async splitByDate (collections) {
     const dates = []
 
-    collections.collections.forEach(function (collection) {
-      collection.history.forEach(function (run) {
+    collections.collections.forEach(collection => {
+      collection.history.forEach(run => {
         if (!dates.includes(run.date)) {
           dates.push(run.date)
         }
       })
     })
 
-    return dates.map(function (date) {
+    return dates.map(date => {
       const didRun = []
       // get item for each collection if it ran that day
-      collections.collections.forEach(function (collection) {
-        collection.history.forEach(function (run) {
+      collections.collections.forEach(collection => {
+        collection.history.forEach(run => {
           if (run.date === date) {
             run.name = collection['name']
             didRun.push(run)
@@ -234,11 +203,11 @@ const actions = {
   }
 };
 
-(async function () {
+(async () => {
   const datasets = await actions.csvToJSON('tmp/dataset.csv')
   const byCollection = await actions.generateCollectionsData(datasets)
   const byDate = await actions.splitByDate(byCollection)
 
-  await fs.promises.writeFile(process.cwd() + '/data/by-collection.json', JSON.stringify(byCollection, null, 2))
-  await fs.promises.writeFile(process.cwd() + '/data/by-date.json', JSON.stringify(byDate, null, 2))
+  await fs.promises.writeFile(`${process.cwd()}/data/by-collection.json`, JSON.stringify(byCollection, null, 2))
+  await fs.promises.writeFile(`${process.cwd()}/data/by-date.json`, JSON.stringify(byDate, null, 2))
 })()
