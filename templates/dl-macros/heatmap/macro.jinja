@@ -1,5 +1,5 @@
 {% macro heatMap(params) %}
-<div class="dlf-heatmap__container">
+{# <div class="dlf-heatmap__container">
   {% set svg_width = (params.weeks|length * 16) + 40 %}
   <?xml version="1.0" encoding="UTF-8"?>
   <svg width="{{svg_width}}" height="128" class="dlf-svg-heatmap{% if params.classes %} {{ params.classes }}{% endif %}"
@@ -14,7 +14,7 @@
 
               {%- set day_classes = "heatmap__day" -%}
 
-              {#- no need to do this if no values -#}
+              {#- no need to do this if no values -
               {%- if not params.highest == 0 -%}
                 {%- set percentage = (w[d]['count']/params.highest) * 100 -%}
                 {% if percentage > 0 %}
@@ -58,5 +58,5 @@
 
       </g>
   </svg>
-</div>
+</div> #}
 {% endmacro %}
