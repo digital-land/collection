@@ -126,9 +126,9 @@
       </p>
   </div>
   <div class="govuk-grid-column-one-third">
-      {% set label = "New resource" if data['last_run']['new_resources'] == 1 else "New resources" %}
+      {% set label = "New resource" if data['last_run']['new_resources']|length == 1 else "New resources" %}
       {{ dlfDataItem({
-          "number": data['last_run']['new_resources'],
+          "number": data['last_run']['new_resources']|length,
           "text": label,
           "classes": "data-item--inline data-item--s govuk-!-margin-top-4 govuk-!-margin-bottom-0"
           })

@@ -64,7 +64,7 @@ for collection in collections_data['collections']:
     render(f"{collection['collection']}/log/index.html", a_collection_log_template, data=collection, heatmap=collection['heatmap'])
 
     for history in collection['history']:
-        render(f"{collection['collection']}/{history['date']}/index.html", a_collection_log_date_template, collection=collection, data=history)
+        render(f"{collection['collection']}/log/{history['date']}/index.html", a_collection_log_date_template, collection=collection, data=history)
 
 # by date
 render("log/index.html", collections_log_template, data=collections_log_data)

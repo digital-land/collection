@@ -1,7 +1,6 @@
-
 {% macro heatMap(params) %}
 {% set svg_width = (params.weeks|length * 16) + 40 %}
-<?xml version="1.0" encoding="UTF-8"?>
+{# <?xml version="1.0" encoding="UTF-8"?>
 <svg width="{{svg_width}}" height="128" class="dlf-svg-heatmap{% if params.classes %} {{ params.classes }}{% endif %}"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -51,9 +50,9 @@
         <text text-anchor="start" class="wday" dx="-10" dy="71" style="display: none;">Thu</text>
         <text text-anchor="start" class="wday" dx="-10" dy="85">Fri</text>
         <text text-anchor="start" class="wday" dx="-10" dy="101" style="display: none;">Sat</text>
-        
+
     </g>
-</svg>
+</svg> #}
 {% endmacro %}
 
 {# notes for timeline #}

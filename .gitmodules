@@ -16,3 +16,6 @@
 [submodule "data-gov-uk-collection"]
 	path = data-gov-uk-collection
 	url = https://github.com/digital-land/data-gov-uk-collection.git
+[submodule "brownfield-land-pipeline"]
+	path = brownfield-land-pipeline
+	url = https://github.com/digital-land/brownfield-land-pipeline.git
