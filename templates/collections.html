@@ -19,7 +19,11 @@
 
 {% block content %}
 <h1 class="govuk-heading-xl">Collections</h1>
-<p class="govuk-body-l">There are currently {{ data['active_count'] }} active collections.</p>
+<p class="govuk-body-l">{%- if data['active_count'] == 1 %}
+There is currently {{ data['active_count'] }} active collection.
+{%- else -%}
+There are currently {{ data['active_count'] }} active collections.
+{% endif %}</p>
 <p class="govuk-body">The active collections run every night. We log the output of each run. You can <a href="/collection/log">view a full history of the collection runs</a>.</p>
 
 <details class="govuk-details" data-module="govuk-details">
@@ -98,7 +102,7 @@
                         <h3 class="technical-summary-card__title govuk-heading-m govuk-!-padding-top-0 govuk-!-margin-bottom-0"><a href="/collection/{{ collection['collection'] }}" class="govuk-link">{{ collection['name'] }}</a></h3>
                     </div>
                     <div class="govuk-grid-column-two-thirds">
-                        <span class="govuk-!-margin-right-3">Last run:</span>{{ collection['last_run']['date'] }} (<a href="/collection/{{ collection['collection'] }}/log/{{ collection['last_run']['date'] }}" class="govuk-link govuk-body-s">see details<span class="govuk-visually-hidden"> of the last run by the {{ collection['collection'] }}</span></a>)
+                        <span class="govuk-!-margin-right-3">Last run:</span><a href="/collection/{{ collection['collection'] }}/log/{{ collection['last_run']['date'] }}" class="govuk-link">{{ collection['last_run']['date'] }}</a>
                         <div class="technical-summary-card__section">
                             <!-- TODO: Define where this link should go -->
                             <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
