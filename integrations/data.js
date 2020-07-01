@@ -41,9 +41,7 @@ const actions = {
     return weeks
   },
   async generateHeatmaps (history, tooltip) {
-    const splitWeeks = actions.splitByWeek(actions.generateDays())
-
-    const newResourceWeeks = splitWeeks.map(week => {
+    const newResourceWeeks = actions.splitByWeek(actions.generateDays()).map(week => {
       Object.keys(week).map(day => {
         const runDay = history.find(run => run['date'] === day)
 
@@ -58,7 +56,19 @@ const actions = {
       return week
     })
 
-    const issuesWeeks = splitWeeks
+    const issuesWeeks = actions.splitByWeek(actions.generateDays()).map(week => {
+      Object.keys(week).map(day => {
+        const runDay = history.find(run => run['date'] === day)
+        const count = runDay ? runDay.issues.length : 0
+
+        week[day] = {
+          tooltip: `${count} issues`,
+          count: count
+        }
+      })
+
+      return week
+    })
 
     return {
       new_resources: {
@@ -171,7 +181,7 @@ const actions = {
           inactive: 0
         },
         new_resources: resourceHistory.filter(entry => entry['first_appeared'] === date),
-        issues: []
+        issues: endpointFailures
       }
     }).sort((a, b) => new Date(b.date) - new Date(a.date))
   },
