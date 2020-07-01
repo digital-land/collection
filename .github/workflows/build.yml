@@ -39,5 +39,5 @@ jobs:
       run: make
     - name: Commit files
       run: |
-        git add docs data
+        git add .
         git diff --quiet && git diff --staged --quiet || (git commit -m "Build collection pages on $(date +%F)"; git push origin master)
