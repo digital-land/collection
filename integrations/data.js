@@ -1,29 +1,15 @@
-const csv = require('csv')
 const fs = require('fs')
+const path = require('path')
+const utilities = require('./utilities.js')
 
 const actions = {
-  csvToJSON (path) {
-    const filename = `${process.cwd()}/${path}`
-    const data = []
-
-    if (fs.existsSync(filename)) {
-      const stream = fs.createReadStream(filename).pipe(csv.parse({
-        columns: true
-      })).on('data', row => {
-        data.push(row)
-      })
-
-      return new Promise((resolve, reject) => {
-        stream.on('end', () => resolve(data))
-        stream.on('error', error => reject(error))
-      })
-    } else {
-      return []
-    }
-  },
   async getCollectionResourceCount (collection) {
-    const files = await fs.promises.readdir(`${process.cwd()}/${collection}/collection/resource`).catch(() => [])
-    return files.length
+    const directory = path.join(process.cwd(), `/${collection}/collection/resource`)
+    return fs.promises.readdir(directory).then(files => files.length).catch(error => {
+      if (error) {
+        return new Error(`Couldn't read directory: ${directory}`)
+      }
+    })
   },
   generateDays () {
     const dates = []
@@ -46,7 +32,7 @@ const actions = {
       const week = array.slice(i, i + size)
       const obj = {}
 
-      week.forEach(function (day) {
+      week.forEach(day => {
         obj[day.toISOString().split('T')[0]] = { count: 0, tooltip: '' }
       })
 
@@ -57,16 +43,14 @@ const actions = {
   async generateHeatmaps (history, tooltip) {
     const splitWeeks = actions.splitByWeek(actions.generateDays())
 
-    const newResourceWeeks = splitWeeks.map(function (week) {
-      Object.keys(week).map(function (day) {
-        const runDay = history.find(function (run) {
-          return run['date'] === day
-        })
+    const newResourceWeeks = splitWeeks.map(week => {
+      Object.keys(week).map(day => {
+        const runDay = history.find(run => run['date'] === day)
 
-        var count = runDay ? runDay.new_resources.length : 0
+        const count = runDay ? runDay.new_resources.length : 0
 
         week[day] = {
-          tooltip: count + ' new resources',
+          tooltip: `${count} new resources`,
           count: count
         }
       })
@@ -87,16 +71,18 @@ const actions = {
       }
     }
   },
-  generateFailureReasons (failures) {
+  generateFailureReasons (failures, link) {
     const reasons = {}
 
-    failures.forEach(function (failure) {
+    failures.forEach(failure => {
+      const endpointUrl = link.find(entry => entry['link'] === failure['link']).url
+
       if (!Object.keys(reasons).includes(failure.status)) {
         reasons[failure.status] = []
       }
 
       reasons[failure.status].push({
-        endpoint: failure.link, // get actual link
+        endpoint: endpointUrl, // get actual link
         documentation_url: '' // dunno what to do with this
       })
     })
@@ -135,53 +121,49 @@ const actions = {
       }))
     }
   },
-  async getResourceHistory (log) {
-    const resources = []
+  async generateResourceHistory (log, link) {
+    return [...new Set(log.map(entry => entry['resource']))].map(resource => {
+      const thisResource = log.filter(entry => entry['resource'] === resource)
 
-    log.forEach(entry => {
-      if (!resources.includes(entry['resource'])) {
-        resources.push(entry['resource'])
+      const endpointUrl = link.find(entry => entry['link'] === thisResource[0]['link']).url
+
+      return {
+        resource: resource,
+        new: resource,
+        old: '',
+        from: endpointUrl,
+        first_appeared: thisResource.map(entry => entry['datetime'].split('T')[0]).sort((a, b) => a - b)[0]
       }
     })
-
-    return resources.map(item => ({
-      resource: item,
-      new: item,
-      old: '', // need to fill out
-      from: '', // need to fill out
-      first_appeared: log.filter(entry => entry['resource'] === item).map(entry => entry['datetime'].split('T')[0]).sort((a, b) => new Date(a) - new Date(b))[0]
-    }))
   },
   async getCollectionLogHistory (collection) {
-    const log = await actions.csvToJSON(`${collection}/index/log.csv`)
-    const resourceHistory = await actions.getResourceHistory(log)
-    const history = []
-    const dates = []
+    const log = await utilities.csvToJSON(`${collection}/index/log.csv`)
+    const link = await utilities.csvToJSON(`${collection}/index/link.csv`)
+    const resourceHistory = await actions.generateResourceHistory(log, link)
 
-    log.map(row => {
-      row.date = row['datetime'].split('T')[0]
-
-      if (!dates.includes(row.date)) {
-        dates.push(row.date)
-      }
-
-      return row
+    // Add date without to log - before looping through
+    log.map(entry => {
+      entry.date = entry['datetime'].split('T')[0]
+      return entry
     })
 
-    dates.forEach(date => {
-      const todayLog = log.filter(entry => entry['date'] === date)
-      const endpointFailures = todayLog.filter(entry => parseInt(entry['status']) !== 200)
+    return [...new Set(log.map(entry => entry.date))].map(date => {
+      const thisDay = log.filter(entry => entry['date'] === date)
 
-      history.push({
+      // Refactor below
+      const endpointSuccess = thisDay.filter(entry => parseInt(entry['status']) === 200)
+      const endpointFailures = thisDay.filter(entry => parseInt(entry['status']) !== 200)
+
+      return {
         collection: collection.replace('-pipeline', ''),
         ran: true, // figure out what to do with this
         date: date,
         endpoints: {
-          success: todayLog.filter(entry => parseInt(entry['status']) === 200).length,
+          success: endpointSuccess.length,
           fail: endpointFailures.length,
-          total_count: todayLog.length,
+          total_count: thisDay.length,
           last_updated: new Date().toISOString().split('T')[0], // need to get this from github,
-          issues: actions.generateFailureReasons(endpointFailures)
+          issues: actions.generateFailureReasons(endpointFailures, link)
         },
         // collection.json
         documentation_urls: {
@@ -190,10 +172,8 @@ const actions = {
         },
         new_resources: resourceHistory.filter(entry => entry['first_appeared'] === date),
         issues: []
-      })
-    })
-
-    return history.sort((a, b) => new Date(b.date) - new Date(a.date))
+      }
+    }).sort((a, b) => new Date(b.date) - new Date(a.date))
   },
   async splitByDate (collections) {
     const dates = []
@@ -227,10 +207,11 @@ const actions = {
 };
 
 (async () => {
-  const datasets = await actions.csvToJSON('tmp/dataset.csv')
+  const datasets = await utilities.csvToJSON('tmp/dataset.csv')
   const byCollection = await actions.generateCollectionsData(datasets)
   const byDate = await actions.splitByDate(byCollection)
+  const dataPath = path.join(process.cwd(), '/data')
 
-  await fs.promises.writeFile(`${process.cwd()}/data/by-collection.json`, JSON.stringify(byCollection, null, 2))
-  await fs.promises.writeFile(`${process.cwd()}/data/by-date.json`, JSON.stringify(byDate, null, 2))
+  await fs.promises.writeFile(`${dataPath}/by-collection.json`, JSON.stringify(byCollection, null, 2))
+  await fs.promises.writeFile(`${dataPath}/by-date.json`, JSON.stringify(byDate, null, 2))
 })()
