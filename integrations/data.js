@@ -99,6 +99,7 @@ const actions = {
       reasons[failure.status].push({
         endpoint: endpoint.url,
         link: endpoint.link,
+        log_link: 'https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/' + date + '/' + endpoint.link + '.json',
         documentation_url: '' // get documentation URL
       })
     })
