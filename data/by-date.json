@@ -15,248 +15,313 @@
             "404": [
               {
                 "endpoint": "https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv",
+                "link": "0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://consult.cheshirewestandchester.gov.uk/file/5387565",
+                "link": "197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv",
+                "link": "2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv",
+                "link": "20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv",
+                "link": "210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.southend.gov.uk/download/downloads/id/5346/southend_brownfield_register_2017-03-31_rev1.csv",
+                "link": "24debc8763d023064d3a96633e3386f410808691bf2b133a9085b8112b8601e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=37431",
+                "link": "40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf",
+                "link": "4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0",
+                "link": "4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=49407",
+                "link": "5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0",
+                "link": "5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm",
+                "link": "5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv",
+                "link": "62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv",
+                "link": "687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv",
+                "link": "71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv",
+                "link": "7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv",
+                "link": "84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/brownfield-land-register.csv",
+                "link": "8564ede773421b952fb756d4b269811ec2fab780b68c6bc00ab931db134a610c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv",
+                "link": "87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2",
+                "link": "894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx",
+                "link": "8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv",
+                "link": "97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv",
+                "link": "9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv",
+                "link": "a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv",
+                "link": "ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv",
+                "link": "b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv",
+                "link": "b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rochford.gov.uk/sites/default/files/RDC_BrownfieldLandRegister2019.pdf",
+                "link": "b7fa00489ff4bd8f0cacfaa5e71b3b5bad16389a8d6cf647d6f3cb3f4185f392",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://data.hounslow.gov.uk/View/planning/brownfield-land",
+                "link": "c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv",
+                "link": "c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv",
+                "link": "cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv",
+                "link": "cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                "link": "d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                "link": "dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                "link": "e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                "link": "ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                "link": "f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.kirklees.gov.uk/brownfieldlandregister",
+                "link": "fbc421a2e2a38ec3db2420cda8952fd28a5f1e1a8c595cfd9badee48011265c2",
                 "documentation_url": ""
               }
             ],
-            "": [
+            "ConnectionError": [
               {
                 "endpoint": "http://opendata.northumberland.gov.uk/static/datasets/brownfield-register/brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.burnley.gov.uk/sites/default/files/Burnley%27s%20Brownfield%20Land%20Register%2027-02-19.csv",
+                "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2018/12/Brownfield-Register-Dec-2018.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.newforest.gov.uk/media/35744/New-Forest-District-Council-Brownfield-Register-21-December-2018/Spreadsheet/newforest_brownfieldregister_2018-12-31_rev1_.xlsx",
+                "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2017/12/Brownfield-Register-Dec-2017.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www2.merton.gov.uk/Merton%20Brownfield%20Register%202017%20Web%20Ready%20CSV%20Version.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2019/12/Brownfield-Register-Dec-2019.pdf",
+                "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
+                "documentation_url": ""
+              }
+            ],
+            "SSLError": [
+              {
+                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
+                "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.burnley.gov.uk/sites/default/files/Burnley%27s%20Brownfield%20Land%20Register%2027-02-19.csv",
+                "link": "0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
+                "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
+                "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
+                "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-Brownfield-Register-CSV/Excel/BLR_HPBC_19_CSV.csv",
+                "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-brownfield-register-2018-CSV/Excel/HPBC_brownfield_register_2018_csv.csv",
+                "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.solihull.gov.uk/Portals/0/Planning/BLR/Brownfield-Land-Register.csv",
+                "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/2795/Brownfield-Register-CSV/Excel/High_Peak_Brownfield_Land_CSV_3.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "",
+                "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.chelmsford.gov.uk/_resources/assets/attachment/full/0/1095043.csv",
+                "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2018-brownfield-register-CSV/Excel/SM_2018_Brownfield_register_csv.csv",
+                "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
+                "documentation_url": ""
+              }
+            ],
+            "MissingSchema": [
+              {
+                "endpoint": "",
+                "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                 "documentation_url": ""
               }
             ]
@@ -279,7 +344,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.376",
             "resource": "",
             "content-type": "",
@@ -289,7 +354,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.467",
             "resource": "",
             "content-type": "",
@@ -299,7 +364,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.503",
             "resource": "",
             "content-type": "",
@@ -319,7 +384,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.304",
             "resource": "",
             "content-type": "",
@@ -369,7 +434,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.176",
             "resource": "",
             "content-type": "",
@@ -379,7 +444,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "131.398",
             "resource": "",
             "content-type": "",
@@ -389,7 +454,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.601",
             "resource": "",
             "content-type": "",
@@ -409,7 +474,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.175",
             "resource": "",
             "content-type": "",
@@ -419,7 +484,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.432",
             "resource": "",
             "content-type": "",
@@ -429,7 +494,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.344",
             "resource": "",
             "content-type": "",
@@ -459,7 +524,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.523",
             "resource": "",
             "content-type": "",
@@ -469,7 +534,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.171",
             "resource": "",
             "content-type": "",
@@ -639,7 +704,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.342",
             "resource": "",
             "content-type": "",
@@ -679,7 +744,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.303",
             "resource": "",
             "content-type": "",
@@ -729,7 +794,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.171",
             "resource": "",
             "content-type": "",
@@ -769,7 +834,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.172",
             "resource": "",
             "content-type": "",
@@ -779,7 +844,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.364",
             "resource": "",
             "content-type": "",
@@ -809,7 +874,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.438",
             "resource": "",
             "content-type": "",
@@ -829,7 +894,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "status": "",
+            "status": "MissingSchema",
             "elapsed": "0.002",
             "resource": "",
             "content-type": "",
@@ -859,7 +924,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.166",
             "resource": "",
             "content-type": "",
@@ -869,7 +934,7 @@
           {
             "datetime": "2020-07-02T00:37:53.562826",
             "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.175",
             "resource": "",
             "content-type": "",
@@ -907,252 +972,318 @@
             "404": [
               {
                 "endpoint": "https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv",
+                "link": "0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://consult.cheshirewestandchester.gov.uk/file/5387565",
+                "link": "197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv",
+                "link": "2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv",
+                "link": "20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv",
+                "link": "210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.southend.gov.uk/download/downloads/id/5346/southend_brownfield_register_2017-03-31_rev1.csv",
+                "link": "24debc8763d023064d3a96633e3386f410808691bf2b133a9085b8112b8601e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=37431",
+                "link": "40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf",
+                "link": "4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0",
+                "link": "4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=49407",
+                "link": "5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0",
+                "link": "5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm",
+                "link": "5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv",
+                "link": "62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv",
+                "link": "687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv",
+                "link": "71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv",
+                "link": "7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv",
+                "link": "84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/brownfield-land-register.csv",
+                "link": "8564ede773421b952fb756d4b269811ec2fab780b68c6bc00ab931db134a610c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv",
+                "link": "87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2",
+                "link": "894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx",
+                "link": "8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv",
+                "link": "97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv",
+                "link": "9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv",
+                "link": "a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv",
+                "link": "ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv",
+                "link": "b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv",
+                "link": "b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rochford.gov.uk/sites/default/files/RDC_BrownfieldLandRegister2019.pdf",
+                "link": "b7fa00489ff4bd8f0cacfaa5e71b3b5bad16389a8d6cf647d6f3cb3f4185f392",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://data.hounslow.gov.uk/View/planning/brownfield-land",
+                "link": "c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv",
+                "link": "c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv",
+                "link": "cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv",
+                "link": "cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                "link": "d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                "link": "dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                "link": "e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                "link": "ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                "link": "f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.kirklees.gov.uk/brownfieldlandregister",
+                "link": "fbc421a2e2a38ec3db2420cda8952fd28a5f1e1a8c595cfd9badee48011265c2",
                 "documentation_url": ""
               }
             ],
-            "": [
+            "ConnectionError": [
               {
                 "endpoint": "http://opendata.northumberland.gov.uk/static/datasets/brownfield-register/brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.burnley.gov.uk/sites/default/files/Burnley%27s%20Brownfield%20Land%20Register%2027-02-19.csv",
+                "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2018/12/Brownfield-Register-Dec-2018.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.newforest.gov.uk/media/35744/New-Forest-District-Council-Brownfield-Register-21-December-2018/Spreadsheet/newforest_brownfieldregister_2018-12-31_rev1_.xlsx",
+                "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2017/12/Brownfield-Register-Dec-2017.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www2.merton.gov.uk/Merton%20Brownfield%20Register%202017%20Web%20Ready%20CSV%20Version.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2019/12/Brownfield-Register-Dec-2019.pdf",
+                "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
+                "documentation_url": ""
+              }
+            ],
+            "SSLError": [
+              {
+                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
+                "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.burnley.gov.uk/sites/default/files/Burnley%27s%20Brownfield%20Land%20Register%2027-02-19.csv",
+                "link": "0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
+                "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
+                "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
+                "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.brentwood.gov.uk/pdf/28122018131630000000.xlsm",
+                "link": "c75513d980e708065e70293fa974ce9c6af916d29c311b93dbab465490a0524d",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-Brownfield-Register-CSV/Excel/BLR_HPBC_19_CSV.csv",
+                "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-brownfield-register-2018-CSV/Excel/HPBC_brownfield_register_2018_csv.csv",
+                "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.solihull.gov.uk/Portals/0/Planning/BLR/Brownfield-Land-Register.csv",
+                "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/2795/Brownfield-Register-CSV/Excel/High_Peak_Brownfield_Land_CSV_3.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "",
+                "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.chelmsford.gov.uk/_resources/assets/attachment/full/0/1095043.csv",
+                "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2018-brownfield-register-CSV/Excel/SM_2018_Brownfield_register_csv.csv",
+                "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
+                "documentation_url": ""
+              }
+            ],
+            "MissingSchema": [
+              {
+                "endpoint": "",
+                "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                 "documentation_url": ""
               }
             ]
@@ -1167,7 +1298,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.365",
             "resource": "",
             "content-type": "",
@@ -1177,7 +1308,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.485",
             "resource": "",
             "content-type": "",
@@ -1187,7 +1318,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.553",
             "resource": "",
             "content-type": "",
@@ -1207,7 +1338,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.309",
             "resource": "",
             "content-type": "",
@@ -1257,7 +1388,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.179",
             "resource": "",
             "content-type": "",
@@ -1267,7 +1398,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "129.825",
             "resource": "",
             "content-type": "",
@@ -1277,7 +1408,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.56",
             "resource": "",
             "content-type": "",
@@ -1297,7 +1428,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.177",
             "resource": "",
             "content-type": "",
@@ -1307,7 +1438,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.43",
             "resource": "",
             "content-type": "",
@@ -1317,7 +1448,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.351",
             "resource": "",
             "content-type": "",
@@ -1347,7 +1478,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.343",
             "resource": "",
             "content-type": "",
@@ -1357,7 +1488,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.176",
             "resource": "",
             "content-type": "",
@@ -1527,7 +1658,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.359",
             "resource": "",
             "content-type": "",
@@ -1567,7 +1698,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.308",
             "resource": "",
             "content-type": "",
@@ -1617,7 +1748,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "c75513d980e708065e70293fa974ce9c6af916d29c311b93dbab465490a0524d",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.159",
             "resource": "",
             "content-type": "",
@@ -1627,7 +1758,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.175",
             "resource": "",
             "content-type": "",
@@ -1667,7 +1798,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.175",
             "resource": "",
             "content-type": "",
@@ -1677,7 +1808,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.369",
             "resource": "",
             "content-type": "",
@@ -1707,7 +1838,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.586",
             "resource": "",
             "content-type": "",
@@ -1727,7 +1858,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "status": "",
+            "status": "MissingSchema",
             "elapsed": "0.002",
             "resource": "",
             "content-type": "",
@@ -1757,7 +1888,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.17",
             "resource": "",
             "content-type": "",
@@ -1767,7 +1898,7 @@
           {
             "datetime": "2020-07-01T00:28:52.077915",
             "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.179",
             "resource": "",
             "content-type": "",
@@ -1805,240 +1936,303 @@
             "404": [
               {
                 "endpoint": "https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv",
+                "link": "0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://consult.cheshirewestandchester.gov.uk/file/5387565",
+                "link": "197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv",
+                "link": "2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv",
+                "link": "20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv",
+                "link": "210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.southend.gov.uk/download/downloads/id/5346/southend_brownfield_register_2017-03-31_rev1.csv",
+                "link": "24debc8763d023064d3a96633e3386f410808691bf2b133a9085b8112b8601e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=37431",
+                "link": "40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf",
+                "link": "4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0",
+                "link": "4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=49407",
+                "link": "5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0",
+                "link": "5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm",
+                "link": "5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv",
+                "link": "62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv",
+                "link": "687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv",
+                "link": "71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv",
+                "link": "7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv",
+                "link": "84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv",
+                "link": "87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2",
+                "link": "894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx",
+                "link": "8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv",
+                "link": "97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv",
+                "link": "9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv",
+                "link": "a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv",
+                "link": "ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv",
+                "link": "b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv",
+                "link": "b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rochford.gov.uk/sites/default/files/RDC_BrownfieldLandRegister2019.pdf",
+                "link": "b7fa00489ff4bd8f0cacfaa5e71b3b5bad16389a8d6cf647d6f3cb3f4185f392",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://data.hounslow.gov.uk/View/planning/brownfield-land",
+                "link": "c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv",
+                "link": "c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv",
+                "link": "cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv",
+                "link": "cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                "link": "d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                "link": "dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                "link": "e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                "link": "ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                "link": "f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035",
                 "documentation_url": ""
               }
             ],
-            "": [
+            "ConnectionError": [
               {
                 "endpoint": "http://opendata.northumberland.gov.uk/static/datasets/brownfield-register/brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.burnley.gov.uk/sites/default/files/Burnley%27s%20Brownfield%20Land%20Register%2027-02-19.csv",
+                "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2018/12/Brownfield-Register-Dec-2018.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.newforest.gov.uk/media/35744/New-Forest-District-Council-Brownfield-Register-21-December-2018/Spreadsheet/newforest_brownfieldregister_2018-12-31_rev1_.xlsx",
+                "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2017/12/Brownfield-Register-Dec-2017.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www2.merton.gov.uk/Merton%20Brownfield%20Register%202017%20Web%20Ready%20CSV%20Version.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2019/12/Brownfield-Register-Dec-2019.pdf",
+                "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
+                "documentation_url": ""
+              }
+            ],
+            "SSLError": [
+              {
+                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
+                "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.burnley.gov.uk/sites/default/files/Burnley%27s%20Brownfield%20Land%20Register%2027-02-19.csv",
+                "link": "0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
+                "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
+                "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
+                "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-Brownfield-Register-CSV/Excel/BLR_HPBC_19_CSV.csv",
+                "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-brownfield-register-2018-CSV/Excel/HPBC_brownfield_register_2018_csv.csv",
+                "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.solihull.gov.uk/Portals/0/Planning/BLR/Brownfield-Land-Register.csv",
+                "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/2795/Brownfield-Register-CSV/Excel/High_Peak_Brownfield_Land_CSV_3.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "",
+                "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.chelmsford.gov.uk/_resources/assets/attachment/full/0/1095043.csv",
+                "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2018-brownfield-register-CSV/Excel/SM_2018_Brownfield_register_csv.csv",
+                "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
+                "documentation_url": ""
+              }
+            ],
+            "MissingSchema": [
+              {
+                "endpoint": "",
+                "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                 "documentation_url": ""
               }
             ]
@@ -2053,7 +2247,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.503",
             "resource": "",
             "content-type": "",
@@ -2063,7 +2257,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.481",
             "resource": "",
             "content-type": "",
@@ -2073,7 +2267,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.556",
             "resource": "",
             "content-type": "",
@@ -2093,7 +2287,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.312",
             "resource": "",
             "content-type": "",
@@ -2143,7 +2337,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.182",
             "resource": "",
             "content-type": "",
@@ -2153,7 +2347,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "129.558",
             "resource": "",
             "content-type": "",
@@ -2163,7 +2357,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.623",
             "resource": "",
             "content-type": "",
@@ -2183,7 +2377,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.183",
             "resource": "",
             "content-type": "",
@@ -2193,7 +2387,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.563",
             "resource": "",
             "content-type": "",
@@ -2203,7 +2397,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.484",
             "resource": "",
             "content-type": "",
@@ -2233,7 +2427,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.51",
             "resource": "",
             "content-type": "",
@@ -2243,7 +2437,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.182",
             "resource": "",
             "content-type": "",
@@ -2403,7 +2597,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.356",
             "resource": "",
             "content-type": "",
@@ -2443,7 +2637,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.315",
             "resource": "",
             "content-type": "",
@@ -2493,7 +2687,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.178",
             "resource": "",
             "content-type": "",
@@ -2533,7 +2727,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.182",
             "resource": "",
             "content-type": "",
@@ -2543,7 +2737,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.36",
             "resource": "",
             "content-type": "",
@@ -2573,7 +2767,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.342",
             "resource": "",
             "content-type": "",
@@ -2593,7 +2787,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "status": "",
+            "status": "MissingSchema",
             "elapsed": "0.003",
             "resource": "",
             "content-type": "",
@@ -2623,7 +2817,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.173",
             "resource": "",
             "content-type": "",
@@ -2633,7 +2827,7 @@
           {
             "datetime": "2020-06-30T00:23:34.824197",
             "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.183",
             "resource": "",
             "content-type": "",
@@ -2661,236 +2855,298 @@
             "404": [
               {
                 "endpoint": "https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv",
+                "link": "0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://consult.cheshirewestandchester.gov.uk/file/5387565",
+                "link": "197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv",
+                "link": "2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv",
+                "link": "20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv",
+                "link": "210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.southend.gov.uk/download/downloads/id/5346/southend_brownfield_register_2017-03-31_rev1.csv",
+                "link": "24debc8763d023064d3a96633e3386f410808691bf2b133a9085b8112b8601e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=37431",
+                "link": "40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf",
+                "link": "4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0",
+                "link": "4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=49407",
+                "link": "5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0",
+                "link": "5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm",
+                "link": "5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv",
+                "link": "62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv",
+                "link": "687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv",
+                "link": "71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv",
+                "link": "7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv",
+                "link": "84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv",
+                "link": "87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2",
+                "link": "894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx",
+                "link": "8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv",
+                "link": "97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv",
+                "link": "9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv",
+                "link": "a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv",
+                "link": "ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv",
+                "link": "b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv",
+                "link": "b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rochford.gov.uk/sites/default/files/RDC_BrownfieldLandRegister2019.pdf",
+                "link": "b7fa00489ff4bd8f0cacfaa5e71b3b5bad16389a8d6cf647d6f3cb3f4185f392",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://data.hounslow.gov.uk/View/planning/brownfield-land",
+                "link": "c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv",
+                "link": "c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv",
+                "link": "cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv",
+                "link": "cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                "link": "d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                "link": "dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                "link": "e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                "link": "ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                "link": "f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035",
                 "documentation_url": ""
               }
             ],
-            "": [
+            "ConnectionError": [
               {
                 "endpoint": "http://opendata.northumberland.gov.uk/static/datasets/brownfield-register/brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
+                "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2018/12/Brownfield-Register-Dec-2018.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.newforest.gov.uk/media/35744/New-Forest-District-Council-Brownfield-Register-21-December-2018/Spreadsheet/newforest_brownfieldregister_2018-12-31_rev1_.xlsx",
+                "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2017/12/Brownfield-Register-Dec-2017.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www2.merton.gov.uk/Merton%20Brownfield%20Register%202017%20Web%20Ready%20CSV%20Version.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2019/12/Brownfield-Register-Dec-2019.pdf",
+                "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
+                "documentation_url": ""
+              }
+            ],
+            "SSLError": [
+              {
+                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
+                "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
+                "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
+                "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
+                "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-Brownfield-Register-CSV/Excel/BLR_HPBC_19_CSV.csv",
+                "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-brownfield-register-2018-CSV/Excel/HPBC_brownfield_register_2018_csv.csv",
+                "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.solihull.gov.uk/Portals/0/Planning/BLR/Brownfield-Land-Register.csv",
+                "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/2795/Brownfield-Register-CSV/Excel/High_Peak_Brownfield_Land_CSV_3.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "",
+                "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.chelmsford.gov.uk/_resources/assets/attachment/full/0/1095043.csv",
+                "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2018-brownfield-register-CSV/Excel/SM_2018_Brownfield_register_csv.csv",
+                "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
+                "documentation_url": ""
+              }
+            ],
+            "MissingSchema": [
+              {
+                "endpoint": "",
+                "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                 "documentation_url": ""
               }
             ]
@@ -2913,7 +3169,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.495",
             "resource": "",
             "content-type": "",
@@ -2923,7 +3179,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.479",
             "resource": "",
             "content-type": "",
@@ -2943,7 +3199,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.313",
             "resource": "",
             "content-type": "",
@@ -2993,7 +3249,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.179",
             "resource": "",
             "content-type": "",
@@ -3003,7 +3259,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "130.573",
             "resource": "",
             "content-type": "",
@@ -3013,7 +3269,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.62",
             "resource": "",
             "content-type": "",
@@ -3033,7 +3289,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.179",
             "resource": "",
             "content-type": "",
@@ -3043,7 +3299,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.819",
             "resource": "",
             "content-type": "",
@@ -3053,7 +3309,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.351",
             "resource": "",
             "content-type": "",
@@ -3083,7 +3339,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.367",
             "resource": "",
             "content-type": "",
@@ -3093,7 +3349,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.182",
             "resource": "",
             "content-type": "",
@@ -3253,7 +3509,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.916",
             "resource": "",
             "content-type": "",
@@ -3293,7 +3549,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.311",
             "resource": "",
             "content-type": "",
@@ -3343,7 +3599,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.18",
             "resource": "",
             "content-type": "",
@@ -3383,7 +3639,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.185",
             "resource": "",
             "content-type": "",
@@ -3393,7 +3649,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.365",
             "resource": "",
             "content-type": "",
@@ -3423,7 +3679,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.466",
             "resource": "",
             "content-type": "",
@@ -3443,7 +3699,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "status": "",
+            "status": "MissingSchema",
             "elapsed": "0.003",
             "resource": "",
             "content-type": "",
@@ -3473,7 +3729,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.181",
             "resource": "",
             "content-type": "",
@@ -3483,7 +3739,7 @@
           {
             "datetime": "2020-06-29T10:12:17.055186",
             "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.178",
             "resource": "",
             "content-type": "",
@@ -3511,232 +3767,295 @@
             "404": [
               {
                 "endpoint": "https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv",
+                "link": "0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://consult.cheshirewestandchester.gov.uk/file/5387565",
+                "link": "197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv",
+                "link": "2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv",
+                "link": "20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv",
+                "link": "210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.southend.gov.uk/download/downloads/id/5346/southend_brownfield_register_2017-03-31_rev1.csv",
+                "link": "24debc8763d023064d3a96633e3386f410808691bf2b133a9085b8112b8601e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=37431",
+                "link": "40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf",
+                "link": "4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0",
+                "link": "4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=49407",
+                "link": "5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0",
+                "link": "5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm",
+                "link": "5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv",
+                "link": "62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv",
+                "link": "687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv",
+                "link": "71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv",
+                "link": "7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv",
+                "link": "84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv",
+                "link": "87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2",
+                "link": "894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx",
+                "link": "8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv",
+                "link": "97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv",
+                "link": "9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv",
+                "link": "a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv",
+                "link": "ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv",
+                "link": "b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv",
+                "link": "b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://data.hounslow.gov.uk/View/planning/brownfield-land",
+                "link": "c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv",
+                "link": "c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv",
+                "link": "cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv",
+                "link": "cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                "link": "d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                "link": "dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                "link": "e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                "link": "ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646",
                 "documentation_url": ""
               },
               {
                 "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                "link": "f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035",
                 "documentation_url": ""
               }
             ],
-            "": [
+            "ConnectionError": [
               {
                 "endpoint": "http://opendata.northumberland.gov.uk/static/datasets/brownfield-register/brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
+                "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2018/12/Brownfield-Register-Dec-2018.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2017/12/Brownfield-Register-Dec-2017.pdf",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www2.merton.gov.uk/Merton%20Brownfield%20Register%202017%20Web%20Ready%20CSV%20Version.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/upload/Copy-of-West-Suffolk-Brownfield-Register-2019-DEC-web-version.xlsx",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2019/12/Brownfield-Register-Dec-2019.pdf",
+                "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
+                "documentation_url": ""
+              }
+            ],
+            "SSLError": [
+              {
+                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
+                "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
+                "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
+                "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
+                "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-Brownfield-Register-CSV/Excel/BLR_HPBC_19_CSV.csv",
+                "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-brownfield-register-2018-CSV/Excel/HPBC_brownfield_register_2018_csv.csv",
+                "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.solihull.gov.uk/Portals/0/Planning/BLR/Brownfield-Land-Register.csv",
+                "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.highpeak.gov.uk/media/2795/Brownfield-Register-CSV/Excel/High_Peak_Brownfield_Land_CSV_3.csv",
-                "documentation_url": ""
-              },
-              {
-                "endpoint": "",
+                "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.chelmsford.gov.uk/_resources/assets/attachment/full/0/1095043.csv",
+                "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
                 "documentation_url": ""
               },
               {
                 "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2018-brownfield-register-CSV/Excel/SM_2018_Brownfield_register_csv.csv",
+                "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
+                "documentation_url": ""
+              }
+            ],
+            "ChunkedEncodingError": [
+              {
+                "endpoint": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/upload/Copy-of-West-Suffolk-Brownfield-Register-2019-DEC-web-version.xlsx",
+                "link": "988424b060b04206906f7c335bcdc8bab5cba6156066d553a3dc4e9a7092c9a5",
+                "documentation_url": ""
+              }
+            ],
+            "MissingSchema": [
+              {
+                "endpoint": "",
+                "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                 "documentation_url": ""
               }
             ]
@@ -7231,7 +7550,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.097",
             "resource": "",
             "content-type": "",
@@ -7241,7 +7560,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.065",
             "resource": "",
             "content-type": "",
@@ -7261,7 +7580,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.175",
             "resource": "",
             "content-type": "",
@@ -7311,7 +7630,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.064",
             "resource": "",
             "content-type": "",
@@ -7321,7 +7640,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.156",
             "resource": "",
             "content-type": "",
@@ -7341,7 +7660,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.064",
             "resource": "",
             "content-type": "",
@@ -7351,7 +7670,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.075",
             "resource": "",
             "content-type": "",
@@ -7361,7 +7680,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.07",
             "resource": "",
             "content-type": "",
@@ -7391,7 +7710,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.08",
             "resource": "",
             "content-type": "",
@@ -7401,7 +7720,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.083",
             "resource": "",
             "content-type": "",
@@ -7551,7 +7870,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "988424b060b04206906f7c335bcdc8bab5cba6156066d553a3dc4e9a7092c9a5",
-            "status": "",
+            "status": "ChunkedEncodingError",
             "elapsed": "0.439",
             "resource": "",
             "content-type": "",
@@ -7571,7 +7890,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.077",
             "resource": "",
             "content-type": "",
@@ -7611,7 +7930,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
-            "status": "",
+            "status": "ConnectionError",
             "elapsed": "0.169",
             "resource": "",
             "content-type": "",
@@ -7651,7 +7970,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.055",
             "resource": "",
             "content-type": "",
@@ -7691,7 +8010,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.064",
             "resource": "",
             "content-type": "",
@@ -7701,7 +8020,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.122",
             "resource": "",
             "content-type": "",
@@ -7731,7 +8050,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.065",
             "resource": "",
             "content-type": "",
@@ -7751,7 +8070,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "status": "",
+            "status": "MissingSchema",
             "elapsed": "0.004",
             "resource": "",
             "content-type": "",
@@ -7781,7 +8100,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.065",
             "resource": "",
             "content-type": "",
@@ -7791,7 +8110,7 @@
           {
             "datetime": "2020-06-25T13:41:49.222813",
             "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
-            "status": "",
+            "status": "SSLError",
             "elapsed": "0.057",
             "resource": "",
             "content-type": "",
