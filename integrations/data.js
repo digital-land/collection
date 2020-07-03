@@ -81,19 +81,25 @@ const actions = {
       }
     }
   },
-  generateFailureReasons (failures, link) {
+  generateFailureReasons (failures, link, date) {
     const reasons = {}
 
     failures.forEach(failure => {
-      const endpointUrl = link.find(entry => entry['link'] === failure['link']).url
+      const endpoint = link.find(entry => entry['link'] === failure['link'])
+      const getLog = fs.readFileSync(process.cwd() + '/brownfield-land-pipeline/collection/log/' + date + '/' + endpoint.link + '.json', 'utf8')
+
+      if (!failure.status) {
+        failure.status = JSON.parse(getLog).exception
+      }
 
       if (!Object.keys(reasons).includes(failure.status)) {
         reasons[failure.status] = []
       }
 
       reasons[failure.status].push({
-        endpoint: endpointUrl, // get actual link
-        documentation_url: '' // dunno what to do with this
+        endpoint: endpoint.url,
+        link: endpoint.link,
+        documentation_url: '' // get documentation URL
       })
     })
 
@@ -173,7 +179,7 @@ const actions = {
           fail: endpointFailures.length,
           total_count: thisDay.length,
           last_updated: new Date().toISOString().split('T')[0], // need to get this from github,
-          issues: actions.generateFailureReasons(endpointFailures, link)
+          issues: actions.generateFailureReasons(endpointFailures, link, date)
         },
         // collection.json
         documentation_urls: {
