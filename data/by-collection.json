@@ -18,7 +18,7 @@
           "success": 539,
           "fail": 57,
           "total_count": 596,
-          "last_updated": "2020-07-02",
+          "last_updated": "2020-07-03",
           "issues": {
             "404": [
               {
@@ -4321,7 +4321,7 @@
           "success": 535,
           "fail": 61,
           "total_count": 596,
-          "last_updated": "2020-07-02",
+          "last_updated": "2020-07-03",
           "issues": {
             "404": [
               {
@@ -5209,7 +5209,7 @@
             "success": 535,
             "fail": 61,
             "total_count": 596,
-            "last_updated": "2020-07-02",
+            "last_updated": "2020-07-03",
             "issues": {
               "404": [
                 {
@@ -6096,7 +6096,7 @@
             "success": 534,
             "fail": 62,
             "total_count": 596,
-            "last_updated": "2020-07-02",
+            "last_updated": "2020-07-03",
             "issues": {
               "404": [
                 {
@@ -6989,7 +6989,7 @@
             "success": 537,
             "fail": 59,
             "total_count": 596,
-            "last_updated": "2020-07-02",
+            "last_updated": "2020-07-03",
             "issues": {
               "404": [
                 {
@@ -7840,7 +7840,7 @@
             "success": 538,
             "fail": 58,
             "total_count": 596,
-            "last_updated": "2020-07-02",
+            "last_updated": "2020-07-03",
             "issues": {
               "404": [
                 {
@@ -8685,7 +8685,7 @@
             "success": 539,
             "fail": 57,
             "total_count": 596,
-            "last_updated": "2020-07-02",
+            "last_updated": "2020-07-03",
             "issues": {
               "404": [
                 {
@@ -12985,7 +12985,7 @@
         "success": 535,
         "fail": 61,
         "total_count": 596,
-        "last_updated": "2020-07-02",
+        "last_updated": "2020-07-03",
         "issues": {
           "404": [
             {
@@ -13242,10 +13242,6 @@
           "highest": 497,
           "weeks": [
             {
-              "2019-07-02": {
-                "tooltip": "0 new resources",
-                "count": 0
-              },
               "2019-07-03": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13269,13 +13265,13 @@
               "2019-07-08": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-07-09": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-07-10": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13299,13 +13295,13 @@
               "2019-07-15": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-07-16": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-07-17": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13329,13 +13325,13 @@
               "2019-07-22": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-07-23": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-07-24": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13359,13 +13355,13 @@
               "2019-07-29": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-07-30": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-07-31": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13389,13 +13385,13 @@
               "2019-08-05": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-08-06": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-08-07": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13419,13 +13415,13 @@
               "2019-08-12": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-08-13": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-08-14": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13449,13 +13445,13 @@
               "2019-08-19": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-08-20": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-08-21": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13479,13 +13475,13 @@
               "2019-08-26": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-08-27": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-08-28": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13509,13 +13505,13 @@
               "2019-09-02": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-09-03": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-09-04": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13539,13 +13535,13 @@
               "2019-09-09": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-09-10": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-09-11": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13569,13 +13565,13 @@
               "2019-09-16": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-09-17": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-09-18": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13599,13 +13595,13 @@
               "2019-09-23": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-09-24": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-09-25": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13629,13 +13625,13 @@
               "2019-09-30": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-01": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-02": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13659,13 +13655,13 @@
               "2019-10-07": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-08": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-09": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13689,13 +13685,13 @@
               "2019-10-14": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-15": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-16": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13719,13 +13715,13 @@
               "2019-10-21": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-22": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-23": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13749,13 +13745,13 @@
               "2019-10-28": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-29": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-30": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13779,13 +13775,13 @@
               "2019-11-04": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-11-05": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-11-06": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13809,13 +13805,13 @@
               "2019-11-11": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-11-12": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-11-13": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13839,13 +13835,13 @@
               "2019-11-18": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-11-19": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-11-20": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13869,13 +13865,13 @@
               "2019-11-25": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-11-26": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-11-27": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13899,13 +13895,13 @@
               "2019-12-02": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-03": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-12-04": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13929,13 +13925,13 @@
               "2019-12-09": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-10": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-12-11": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13959,13 +13955,13 @@
               "2019-12-16": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-17": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-12-18": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -13989,13 +13985,13 @@
               "2019-12-23": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-24": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-12-25": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14019,13 +14015,13 @@
               "2019-12-30": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-31": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-01": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14049,13 +14045,13 @@
               "2020-01-06": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-01-07": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-08": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14079,13 +14075,13 @@
               "2020-01-13": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-01-14": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-15": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14109,13 +14105,13 @@
               "2020-01-20": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-01-21": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-22": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14139,13 +14135,13 @@
               "2020-01-27": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-01-28": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-29": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14169,13 +14165,13 @@
               "2020-02-03": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-02-04": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-02-05": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14199,13 +14195,13 @@
               "2020-02-10": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-02-11": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-02-12": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14229,13 +14225,13 @@
               "2020-02-17": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-02-18": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-02-19": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14259,13 +14255,13 @@
               "2020-02-24": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-02-25": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-02-26": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14289,13 +14285,13 @@
               "2020-03-02": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-03": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-03-04": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14319,13 +14315,13 @@
               "2020-03-09": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-10": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-03-11": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14349,13 +14345,13 @@
               "2020-03-16": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-17": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-03-18": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14379,13 +14375,13 @@
               "2020-03-23": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-24": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-03-25": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14409,13 +14405,13 @@
               "2020-03-30": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-31": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-01": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14439,13 +14435,13 @@
               "2020-04-06": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-04-07": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-08": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14469,13 +14465,13 @@
               "2020-04-13": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-04-14": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-15": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14499,13 +14495,13 @@
               "2020-04-20": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-04-21": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-22": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14529,13 +14525,13 @@
               "2020-04-27": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-04-28": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-29": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14559,13 +14555,13 @@
               "2020-05-04": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-05-05": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-05-06": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14589,13 +14585,13 @@
               "2020-05-11": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-05-12": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-05-13": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14619,13 +14615,13 @@
               "2020-05-18": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-05-19": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-05-20": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14649,13 +14645,13 @@
               "2020-05-25": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-05-26": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-05-27": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14679,13 +14675,13 @@
               "2020-06-01": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-06-02": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-06-03": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14709,13 +14705,13 @@
               "2020-06-08": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-06-09": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-06-10": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14739,13 +14735,13 @@
               "2020-06-15": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-06-16": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-06-17": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14769,13 +14765,13 @@
               "2020-06-22": {
                 "tooltip": "0 new resources",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-06-23": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-06-24": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14799,13 +14795,13 @@
               "2020-06-29": {
                 "tooltip": "1 new resources",
                 "count": 1
-              }
-            },
-            {
+              },
               "2020-06-30": {
                 "tooltip": "0 new resources",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-07-01": {
                 "tooltip": "0 new resources",
                 "count": 0
@@ -14813,6 +14809,10 @@
               "2020-07-02": {
                 "tooltip": "1 new resources",
                 "count": 1
+              },
+              "2020-07-03": {
+                "tooltip": "0 new resources",
+                "count": 0
               }
             }
           ]
@@ -14821,10 +14821,6 @@
           "highest": 62,
           "weeks": [
             {
-              "2019-07-02": {
-                "tooltip": "0 issues",
-                "count": 0
-              },
               "2019-07-03": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -14848,13 +14844,13 @@
               "2019-07-08": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-07-09": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-07-10": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -14878,13 +14874,13 @@
               "2019-07-15": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-07-16": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-07-17": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -14908,13 +14904,13 @@
               "2019-07-22": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-07-23": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-07-24": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -14938,13 +14934,13 @@
               "2019-07-29": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-07-30": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-07-31": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -14968,13 +14964,13 @@
               "2019-08-05": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-08-06": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-08-07": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -14998,13 +14994,13 @@
               "2019-08-12": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-08-13": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-08-14": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15028,13 +15024,13 @@
               "2019-08-19": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-08-20": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-08-21": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15058,13 +15054,13 @@
               "2019-08-26": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-08-27": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-08-28": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15088,13 +15084,13 @@
               "2019-09-02": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-09-03": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-09-04": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15118,13 +15114,13 @@
               "2019-09-09": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-09-10": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-09-11": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15148,13 +15144,13 @@
               "2019-09-16": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-09-17": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-09-18": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15178,13 +15174,13 @@
               "2019-09-23": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-09-24": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-09-25": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15208,13 +15204,13 @@
               "2019-09-30": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-01": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-02": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15238,13 +15234,13 @@
               "2019-10-07": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-08": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-09": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15268,13 +15264,13 @@
               "2019-10-14": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-15": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-16": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15298,13 +15294,13 @@
               "2019-10-21": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-22": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-23": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15328,13 +15324,13 @@
               "2019-10-28": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-10-29": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-10-30": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15358,13 +15354,13 @@
               "2019-11-04": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-11-05": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-11-06": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15388,13 +15384,13 @@
               "2019-11-11": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-11-12": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-11-13": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15418,13 +15414,13 @@
               "2019-11-18": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-11-19": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-11-20": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15448,13 +15444,13 @@
               "2019-11-25": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-11-26": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-11-27": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15478,13 +15474,13 @@
               "2019-12-02": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-03": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-12-04": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15508,13 +15504,13 @@
               "2019-12-09": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-10": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-12-11": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15538,13 +15534,13 @@
               "2019-12-16": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-17": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-12-18": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15568,13 +15564,13 @@
               "2019-12-23": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-24": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2019-12-25": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15598,13 +15594,13 @@
               "2019-12-30": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2019-12-31": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-01": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15628,13 +15624,13 @@
               "2020-01-06": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-01-07": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-08": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15658,13 +15654,13 @@
               "2020-01-13": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-01-14": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-15": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15688,13 +15684,13 @@
               "2020-01-20": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-01-21": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-22": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15718,13 +15714,13 @@
               "2020-01-27": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-01-28": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-01-29": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15748,13 +15744,13 @@
               "2020-02-03": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-02-04": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-02-05": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15778,13 +15774,13 @@
               "2020-02-10": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-02-11": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-02-12": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15808,13 +15804,13 @@
               "2020-02-17": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-02-18": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-02-19": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15838,13 +15834,13 @@
               "2020-02-24": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-02-25": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-02-26": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15868,13 +15864,13 @@
               "2020-03-02": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-03": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-03-04": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15898,13 +15894,13 @@
               "2020-03-09": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-10": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-03-11": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15928,13 +15924,13 @@
               "2020-03-16": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-17": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-03-18": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15958,13 +15954,13 @@
               "2020-03-23": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-24": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-03-25": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -15988,13 +15984,13 @@
               "2020-03-30": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-03-31": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-01": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16018,13 +16014,13 @@
               "2020-04-06": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-04-07": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-08": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16048,13 +16044,13 @@
               "2020-04-13": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-04-14": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-15": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16078,13 +16074,13 @@
               "2020-04-20": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-04-21": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-22": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16108,13 +16104,13 @@
               "2020-04-27": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-04-28": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-04-29": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16138,13 +16134,13 @@
               "2020-05-04": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-05-05": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-05-06": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16168,13 +16164,13 @@
               "2020-05-11": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-05-12": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-05-13": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16198,13 +16194,13 @@
               "2020-05-18": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-05-19": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-05-20": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16228,13 +16224,13 @@
               "2020-05-25": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-05-26": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-05-27": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16258,13 +16254,13 @@
               "2020-06-01": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-06-02": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-06-03": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16288,13 +16284,13 @@
               "2020-06-08": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-06-09": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-06-10": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16318,13 +16314,13 @@
               "2020-06-15": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-06-16": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-06-17": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16348,13 +16344,13 @@
               "2020-06-22": {
                 "tooltip": "0 issues",
                 "count": 0
-              }
-            },
-            {
+              },
               "2020-06-23": {
                 "tooltip": "0 issues",
                 "count": 0
-              },
+              }
+            },
+            {
               "2020-06-24": {
                 "tooltip": "0 issues",
                 "count": 0
@@ -16378,13 +16374,13 @@
               "2020-06-29": {
                 "tooltip": "58 issues",
                 "count": 58
-              }
-            },
-            {
+              },
               "2020-06-30": {
                 "tooltip": "59 issues",
                 "count": 59
-              },
+              }
+            },
+            {
               "2020-07-01": {
                 "tooltip": "62 issues",
                 "count": 62
@@ -16392,6 +16388,10 @@
               "2020-07-02": {
                 "tooltip": "61 issues",
                 "count": 61
+              },
+              "2020-07-03": {
+                "tooltip": "0 issues",
+                "count": 0
               }
             }
           ]
