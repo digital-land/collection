@@ -80,8 +80,7 @@ There are currently {{ data['active_count'] }} active collections.
                         {% endif %}
                         <div class="govuk-grid-column-full">
                           <div class="technical-summary-card__section">
-                              <!-- TODO: Define where this link should go -->
-                              <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}</a>
+                              <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="/resource" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}</a>
                           </div>
                       </div>
                     </div>
@@ -104,8 +103,7 @@ There are currently {{ data['active_count'] }} active collections.
                     <div class="govuk-grid-column-two-thirds">
                         <span class="govuk-!-margin-right-3">Last run:</span><a href="/collection/{{ collection['collection'] }}/log/{{ collection['last_run']['date'] }}" class="govuk-link">{{ collection['last_run']['date'] }}</a>
                         <div class="technical-summary-card__section">
-                            <!-- TODO: Define where this link should go -->
-                            <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="#" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
+                            <span class="govuk-!-margin-right-3">Total resources collected:</span><a href="/resource" class="govuk-link--text-colour">{{ collection['total_resource_count'] }}<span class="govuk-visually-hidden"> by the {{ collection['collection'] }}</span></a>
                         </div>
 
                     </div>

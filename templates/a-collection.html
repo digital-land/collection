@@ -32,7 +32,7 @@
     <div class="govuk-grid-column-one-third">
         <div class="related-stat-summary">
             <h4 class="related-stat-summary__heading">Total resources collected</h4>
-            <a href="/resources" class="govuk-link--text-colour govuk-!-font-size-19">{{ data['total_resource_count'] }}<span class="govuk-visually-hidden"> {{ data['name'] }} resources</span></a>
+            <a href="/resource" class="govuk-link--text-colour govuk-!-font-size-19">{{ data['total_resource_count'] }}<span class="govuk-visually-hidden"> {{ data['name'] }} resources</span></a>
         </div>
     </div>
 </div>
@@ -136,8 +136,7 @@
 
 
 <h2 class="govuk-heading-l dl-heading-section-break">Recent history</h2>
-<!-- TODO: Figure out where resource link goes -->
-<p class="govuk-body">Since {{ data['first_run']['date'] }} this collector has been run a total of <a href="/collection/{{ data['collection'] }}/log" class="govuk-link">{{ data['total_runs'] }} times</a>, collecting <a href="#" class="govuk-link">{{ data['total_resource_count'] }} resource{{"" if data['total_resource_count'] == 1 else "s" }}</a>.</p>
+<p class="govuk-body">Since {{ data['first_run']['date'] }} this collector has been run a total of <a href="/collection/{{ data['collection'] }}/log" class="govuk-link">{{ data['total_runs'] }} times</a>, collecting <a href="/resource" class="govuk-link">{{ data['total_resource_count'] }} resource{{"" if data['total_resource_count'] == 1 else "s" }}</a>.</p>
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-three-quarters">
       <ol class="dl-timeline dl-timeline--dates">

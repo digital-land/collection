@@ -121,9 +121,9 @@
   {% for new_res in data['new_resources'] %}
   <li>
     {% if new_res['old'] %}
-    <a href="#">{{ new_res['new']|truncate(11,true) }}</a> replaces <a href="#">{{ new_res['old']|truncate(11,true) }}</a>
+    <a href="/resource/{{ new_res['new'] }}">{{ new_res['new']|truncate(11,true) }}</a> replaces <a href="#">{{ new_res['old']|truncate(11,true) }}</a>
     {% else %}
-    <a href="#">{{ new_res['new']|truncate(11,true) }}</a>, first resource collected from <a href="{{ new_res['from'] }}">endpoint</a>.
+    <a href="/resource/{{ new_res['new'] }}">{{ new_res['new']|truncate(11,true) }}</a>, first resource collected from <a href="{{ new_res['from'] }}">endpoint</a>.
     {% endif %}
   </li>
   {% endfor %}
