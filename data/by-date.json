@@ -1,5 +1,1357 @@
 [
   {
+    "date": "2020-07-19",
+    "collections": [
+      {
+        "collection": "brownfield-land",
+        "ran": true,
+        "date": "2020-07-19",
+        "endpoints": {
+          "success": 514,
+          "fail": 82,
+          "total_count": 596,
+          "last_updated": "2020-07-19",
+          "issues": {
+            "404": [
+              {
+                "endpoint": "http://www.wyre.gov.uk/download/downloads/id/5527/wyre_council_brownfield_register_september_2019.csv",
+                "link": "000a05de97fae4ea6e8c7ebbb6adf7ed07f595ef5cf322a620503c4a3113fd0d",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/000a05de97fae4ea6e8c7ebbb6adf7ed07f595ef5cf322a620503c4a3113fd0d.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.wyre.gov.uk/download/downloads/id/5527/wyre_council_brownfield_register_september_2018.csv",
+                "link": "05588db376760416f9d698a5ab405f416d84e733f1b932cb899edf3e606748a6",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/05588db376760416f9d698a5ab405f416d84e733f1b932cb899edf3e606748a6.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv",
+                "link": "0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://consult.cheshirewestandchester.gov.uk/file/5387565",
+                "link": "197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.cityoflondon.gov.uk/services/environment-and-planning/planning/development-and-population-information/Documents/city-of-london_brownfieldregister_2018-11-28_update.csv",
+                "link": "1e24194b662874b45683dd6ccb514c42673a3b77f14dc772311ead7bff0711a4",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/1e24194b662874b45683dd6ccb514c42673a3b77f14dc772311ead7bff0711a4.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv",
+                "link": "2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv",
+                "link": "20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv",
+                "link": "210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.newforest.gov.uk/media/35744/New-Forest-District-Council-Brownfield-Register-21-December-2018/Spreadsheet/newforest_brownfieldregister_2018-12-31_rev1_.xlsx",
+                "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.southend.gov.uk/download/downloads/id/5346/southend_brownfield_register_2017-03-31_rev1.csv",
+                "link": "24debc8763d023064d3a96633e3386f410808691bf2b133a9085b8112b8601e1",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/24debc8763d023064d3a96633e3386f410808691bf2b133a9085b8112b8601e1.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.n-somerset.gov.uk/wp-content/uploads/2018/12/North-Somerset-brownfield-register-2018.csv",
+                "link": "341f7d137e678ab7c44a8d651d9bb50797d1b8e6bffbf802063fc7a35c96476a",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/341f7d137e678ab7c44a8d651d9bb50797d1b8e6bffbf802063fc7a35c96476a.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=37431",
+                "link": "40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf",
+                "link": "4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0",
+                "link": "4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.southribble.gov.uk/sites/default/files/South%20Ribble%20Brownfield%20Register%20-%20June%202016.csv",
+                "link": "535211a9c9b5e9824bacb70ed61c38dedf4b95efc2f9a5c0a196f5fcfc5953cf",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/535211a9c9b5e9824bacb70ed61c38dedf4b95efc2f9a5c0a196f5fcfc5953cf.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.molevalley.gov.uk/media.cfm?mediaid=49407",
+                "link": "5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.southribble.gov.uk/sites/default/files/Copy%20of%20southribble_brownfieldregister_2019-07-04_rev3%20%28002%29.csv",
+                "link": "5c3254f517abe995dc9c788723d12c4f8dce5c3323770839ca44dad16db37b3f",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/5c3254f517abe995dc9c788723d12c4f8dce5c3323770839ca44dad16db37b3f.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0",
+                "link": "5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm",
+                "link": "5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv",
+                "link": "62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv",
+                "link": "687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv",
+                "link": "71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.n-somerset.gov.uk/wp-content/uploads/2015/11/northsomerset_brownfieldregister_2017-12-31_rev1.csv",
+                "link": "78e64f6496412fa54b56c2989c8b00fa58e383f53f92458c1d56cf2a2f578019",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/78e64f6496412fa54b56c2989c8b00fa58e383f53f92458c1d56cf2a2f578019.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.southnorthants.gov.uk/download/downloads/id/3248/snc-brownfield-land-register-2018.csv",
+                "link": "79ab0f72bcfe4bf223c9d157504dff224377d3f779c83e9c450735525b476331",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/79ab0f72bcfe4bf223c9d157504dff224377d3f779c83e9c450735525b476331.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv",
+                "link": "7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv",
+                "link": "84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.n-somerset.gov.uk/wp-content/uploads/2019/12/brownfield-sites.csv",
+                "link": "850ec49276c9c5695cd550fd79c29254815f51d0e57826e81181321a0c498c3d",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/850ec49276c9c5695cd550fd79c29254815f51d0e57826e81181321a0c498c3d.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv",
+                "link": "87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2",
+                "link": "894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx",
+                "link": "8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv",
+                "link": "97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv",
+                "link": "9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv",
+                "link": "a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv",
+                "link": "ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv",
+                "link": "b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv",
+                "link": "b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.rochford.gov.uk/sites/default/files/RDC_BrownfieldLandRegister2019.pdf",
+                "link": "b7fa00489ff4bd8f0cacfaa5e71b3b5bad16389a8d6cf647d6f3cb3f4185f392",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/b7fa00489ff4bd8f0cacfaa5e71b3b5bad16389a8d6cf647d6f3cb3f4185f392.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.hounslow.gov.uk/View/planning/brownfield-land",
+                "link": "c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv",
+                "link": "c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv",
+                "link": "cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv",
+                "link": "cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv",
+                "link": "cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.cityoflondon.gov.uk/services/environment-and-planning/planning/development-and-population-information/Documents/city-of-london-brownfield-register-march-2020.csv",
+                "link": "cfdb1c3ee9adfd9db72e708c5d81eb3312716b97d6b262aeefe8b7eda3788eb5",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/cfdb1c3ee9adfd9db72e708c5d81eb3312716b97d6b262aeefe8b7eda3788eb5.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv",
+                "link": "d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0",
+                "link": "e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.fdean.gov.uk/media/7277/brownfield-land.csv",
+                "link": "ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv",
+                "link": "f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035.json",
+                "documentation_url": ""
+              }
+            ],
+            "ConnectionError": [
+              {
+                "endpoint": "http://opendata.northumberland.gov.uk/static/datasets/brownfield-register/brownfield-register.csv",
+                "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2018/12/Brownfield-Register-Dec-2018.pdf",
+                "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2017/12/Brownfield-Register-Dec-2017.pdf",
+                "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www2.merton.gov.uk/Merton%20Brownfield%20Register%202017%20Web%20Ready%20CSV%20Version.csv",
+                "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.norwich.gov.uk/download/downloads/id/4578/brownfield_land_register_csv.csv",
+                "link": "6f56fd60e85c641c682f98d0e01a41fb1beebf3041c4f134f30158b4254af2f2",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/6f56fd60e85c641c682f98d0e01a41fb1beebf3041c4f134f30158b4254af2f2.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.southdowns.gov.uk/wp-content/uploads/2019/12/Brownfield-Register-Dec-2019.pdf",
+                "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136.json",
+                "documentation_url": ""
+              }
+            ],
+            "SSLError": [
+              {
+                "endpoint": "https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043",
+                "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.burnley.gov.uk/sites/default/files/Burnley%27s%20Brownfield%20Land%20Register%2027-02-19.csv",
+                "link": "0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/5d6b72f6-2575-4735-ada9-06275f723a2d/download/barrow-in-furnessbrownfieldregister2018-12-20rev1.csv",
+                "link": "12aa1979c2b2496cf49988484b76e0ea78f60df290fc368d7ea8be38e2f7f7cd",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/12aa1979c2b2496cf49988484b76e0ea78f60df290fc368d7ea8be38e2f7f7cd.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/bec64d8a-6a3d-4350-9b93-55d3197ae9a2/download/barrow-in-furnessbrownfieldregister2017-11-09rev1.csv",
+                "link": "136cb36eb4eebb415cae134304c764cd0ef082d38941647b4a52fb5bb58bfa87",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/136cb36eb4eebb415cae134304c764cd0ef082d38941647b4a52fb5bb58bfa87.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv",
+                "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv",
+                "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv",
+                "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv",
+                "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV",
+                "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/548c1aac-b649-42ab-92f7-3e888577ab3c/download/barrow-in-furnessbrownfieldregister2019-07-03rev1.csv",
+                "link": "5f1e1d4206c167d3721c64d0c1ce9c3e8eb1b49e676670f5ff8f19198b194c0e",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/5f1e1d4206c167d3721c64d0c1ce9c3e8eb1b49e676670f5ff8f19198b194c0e.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/f1224cb5-812c-40ce-aece-54e2b55cecfa/download/barrow-in-furnessbrownfieldregister2018-03-22rev1.csv",
+                "link": "69cb19a12c57d575d309f692e20a390b36d0542129d113df99cdc861a712a71f",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/69cb19a12c57d575d309f692e20a390b36d0542129d113df99cdc861a712a71f.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/53f5efb4-c282-4f9c-95a6-f77ee2a7dec7/download/barrow-in-furnessbrownfieldregister2019-12-19rev1.csv",
+                "link": "88ca5357d21eff6b3cfb3fa0603f392147e687dc386f1e3cd81268e4ab0ee68c",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/88ca5357d21eff6b3cfb3fa0603f392147e687dc386f1e3cd81268e4ab0ee68c.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/dd5ce316-1f75-4e75-95d6-8976b25a230d/download/barrow-in-furnessbrownfieldregister2019-09-27rev1.csv",
+                "link": "8dee6e8aa448c10a76efe73ba77ef6721ab93361e70afecb4a55c8a8872b9509",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/8dee6e8aa448c10a76efe73ba77ef6721ab93361e70afecb4a55c8a8872b9509.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/af1eb832-575e-46a0-a615-666daa5ab196/download/barrow-in-furnessbrownfieldregister2017-12-20rev1.csv",
+                "link": "8fe85852691ecbde2577c6dcb5430df6ba7e2f0d1ccefd86cc8b52b42116305a",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/8fe85852691ecbde2577c6dcb5430df6ba7e2f0d1ccefd86cc8b52b42116305a.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://eastdevon.gov.uk/transparency/brownfields/east-devon_brownfieldregister_2017-11-17_rev1.csv",
+                "link": "9458c610122eef9a6ebbad9a67790023a49a11d91b16435d2ffe5fd89b2ff438",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/9458c610122eef9a6ebbad9a67790023a49a11d91b16435d2ffe5fd89b2ff438.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476",
+                "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://eastdevon.gov.uk/media/3437875/2019eddcbrownfieldlandregisterfinalcsvweb.csv",
+                "link": "a52a9a58f7a0c7e0149824a97c231d590aeba0d40eb0dea5e9298390f19cbba3",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/a52a9a58f7a0c7e0149824a97c231d590aeba0d40eb0dea5e9298390f19cbba3.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://eastdevon.gov.uk/media/2542014/2018EDDCBrownfieldLandRegisterFinalCSVweb.csv",
+                "link": "adca013d505b76dfd5eeb1a290c8e16dce403ffc37b91655d7053faf79efdcb4",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/adca013d505b76dfd5eeb1a290c8e16dce403ffc37b91655d7053faf79efdcb4.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/ec4f21a1-2b01-44dd-ab74-2d4aec76c843/download/barrow-in-furnessbrownfieldregister2019-04-08rev1.csv",
+                "link": "cad401109991f557c0dca3d53c84dc367029614076a2db8f32da188f6f8d5999",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/cad401109991f557c0dca3d53c84dc367029614076a2db8f32da188f6f8d5999.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-Brownfield-Register-CSV/Excel/BLR_HPBC_19_CSV.csv",
+                "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/3859/HPBC-brownfield-register-2018-CSV/Excel/HPBC_brownfield_register_2018_csv.csv",
+                "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.solihull.gov.uk/Portals/0/Planning/BLR/Brownfield-Land-Register.csv",
+                "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv",
+                "link": "dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.highpeak.gov.uk/media/2795/Brownfield-Register-CSV/Excel/High_Peak_Brownfield_Land_CSV_3.csv",
+                "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/e6c654ca-95c8-4896-a33c-43cd88bbad63/download/barrow-in-furnessbrownfieldregister2018-06-28rev1.csv",
+                "link": "e72342d239920e900c3d53bf04674f14693edff36753f6c9e8404e655fc130cf",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/e72342d239920e900c3d53bf04674f14693edff36753f6c9e8404e655fc130cf.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.chelmsford.gov.uk/_resources/assets/attachment/full/0/1095043.csv",
+                "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://www.staffsmoorlands.gov.uk/media/3861/SM-2018-brownfield-register-CSV/Excel/SM_2018_Brownfield_register_csv.csv",
+                "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996.json",
+                "documentation_url": ""
+              },
+              {
+                "endpoint": "https://data.barrowbc.gov.uk/dataset/3f587e30-a91e-4d0e-9525-a660706df8c0/resource/5ca0cd9f-eaa3-4233-bb05-d9f1688658b2/download/barrow-in-furnessbrownfieldregister2018-09-27rev1.csv",
+                "link": "fdb6ce595c4938641c14214bbca1608c9eb22cad1e5702bbda19f14282b89e8f",
+                "log_link": "https://raw.githubusercontent.com/digital-land/brownfield-land-pipeline/master/collection/log/2020-07-19/fdb6ce595c4938641c14214bbca1608c9eb22cad1e5702bbda19f14282b89e8f.json",
+                "documentation_url": ""
+              }
+            ]
+          }
+        },
+        "documentation_urls": {
+          "active": 0,
+          "inactive": 0
+        },
+        "new_resources": [
+          {
+            "resource": "d8f0bf38a549322049def5c791474eca29e1d3fe5776153bce8e2f0fd5b1fc39",
+            "new": "d8f0bf38a549322049def5c791474eca29e1d3fe5776153bce8e2f0fd5b1fc39",
+            "old": "",
+            "from": "http://gisopendata-sdc.opendata.arcgis.com/datasets/b924985c0eb646e99ca3ca50438d4a8f_0.csv",
+            "first_appeared": "2020-07-19"
+          }
+        ],
+        "issues": [
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "000a05de97fae4ea6e8c7ebbb6adf7ed07f595ef5cf322a620503c4a3113fd0d",
+            "status": "404",
+            "elapsed": "1.278",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995",
+            "status": "ConnectionError",
+            "elapsed": "0.371",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967",
+            "status": "SSLError",
+            "elapsed": "0.473",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "05588db376760416f9d698a5ab405f416d84e733f1b932cb899edf3e606748a6",
+            "status": "404",
+            "elapsed": "0.512",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "0c7ebc8d72cf6cba7808c22fbb3de3ab786367bc30574c4c565fd1a79285e833",
+            "status": "SSLError",
+            "elapsed": "0.641",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3",
+            "status": "404",
+            "elapsed": "0.541",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6",
+            "status": "ConnectionError",
+            "elapsed": "0.31",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "12aa1979c2b2496cf49988484b76e0ea78f60df290fc368d7ea8be38e2f7f7cd",
+            "status": "SSLError",
+            "elapsed": "0.202",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "136cb36eb4eebb415cae134304c764cd0ef082d38941647b4a52fb5bb58bfa87",
+            "status": "SSLError",
+            "elapsed": "0.455",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57",
+            "status": "404",
+            "elapsed": "0.391",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "1e24194b662874b45683dd6ccb514c42673a3b77f14dc772311ead7bff0711a4",
+            "status": "404",
+            "elapsed": "0.827",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241",
+            "status": "404",
+            "elapsed": "0.497",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a",
+            "status": "404",
+            "elapsed": "0.096",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052",
+            "status": "404",
+            "elapsed": "1.266",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878",
+            "status": "SSLError",
+            "elapsed": "0.182",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5",
+            "status": "404",
+            "elapsed": "1.118",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5",
+            "status": "ConnectionError",
+            "elapsed": "0.62",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "24debc8763d023064d3a96633e3386f410808691bf2b133a9085b8112b8601e1",
+            "status": "404",
+            "elapsed": "0.977",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8",
+            "status": "SSLError",
+            "elapsed": "0.182",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "341f7d137e678ab7c44a8d651d9bb50797d1b8e6bffbf802063fc7a35c96476a",
+            "status": "404",
+            "elapsed": "0.196",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93",
+            "status": "SSLError",
+            "elapsed": "0.434",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d",
+            "status": "SSLError",
+            "elapsed": "0.347",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849",
+            "status": "404",
+            "elapsed": "0.619",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854",
+            "status": "404",
+            "elapsed": "2.143",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71",
+            "status": "ConnectionError",
+            "elapsed": "0.536",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb",
+            "status": "SSLError",
+            "elapsed": "0.178",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4",
+            "status": "404",
+            "elapsed": "0.224",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "535211a9c9b5e9824bacb70ed61c38dedf4b95efc2f9a5c0a196f5fcfc5953cf",
+            "status": "404",
+            "elapsed": "0.968",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4",
+            "status": "404",
+            "elapsed": "0.131",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "5c3254f517abe995dc9c788723d12c4f8dce5c3323770839ca44dad16db37b3f",
+            "status": "404",
+            "elapsed": "0.323",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096",
+            "status": "404",
+            "elapsed": "1.219",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "5f1e1d4206c167d3721c64d0c1ce9c3e8eb1b49e676670f5ff8f19198b194c0e",
+            "status": "SSLError",
+            "elapsed": "0.201",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce",
+            "status": "404",
+            "elapsed": "0.097",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee",
+            "status": "404",
+            "elapsed": "0.654",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36",
+            "status": "404",
+            "elapsed": "0.636",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "69cb19a12c57d575d309f692e20a390b36d0542129d113df99cdc861a712a71f",
+            "status": "SSLError",
+            "elapsed": "0.202",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c",
+            "status": "404",
+            "elapsed": "0.709",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "6f56fd60e85c641c682f98d0e01a41fb1beebf3041c4f134f30158b4254af2f2",
+            "status": "ConnectionError",
+            "elapsed": "131.356",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a",
+            "status": "404",
+            "elapsed": "0.101",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "78e64f6496412fa54b56c2989c8b00fa58e383f53f92458c1d56cf2a2f578019",
+            "status": "404",
+            "elapsed": "0.516",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "79ab0f72bcfe4bf223c9d157504dff224377d3f779c83e9c450735525b476331",
+            "status": "404",
+            "elapsed": "0.898",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7",
+            "status": "404",
+            "elapsed": "0.754",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723",
+            "status": "404",
+            "elapsed": "0.978",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "850ec49276c9c5695cd550fd79c29254815f51d0e57826e81181321a0c498c3d",
+            "status": "404",
+            "elapsed": "0.188",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d",
+            "status": "404",
+            "elapsed": "0.547",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "88ca5357d21eff6b3cfb3fa0603f392147e687dc386f1e3cd81268e4ab0ee68c",
+            "status": "SSLError",
+            "elapsed": "0.2",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430",
+            "status": "404",
+            "elapsed": "0.679",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab",
+            "status": "404",
+            "elapsed": "0.552",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "8dee6e8aa448c10a76efe73ba77ef6721ab93361e70afecb4a55c8a8872b9509",
+            "status": "SSLError",
+            "elapsed": "0.199",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "8fe85852691ecbde2577c6dcb5430df6ba7e2f0d1ccefd86cc8b52b42116305a",
+            "status": "SSLError",
+            "elapsed": "0.2",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "9458c610122eef9a6ebbad9a67790023a49a11d91b16435d2ffe5fd89b2ff438",
+            "status": "SSLError",
+            "elapsed": "0.62",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030",
+            "status": "404",
+            "elapsed": "0.451",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f",
+            "status": "404",
+            "elapsed": "0.52",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712",
+            "status": "SSLError",
+            "elapsed": "0.351",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "a52a9a58f7a0c7e0149824a97c231d590aeba0d40eb0dea5e9298390f19cbba3",
+            "status": "SSLError",
+            "elapsed": "0.28",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371",
+            "status": "404",
+            "elapsed": "0.659",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23",
+            "status": "404",
+            "elapsed": "2.358",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "adca013d505b76dfd5eeb1a290c8e16dce403ffc37b91655d7053faf79efdcb4",
+            "status": "SSLError",
+            "elapsed": "0.456",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a",
+            "status": "404",
+            "elapsed": "0.103",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136",
+            "status": "ConnectionError",
+            "elapsed": "0.311",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c",
+            "status": "404",
+            "elapsed": "0.785",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "b7fa00489ff4bd8f0cacfaa5e71b3b5bad16389a8d6cf647d6f3cb3f4185f392",
+            "status": "404",
+            "elapsed": "1.032",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377",
+            "status": "404",
+            "elapsed": "0.653",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6",
+            "status": "404",
+            "elapsed": "0.459",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "cad401109991f557c0dca3d53c84dc367029614076a2db8f32da188f6f8d5999",
+            "status": "SSLError",
+            "elapsed": "0.202",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84",
+            "status": "SSLError",
+            "elapsed": "0.178",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273",
+            "status": "404",
+            "elapsed": "0.49",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a",
+            "status": "404",
+            "elapsed": "0.092",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e",
+            "status": "404",
+            "elapsed": "0.618",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "cfdb1c3ee9adfd9db72e708c5d81eb3312716b97d6b262aeefe8b7eda3788eb5",
+            "status": "404",
+            "elapsed": "0.484",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1",
+            "status": "SSLError",
+            "elapsed": "0.181",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673",
+            "status": "SSLError",
+            "elapsed": "0.37",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3",
+            "status": "404",
+            "elapsed": "0.677",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8",
+            "status": "SSLError",
+            "elapsed": "0.489",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966",
+            "status": "SSLError",
+            "elapsed": "0.472",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a",
+            "status": "404",
+            "elapsed": "0.753",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "e72342d239920e900c3d53bf04674f14693edff36753f6c9e8404e655fc130cf",
+            "status": "SSLError",
+            "elapsed": "0.2",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646",
+            "status": "404",
+            "elapsed": "0.098",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035",
+            "status": "404",
+            "elapsed": "0.848",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a",
+            "status": "SSLError",
+            "elapsed": "0.171",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996",
+            "status": "SSLError",
+            "elapsed": "0.181",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          },
+          {
+            "datetime": "2020-07-19T00:31:05.348695",
+            "link": "fdb6ce595c4938641c14214bbca1608c9eb22cad1e5702bbda19f14282b89e8f",
+            "status": "SSLError",
+            "elapsed": "0.203",
+            "resource": "",
+            "content-type": "",
+            "content-length": "",
+            "date": "2020-07-19"
+          }
+        ],
+        "name": "Brownfield land"
+      }
+    ]
+  },
+  {
     "date": "2020-07-18",
     "collections": [
       {
@@ -10,7 +1362,7 @@
           "success": 515,
           "fail": 81,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -1338,7 +2690,7 @@
           "success": 517,
           "fail": 79,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -2634,7 +3986,7 @@
           "success": 517,
           "fail": 79,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -3930,7 +5282,7 @@
           "success": 515,
           "fail": 81,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -5258,7 +6610,7 @@
           "success": 512,
           "fail": 84,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -6634,7 +7986,7 @@
           "success": 516,
           "fail": 80,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -7954,7 +9306,7 @@
           "success": 515,
           "fail": 81,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -9282,7 +10634,7 @@
           "success": 513,
           "fail": 83,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -10644,7 +11996,7 @@
           "success": 514,
           "fail": 82,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -11990,7 +13342,7 @@
           "success": 518,
           "fail": 78,
           "total_count": 596,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -13270,7 +14622,7 @@
           "success": 519,
           "fail": 76,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -14518,7 +15870,7 @@
           "success": 523,
           "fail": 72,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -15702,7 +17054,7 @@
           "success": 525,
           "fail": 70,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -16864,7 +18216,7 @@
           "success": 524,
           "fail": 71,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -18036,7 +19388,7 @@
           "success": 527,
           "fail": 68,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -19156,7 +20508,7 @@
           "success": 537,
           "fail": 58,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -20116,7 +21468,7 @@
           "success": 535,
           "fail": 60,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -21116,7 +22468,7 @@
           "success": 534,
           "fail": 61,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -22124,7 +23476,7 @@
           "success": 537,
           "fail": 58,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -23084,7 +24436,7 @@
           "success": 538,
           "fail": 57,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
@@ -24036,7 +25388,7 @@
           "success": 539,
           "fail": 56,
           "total_count": 595,
-          "last_updated": "2020-07-18",
+          "last_updated": "2020-07-19",
           "issues": {
             "404": [
               {
