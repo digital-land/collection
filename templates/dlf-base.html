@@ -8,6 +8,7 @@
 {% endblock %}
 
 {% block header %}
+{% include 'dl-partials/cookie-banner.html' %}
 {% include 'dl-partials/dl-header.html' %}
 {% endblock %}
 
@@ -24,16 +25,7 @@
 
 {% block bodyEnd %}
 	{%- block googleAnalytics -%}
-	<!-- google analytics -->
-	<script type="application/javascript">
-		var doNotTrack = false;
-		if (!doNotTrack) {
-			window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-			ga('create', 'UA-127566551-1', 'auto');
-			
-			ga('send', 'pageview');
-		}
-	</script>
+	<script src="{{ staticPath | default('/static') }}/javascripts/dl-cookies.js"></script>
 	<script async src='https://www.google-analytics.com/analytics.js'></script>
 	<!-- end google analytics -->
 	{% endblock googleAnalytics %}
