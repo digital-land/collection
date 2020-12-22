@@ -1,0 +1,2419 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8" />
+    <title>Collections | Digital Land</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c" /> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon" />
+      <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+    
+
+    
+<link href="https://digital-land-design.herokuapp.com/static/stylesheets/dl-frontend.css" rel="stylesheet" />
+
+    
+    
+    <meta property="og:image" content="/assets/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="#content" class="govuk-skip-link"></a>
+    
+
+    
+<!-- Cookie banner partial version 1.0.1 -->
+<div id="global-cookie-message" class="govuk-clearfix global-cookie-message" data-module="cookie-banner" role="region" aria-label="cookie banner" data-nosnippet="">
+
+  <div id="cookie-banner" class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <div class="cookie-banner__message govuk-!-margin-top-6">
+          <h2 class="govuk-heading-m">Tell us whether you accept cookies</h2>
+          <p class="govuk-body">We use <a class="govuk-link" href="/cookies">cookies to collect information</a> about how you use the Digital Land website to make the website work as well as possible.</p>
+        </div>
+        <div class="cooke-banner__buttons govuk-grid-row">
+          <div class="govuk-grid-column-one-half">
+            <button class="govuk-button" onclick="acceptCookies();showCookieConfirmation();">Accept all cookies</button>
+          </div>
+          <div class="govuk-grid-column-one-half">
+            <a class="govuk-button"href="/cookies">Set cookie preferences</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="cookie-confirmation" class="govuk-width-container govuk-!-padding-top-6" tabindex="-1" style="display: none;">
+    <p class="cookie-banner__confirmation-message govuk-body">You’ve accepted all cookies. You can <a class="govuk-link" href="/cookies">change your cookie settings</a> at any time.</p>
+    <button class="cookie-banner__hide-button govuk-button govuk-button--secondary" onclick="document.getElementById('cookie-confirmation').style.display='none';">Hide</button>
+  </div>
+
+</div>
+<header role="banner" id="global-header" class="govuk-header  with-proposition dl-header" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="header-proposition">
+      <div class="govuk-header__content">
+        <a href="https://digital-land.github.io/" class="govuk-header__link govuk-header__link--service-name">
+        Digital Land
+        </a>
+        <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+
+        <nav>
+          <ul id="navigation" class="govuk-header__navigation" aria-label="Top Level Navigation">
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/about">Team</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/project/">Projects</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/weeknote/">Weeknotes</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/blog-post/">Blog</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/guidance/">Guidance</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/dataset/">Datasets</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/organisation/">Organisations</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/map/">Map</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container">
+        
+  
+	<div class="govuk-phase-banner govuk-width-container">
+  <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
+  prototype
+</strong><span class="govuk-phase-banner__text">
+      This is a prototype. Please provide feedback to the Digital Land team.
+    </span>
+  </p>
+</div>
+
+  <div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="https://digital-land.github.io/">Digital Land</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/collection">Collections</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/collection/conservation-area">Conservation area</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Log</li>
+    
+  
+  </ol>
+</div>
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+<span class="govuk-caption-xl">Collection</span>
+<h1 class="govuk-heading-xl">Conservation area log</h1>
+
+<p class="govuk-body">A record of how the collector has been performing over time.</p>
+
+<div class="govuk-tabs" data-module="govuk-tabs">
+  <h2 class="govuk-tabs__title">
+    Contents
+  </h2>
+  <ul class="govuk-tabs__list">
+    <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+      <a class="govuk-tabs__tab" href="#resources">
+        Resources
+      </a>
+    </li>
+    <li class="govuk-tabs__list-item">
+      <a class="govuk-tabs__tab" href="#issues">
+        Issues
+      </a>
+    </li>
+  </ul>
+  <div class="govuk-tabs__panel" id="resources">
+      
+<div class="dlf-heatmap__container">
+  
+  <?xml version="1.0" encoding="UTF-8"?>
+  <svg width="712" height="128" class="dlf-svg-heatmap"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g transform="translate(10, 20)">
+        
+          
+          <g transform="translate(10, 0)">
+              
+                
+                
+                
+                
+                <a xlink:href="2020-09-04">
+              <rect class="day heatmap__day heatmap__day--mid" width="12" height="12" x="16" y="0" fill="4" data-count="4" data-date="2020-09-04">
+                  <title>2020-09-04: 4 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(26, 0)">
+              
+                
+                
+                
+                
+                
+                
+                <a xlink:href="2020-09-05">
+              <rect class="day heatmap__day heatmap__day--higher" width="12" height="12" x="16" y="0" fill="13" data-count="13" data-date="2020-09-05">
+                  <title>2020-09-05: 13 new resources</title>
+              </rect>
+              </a>
+              
+                
+                
+                
+                
+                
+                
+                <a xlink:href="2020-09-06">
+              <rect class="day heatmap__day heatmap__day--higher" width="12" height="12" x="16" y="15" fill="20" data-count="20" data-date="2020-09-06">
+                  <title>2020-09-06: 20 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(42, 0)">
+              
+                
+                
+                <a xlink:href="2020-09-07">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-09-07">
+                  <title>2020-09-07: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(58, 0)">
+              
+                
+                
+                
+                
+                
+                
+                <a xlink:href="2020-09-08">
+              <rect class="day heatmap__day heatmap__day--higher" width="12" height="12" x="16" y="0" fill="5" data-count="5" data-date="2020-09-08">
+                  <title>2020-09-08: 5 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(74, 0)">
+              
+                
+                
+                <a xlink:href="2020-09-09">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-09-09">
+                  <title>2020-09-09: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(90, 0)">
+              
+                
+                
+                
+                
+                
+                
+                <a xlink:href="2020-09-11">
+              <rect class="day heatmap__day heatmap__day--higher" width="12" height="12" x="16" y="0" fill="6" data-count="6" data-date="2020-09-11">
+                  <title>2020-09-11: 6 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(106, 0)">
+              
+                
+                
+                
+                
+                <a xlink:href="2020-09-12">
+              <rect class="day heatmap__day heatmap__day--mid" width="12" height="12" x="16" y="0" fill="4" data-count="4" data-date="2020-09-12">
+                  <title>2020-09-12: 4 new resources</title>
+              </rect>
+              </a>
+              
+                
+                
+                
+                
+                
+                
+                <a xlink:href="2020-09-14">
+              <rect class="day heatmap__day heatmap__day--higher" width="12" height="12" x="16" y="15" fill="6" data-count="6" data-date="2020-09-14">
+                  <title>2020-09-14: 6 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(122, 0)">
+              
+                
+                
+                
+                
+                <a xlink:href="2020-09-15">
+              <rect class="day heatmap__day heatmap__day--mid" width="12" height="12" x="16" y="0" fill="4" data-count="4" data-date="2020-09-15">
+                  <title>2020-09-15: 4 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(138, 0)">
+              
+                
+                
+                <a xlink:href="2020-09-16">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-09-16">
+                  <title>2020-09-16: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(154, 0)">
+              
+                
+                
+                <a xlink:href="2020-09-17">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-09-17">
+                  <title>2020-09-17: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(170, 0)">
+              
+                
+                
+                
+                
+                <a xlink:href="2020-09-23">
+              <rect class="day heatmap__day heatmap__day--mid" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-09-23">
+                  <title>2020-09-23: 3 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(186, 0)">
+              
+                
+                
+                <a xlink:href="2020-09-24">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-09-24">
+                  <title>2020-09-24: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(202, 0)">
+              
+                <a xlink:href="2020-09-30">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-09-30">
+                  <title>2020-09-30: 0 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(218, 0)">
+              
+                
+                
+                <a xlink:href="2020-10-01">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-10-01">
+                  <title>2020-10-01: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(234, 0)">
+              
+                
+                
+                <a xlink:href="2020-10-02">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-10-02">
+                  <title>2020-10-02: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(250, 0)">
+              
+                
+                
+                <a xlink:href="2020-10-12">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-10-12">
+                  <title>2020-10-12: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(266, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-11">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-11">
+                  <title>2020-11-11: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(282, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-12">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-11-12">
+                  <title>2020-11-12: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(298, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-13">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-13">
+                  <title>2020-11-13: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(314, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-14">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-14">
+                  <title>2020-11-14: 1 new resources</title>
+              </rect>
+              </a>
+              
+                <a xlink:href="2020-11-15">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="15" fill="0" data-count="0" data-date="2020-11-15">
+                  <title>2020-11-15: 0 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(330, 0)">
+              
+                <a xlink:href="2020-11-16">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-11-16">
+                  <title>2020-11-16: 0 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(346, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-17">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-17">
+                  <title>2020-11-17: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(362, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-18">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-18">
+                  <title>2020-11-18: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(378, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-19">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-11-19">
+                  <title>2020-11-19: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(394, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-20">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-20">
+                  <title>2020-11-20: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(410, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-21">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-11-21">
+                  <title>2020-11-21: 2 new resources</title>
+              </rect>
+              </a>
+              
+                <a xlink:href="2020-11-22">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="15" fill="0" data-count="0" data-date="2020-11-22">
+                  <title>2020-11-22: 0 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(426, 0)">
+              
+                <a xlink:href="2020-11-23">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-11-23">
+                  <title>2020-11-23: 0 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(442, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-24">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-24">
+                  <title>2020-11-24: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(458, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-25">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-25">
+                  <title>2020-11-25: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(474, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-26">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-11-26">
+                  <title>2020-11-26: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(490, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-27">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-11-27">
+                  <title>2020-11-27: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(506, 0)">
+              
+                
+                
+                <a xlink:href="2020-11-29">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-11-29">
+                  <title>2020-11-29: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(522, 0)">
+              
+                <a xlink:href="2020-11-30">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-11-30">
+                  <title>2020-11-30: 0 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(538, 0)">
+              
+                
+                
+                <a xlink:href="2020-12-01">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-12-01">
+                  <title>2020-12-01: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(554, 0)">
+              
+                
+                
+                <a xlink:href="2020-12-02">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-12-02">
+                  <title>2020-12-02: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(570, 0)">
+              
+                
+                
+                <a xlink:href="2020-12-15">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-12-15">
+                  <title>2020-12-15: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(586, 0)">
+              
+                
+                
+                <a xlink:href="2020-12-16">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-12-16">
+                  <title>2020-12-16: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(602, 0)">
+              
+                
+                
+                <a xlink:href="2020-12-17">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-12-17">
+                  <title>2020-12-17: 2 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(618, 0)">
+              
+                
+                
+                <a xlink:href="2020-12-18">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-12-18">
+                  <title>2020-12-18: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(634, 0)">
+              
+                
+                
+                <a xlink:href="2020-12-19">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-12-19">
+                  <title>2020-12-19: 1 new resources</title>
+              </rect>
+              </a>
+              
+                <a xlink:href="2020-12-20">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="15" fill="0" data-count="0" data-date="2020-12-20">
+                  <title>2020-12-20: 0 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(650, 0)">
+              
+                <a xlink:href="2020-12-21">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-12-21">
+                  <title>2020-12-21: 0 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(666, 0)">
+              
+                
+                
+                <a xlink:href="2020-12-22">
+              <rect class="day heatmap__day heatmap__day--lower" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-12-22">
+                  <title>2020-12-22: 1 new resources</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+
+        
+        
+          
+          
+          
+          
+          <text x="26" y="-9" class="month">Sep</text>
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+          
+          <text x="234" y="-9" class="month">Oct</text>
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+          
+          <text x="282" y="-9" class="month">Nov</text>
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+          
+          <text x="554" y="-9" class="month">Dec</text>
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          <text text-anchor="start" class="wday" dx="-10" dy="10" style="display: none;">Sun</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="25">Mon</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="41" style="display: none;">Tue</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="56">Wed</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="71" style="display: none;">Thu</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="85">Fri</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="101" style="display: none;">Sat</text>
+
+      </g>
+  </svg>
+</div>
+
+  </div>
+
+  <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="issues">
+    
+<div class="dlf-heatmap__container">
+  
+  <?xml version="1.0" encoding="UTF-8"?>
+  <svg width="712" height="128" class="dlf-svg-heatmap dlf-svg-heatmap--red"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g transform="translate(10, 20)">
+        
+          
+          <g transform="translate(10, 0)">
+              <a xlink:href="2020-09-04">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-09-04">
+                  <title>2020-09-04: 0 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(26, 0)">
+              <a xlink:href="2020-09-05">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-09-05">
+                  <title>2020-09-05: 0 issues</title>
+              </rect>
+              </a>
+              <a xlink:href="2020-09-06">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="15" fill="0" data-count="0" data-date="2020-09-06">
+                  <title>2020-09-06: 0 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(42, 0)">
+              <a xlink:href="2020-09-07">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-09-07">
+                  <title>2020-09-07: 0 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(58, 0)">
+              <a xlink:href="2020-09-08">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-09-08">
+                  <title>2020-09-08: 0 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(74, 0)">
+              <a xlink:href="2020-09-09">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-09-09">
+                  <title>2020-09-09: 1 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(90, 0)">
+              <a xlink:href="2020-09-11">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-09-11">
+                  <title>2020-09-11: 0 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(106, 0)">
+              <a xlink:href="2020-09-12">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-09-12">
+                  <title>2020-09-12: 0 issues</title>
+              </rect>
+              </a>
+              <a xlink:href="2020-09-14">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="15" fill="1" data-count="1" data-date="2020-09-14">
+                  <title>2020-09-14: 1 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(122, 0)">
+              <a xlink:href="2020-09-15">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-09-15">
+                  <title>2020-09-15: 2 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(138, 0)">
+              <a xlink:href="2020-09-16">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-09-16">
+                  <title>2020-09-16: 1 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(154, 0)">
+              <a xlink:href="2020-09-17">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="0" data-count="0" data-date="2020-09-17">
+                  <title>2020-09-17: 0 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(170, 0)">
+              <a xlink:href="2020-09-23">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-09-23">
+                  <title>2020-09-23: 1 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(186, 0)">
+              <a xlink:href="2020-09-24">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="1" data-count="1" data-date="2020-09-24">
+                  <title>2020-09-24: 1 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(202, 0)">
+              <a xlink:href="2020-09-30">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="2" data-count="2" data-date="2020-09-30">
+                  <title>2020-09-30: 2 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(218, 0)">
+              <a xlink:href="2020-10-01">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-10-01">
+                  <title>2020-10-01: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(234, 0)">
+              <a xlink:href="2020-10-02">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-10-02">
+                  <title>2020-10-02: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(250, 0)">
+              <a xlink:href="2020-10-12">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="12" data-count="12" data-date="2020-10-12">
+                  <title>2020-10-12: 12 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(266, 0)">
+              <a xlink:href="2020-11-11">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="4" data-count="4" data-date="2020-11-11">
+                  <title>2020-11-11: 4 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(282, 0)">
+              <a xlink:href="2020-11-12">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-12">
+                  <title>2020-11-12: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(298, 0)">
+              <a xlink:href="2020-11-13">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="6" data-count="6" data-date="2020-11-13">
+                  <title>2020-11-13: 6 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(314, 0)">
+              <a xlink:href="2020-11-14">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-14">
+                  <title>2020-11-14: 3 issues</title>
+              </rect>
+              </a>
+              <a xlink:href="2020-11-15">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="15" fill="3" data-count="3" data-date="2020-11-15">
+                  <title>2020-11-15: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(330, 0)">
+              <a xlink:href="2020-11-16">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-16">
+                  <title>2020-11-16: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(346, 0)">
+              <a xlink:href="2020-11-17">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-17">
+                  <title>2020-11-17: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(362, 0)">
+              <a xlink:href="2020-11-18">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-18">
+                  <title>2020-11-18: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(378, 0)">
+              <a xlink:href="2020-11-19">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-19">
+                  <title>2020-11-19: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(394, 0)">
+              <a xlink:href="2020-11-20">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-20">
+                  <title>2020-11-20: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(410, 0)">
+              <a xlink:href="2020-11-21">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-21">
+                  <title>2020-11-21: 3 issues</title>
+              </rect>
+              </a>
+              <a xlink:href="2020-11-22">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="15" fill="3" data-count="3" data-date="2020-11-22">
+                  <title>2020-11-22: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(426, 0)">
+              <a xlink:href="2020-11-23">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-23">
+                  <title>2020-11-23: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(442, 0)">
+              <a xlink:href="2020-11-24">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-24">
+                  <title>2020-11-24: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(458, 0)">
+              <a xlink:href="2020-11-25">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-25">
+                  <title>2020-11-25: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(474, 0)">
+              <a xlink:href="2020-11-26">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="4" data-count="4" data-date="2020-11-26">
+                  <title>2020-11-26: 4 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(490, 0)">
+              <a xlink:href="2020-11-27">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="4" data-count="4" data-date="2020-11-27">
+                  <title>2020-11-27: 4 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(506, 0)">
+              <a xlink:href="2020-11-29">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-29">
+                  <title>2020-11-29: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(522, 0)">
+              <a xlink:href="2020-11-30">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="3" data-count="3" data-date="2020-11-30">
+                  <title>2020-11-30: 3 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(538, 0)">
+              <a xlink:href="2020-12-01">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="6" data-count="6" data-date="2020-12-01">
+                  <title>2020-12-01: 6 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(554, 0)">
+              <a xlink:href="2020-12-02">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="6" data-count="6" data-date="2020-12-02">
+                  <title>2020-12-02: 6 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(570, 0)">
+              <a xlink:href="2020-12-15">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="6" data-count="6" data-date="2020-12-15">
+                  <title>2020-12-15: 6 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(586, 0)">
+              <a xlink:href="2020-12-16">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="6" data-count="6" data-date="2020-12-16">
+                  <title>2020-12-16: 6 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(602, 0)">
+              <a xlink:href="2020-12-17">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="7" data-count="7" data-date="2020-12-17">
+                  <title>2020-12-17: 7 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(618, 0)">
+              <a xlink:href="2020-12-18">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="6" data-count="6" data-date="2020-12-18">
+                  <title>2020-12-18: 6 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(634, 0)">
+              <a xlink:href="2020-12-19">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="6" data-count="6" data-date="2020-12-19">
+                  <title>2020-12-19: 6 issues</title>
+              </rect>
+              </a>
+              <a xlink:href="2020-12-20">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="15" fill="6" data-count="6" data-date="2020-12-20">
+                  <title>2020-12-20: 6 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(650, 0)">
+              <a xlink:href="2020-12-21">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="7" data-count="7" data-date="2020-12-21">
+                  <title>2020-12-21: 7 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+          
+          <g transform="translate(666, 0)">
+              <a xlink:href="2020-12-22">
+              <rect class="day heatmap__day" width="12" height="12" x="16" y="0" fill="7" data-count="7" data-date="2020-12-22">
+                  <title>2020-12-22: 7 issues</title>
+              </rect>
+              </a>
+              
+          </g>
+        
+
+        
+        
+          
+          
+          
+          
+          <text x="26" y="-9" class="month">Sep</text>
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+          
+          <text x="234" y="-9" class="month">Oct</text>
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+          
+          <text x="282" y="-9" class="month">Nov</text>
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+          
+          <text x="554" y="-9" class="month">Dec</text>
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          
+          
+          
+
+        
+          <text text-anchor="start" class="wday" dx="-10" dy="10" style="display: none;">Sun</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="25">Mon</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="41" style="display: none;">Tue</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="56">Wed</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="71" style="display: none;">Thu</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="85">Fri</text>
+          <text text-anchor="start" class="wday" dx="-10" dy="101" style="display: none;">Sat</text>
+
+      </g>
+  </svg>
+</div>
+
+  </div>
+</div>
+
+<h2 class="govuk-heading-l dl-heading-section-break govuk-!-margin-top-9">Complete run history</h2>
+<!-- Figure out where resource link goes -->
+<p class="govuk-body">Since 2020-09-04 this collector has been run a total of 47 times, collecting <a href="/resource" class="govuk-link">106 resources</a>.</p>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-three-quarters">
+      <ol class="dl-timeline dl-timeline--dates">
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-04">2020-09-04</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span>
+    <a href="/collection/conservation-area/log/2020-09-04">Conservation area</a>
+    </span><span>4 new resources collected.</span>
+            </div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-05">2020-09-05</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span>
+    <a href="/collection/conservation-area/log/2020-09-05">Conservation area</a>
+    </span><span>13 new resources collected.</span>
+            </div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-06">2020-09-06</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span>
+    <a href="/collection/conservation-area/log/2020-09-06">Conservation area</a>
+    </span><span>20 new resources collected.</span>
+            </div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-07">2020-09-07</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span>
+    <a href="/collection/conservation-area/log/2020-09-07">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            </div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-08">2020-09-08</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span>
+    <a href="/collection/conservation-area/log/2020-09-08">Conservation area</a>
+    </span><span>5 new resources collected.</span>
+            </div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-09">2020-09-09</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-09-09">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>1 issue encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-11">2020-09-11</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span>
+    <a href="/collection/conservation-area/log/2020-09-11">Conservation area</a>
+    </span><span>6 new resources collected.</span>
+            </div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-12">2020-09-12</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span>
+    <a href="/collection/conservation-area/log/2020-09-12">Conservation area</a>
+    </span><span>4 new resources collected.</span>
+            </div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-14">2020-09-14</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-09-14">Conservation area</a>
+    </span><span>6 new resources collected.</span>
+            <span>1 issue encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-15">2020-09-15</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-09-15">Conservation area</a>
+    </span><span>4 new resources collected.</span>
+            <span>2 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-16">2020-09-16</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-09-16">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>1 issue encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-17">2020-09-17</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span>
+    <a href="/collection/conservation-area/log/2020-09-17">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            </div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-23">2020-09-23</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-09-23">Conservation area</a>
+    </span><span>3 new resources collected.</span>
+            <span>1 issue encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-24">2020-09-24</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-09-24">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>1 issue encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-09-30">2020-09-30</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-09-30">Conservation area</a>
+    </span>
+            <span>2 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-10-01">2020-10-01</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-10-01">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-10-02">2020-10-02</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-10-02">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-10-12">2020-10-12</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-10-12">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>12 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-11">2020-11-11</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-11">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>4 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-12">2020-11-12</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-12">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-13">2020-11-13</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-13">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>6 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-14">2020-11-14</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-14">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-15">2020-11-15</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-15">Conservation area</a>
+    </span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-16">2020-11-16</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-16">Conservation area</a>
+    </span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-17">2020-11-17</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-17">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-18">2020-11-18</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-18">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-19">2020-11-19</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-19">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-20">2020-11-20</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-20">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-21">2020-11-21</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-21">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-22">2020-11-22</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-22">Conservation area</a>
+    </span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-23">2020-11-23</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-23">Conservation area</a>
+    </span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-24">2020-11-24</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-24">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-25">2020-11-25</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-25">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-26">2020-11-26</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-26">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>4 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-27">2020-11-27</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-27">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>4 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-29">2020-11-29</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-29">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-11-30">2020-11-30</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-11-30">Conservation area</a>
+    </span>
+            <span>3 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-01">2020-12-01</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-01">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>6 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-02">2020-12-02</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-02">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>6 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-15">2020-12-15</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-15">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>6 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-16">2020-12-16</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-16">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>6 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-17">2020-12-17</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-17">Conservation area</a>
+    </span><span>2 new resources collected.</span>
+            <span>7 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-18">2020-12-18</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-18">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>6 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-19">2020-12-19</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-19">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>6 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-20">2020-12-20</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-20">Conservation area</a>
+    </span>
+            <span>6 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-21">2020-12-21</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-21">Conservation area</a>
+    </span>
+            <span>7 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+          <li class="dl-timeline__entry">
+              <h3 class="govuk-heading-m dl-timeline__entry-heading"><a class="govuk-link--text-colour" href="/collection/conservation-area/log/2020-12-22">2020-12-22</a></h3>
+              <div class="dl-timeline__entry__content">
+                
+<div class="technical-summary-card technical-summary-card--compressed govuk-!-margin-bottom-1">
+    <span class="dlf-warning__icon--inline" aria-hidden="true">!</span><span>
+    <a href="/collection/conservation-area/log/2020-12-22">Conservation area</a>
+    </span><span>1 new resource collected.</span>
+            <span>7 issues encountered.</span></div>
+
+              </div>
+          </li>
+          
+      </ol>
+  </div>
+</div>
+
+        </main>
+      </div>
+    
+
+    
+  <div class="dlf-pg-feedback ">
+    <div class="dlf-pg-feedback__prompt">
+      <a href="mailto:digitalland@communities.gov.uk?subject=Feedback on digital land /collection/conservation-area/log page" class="dlf-pg-feedback__link">Do you have feedback about this page?</a>
+    </div>
+</div>
+
+  
+      <footer class="govuk-footer " role="contentinfo"
+        >
+  <div class="govuk-width-container ">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+        <svg
+          role="presentation"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewbox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+
+    <script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-cookies.js"></script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<!-- end google analytics -->
+	
+
+	<script src="https://digital-land-design.herokuapp.com/static/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+	<script>
+		// initiate all GOVUK components
+		window.GOVUKFrontend.initAll();
+	</script>
+
+	
+	
+	<script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-frontend.js"></script>
+	<script>
+		// adds any necessary polyfills
+		window.DLFrontend.polyfill();
+	</script>
+	
+
+
+  </body>
+</html>
