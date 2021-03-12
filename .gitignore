@@ -134,3 +134,4 @@ dmypy.json
 .DS_Store
 node_modules
 src/
+collections

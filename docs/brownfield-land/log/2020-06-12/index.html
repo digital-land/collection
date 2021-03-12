@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8" />
+    <title>Collections | Digital Land</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c" /> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon" />
+      <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+    
+
+    
+<link href="https://digital-land-design.herokuapp.com/static/stylesheets/dl-frontend.css" rel="stylesheet" />
+
+    
+    
+    <meta property="og:image" content="/assets/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="#content" class="govuk-skip-link"></a>
+    
+
+    
+<!-- Cookie banner partial version 1.0.1 -->
+<div id="global-cookie-message" class="govuk-clearfix global-cookie-message" data-module="cookie-banner" role="region" aria-label="cookie banner" data-nosnippet="">
+
+  <div id="cookie-banner" class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <div class="cookie-banner__message govuk-!-margin-top-6">
+          <h2 class="govuk-heading-m">Tell us whether you accept cookies</h2>
+          <p class="govuk-body">We use <a class="govuk-link" href="/cookies">cookies to collect information</a> about how you use the Digital Land website to make the website work as well as possible.</p>
+        </div>
+        <div class="cooke-banner__buttons govuk-grid-row">
+          <div class="govuk-grid-column-one-half">
+            <button class="govuk-button" onclick="acceptCookies();showCookieConfirmation();">Accept all cookies</button>
+          </div>
+          <div class="govuk-grid-column-one-half">
+            <a class="govuk-button"href="/cookies">Set cookie preferences</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="cookie-confirmation" class="govuk-width-container govuk-!-padding-top-6" tabindex="-1" style="display: none;">
+    <p class="cookie-banner__confirmation-message govuk-body">You’ve accepted all cookies. You can <a class="govuk-link" href="/cookies">change your cookie settings</a> at any time.</p>
+    <button class="cookie-banner__hide-button govuk-button govuk-button--secondary" onclick="document.getElementById('cookie-confirmation').style.display='none';">Hide</button>
+  </div>
+
+</div>
+<header role="banner" id="global-header" class="govuk-header  with-proposition dl-header" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="header-proposition">
+      <div class="govuk-header__content">
+        <a href="https://digital-land.github.io/" class="govuk-header__link govuk-header__link--service-name">
+        Digital Land
+        </a>
+        <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+
+        <nav>
+          <ul id="navigation" class="govuk-header__navigation" aria-label="Top Level Navigation">
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/about">Team</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/project/">Projects</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/weeknote/">Weeknotes</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/blog-post/">Blog</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/guidance/">Guidance</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/dataset/">Datasets</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/organisation/">Organisations</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/map/">Map</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container">
+        
+  
+	<div class="govuk-phase-banner govuk-width-container">
+  <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
+  prototype
+</strong><span class="govuk-phase-banner__text">
+      This is a prototype. Please provide feedback to the Digital Land team.
+    </span>
+  </p>
+</div>
+
+  <div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="https://digital-land.github.io/">Digital Land</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/collection">Collections</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/collection/brownfield-land">Brownfield land</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/collection/brownfield-land/log">Log</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">2020-06-12</li>
+    
+  
+  </ol>
+</div>
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+<span class="govuk-caption-xl">Log results</span>
+<h1 class="govuk-heading-xl">Brownfield land &mdash; 2020-06-12</h1>
+
+<p class="govuk-body-l">The collector attempted to collect resources from 595 endpoints.</p>
+
+<h2 id="issues" class="govuk-heading-l">Issues</h2>
+
+<p class="govuk-body">Issues occur when the collector can't reach an endpoint and retrieve a resource, or when a documentation URL is no longer available. They often need manual intervention to fix.</p>
+
+<div class="highlight-box--cta">
+  <a href="https://github.com/digital-land/brownfield-land-collection/blob/master/collection/endpoint.csv" class="govuk-link">Edit endpoint.csv</a>
+</div>
+
+<h3 id="endpoint-issues" class="govuk-heading-m">Endpoints</h3>
+
+
+<p class="govuk-body">The collector failed to collect resources from 70 endpoints.</p>
+<p class="govuk-body">Problems with endpoints usually occur when an endpoint no longer exists.</p>
+
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="endpoint-error-type">
+  
+  
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="endpoint-error-type-heading-1">
+          35 endpoints failed with 404
+        </span>
+      </h2>
+    </div>
+    <div id="endpoint-error-type-content-1" class="govuk-accordion__section-content" aria-labelledby="endpoint-error-type-heading-1">
+      <ul class="govuk-list govuk-list--number">
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/ab0c8a326b8efa3ebe9d431e82cf2327ebcad88688b9380b71b90fe752c94e23.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv">http://www.tunbridgewells.gov.uk/__data/assets/file/0017/321830/Final_Brownfield_Register_2019-1.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/dd3d40eec2969aeec60f84421c15c209665af8b62a91272a68fd53d7303e94c8.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv">http://www.manchester.gov.uk/download/downloads/id/27392/2019_manchester_brownfield_register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/cf46ca1a4dd61f5ee33fe0e05a7f4cdaa8cb0c7b1e3144847aa11db1dcdf549e.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv">https://middlesbrough.gov.uk/sites/default/files/Brownfield-sites-March-2019-update.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/a544ca5235a2d541bd7282e4bad334e84c9ea929ae53a4f1f9e351acd0533371.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv">https://www.pendle.gov.uk/download/downloads/id/10040/pendle_brownfield_register_csv.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/c69886f913548000a4cdd98a8d84bff2ee05f8980c176c7c04b247c5f47b02a6.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv">https://www.rushcliffe.gov.uk/media/1rushcliffe/media/documents/excel/planningandbuilding/planningpolicy/rushcliffe_brownfieldregister_2018_12_19_rev1.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/ea9c1bba529e8ae6c060661fc82ec7a7cf4ac98c5c46c3e383fc9e77e60dd646.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.fdean.gov.uk/media/7277/brownfield-land.csv">https://www.fdean.gov.uk/media/7277/brownfield-land.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/197d1b990b5cc6ebfb194ff9d039de5a2b85af6b732e26baa1de03eb8c802f57.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://consult.cheshirewestandchester.gov.uk/file/5387565">https://consult.cheshirewestandchester.gov.uk/file/5387565</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/87d3ca938a3176707eea3e50855a32b3be613b84015e7f39f92f2284d7e1668d.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv">https://www.haringey.gov.uk/sites/haringeygovuk/files/brownfield_register_2019.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/4cdc6f2241171509157b09531609bf69e42339fcda094d1032d9cb5f13550854.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf">https://www.southhams.gov.uk/media/4658/South-Hams-Brownfield-Land-Register-2018/pdf/SH_Brown_Field_Register_2018.pdf</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/cce0634f5ce01dcdcb129f8efdfa031e01738802cc26606e5118774b3c660273.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv">https://www.oxford.gov.uk/download/downloads/id/4244/oxford_brownfield_register_-_december_2017_csv.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/62602294b4f4f77f8b25db64986ec4dfa3c19e4c0e2f1e8407aabba45a0effee.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv">https://www.northyorkmoors.org.uk/__data/assets/file/0007/1429792/north-york-moors_brownfieldregister_2019-12-17_rev1.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/5c26f46baecfd66f640724006a2ded9fe3af684daf07a5cb1f601a5d7542c6d4.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.molevalley.gov.uk/media.cfm?mediaid=49407">https://www.molevalley.gov.uk/media.cfm?mediaid=49407</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/4fc4f068b25e39b5b116cf9493b59a0c1b2eb39b349d997668800399dc8611c4.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0">https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=4008&p=0</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/2045132c2c24df3e7ab24f5e5113d3c1496364c6cb3527fdeae05a214c118241.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv">https://www.westoxon.gov.uk/media/1710408/west-oxfordshire_brownfieldregister_december2018_rev1.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/8a285f586db15391bb216bfb4719932fca27102ab9e7fa234b81b014c2df52ab.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx">https://www.eden.gov.uk/media/5201/brownfield-land-register-2018.xlsx</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/b08e807d4a968e2e3170a37f9a726dc55933ffff856734cd3b00cc94e696255a.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv">https://www.cotswold.gov.uk/media/1688109/1204-Brownfield-Register-2018-CSV.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/e0da5f68a02fc08a397eab9f5fd186005b76f0c363763d7c8a7bc71fe190613a.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0">https://www.great-yarmouth.gov.uk/CHttpHandler.ashx?id=2608&p=0</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/d902f01382a8414cc026476de4dcfabbc0a64a7d7e0c8fcde84484b15287a0e3.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv">https://www.peakdistrict.gov.uk/__data/assets/file/0003/1068042/pdnpa-blr-18_12_2017.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/f60671b34748ffb20e79509fc8e8d56e4e5643fb3a827ac44d327199cb80a035.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv">http://www.fdean.gov.uk/media/5465/dclg-brownfield-land-register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/894372afa5504706356dbe1d89867a6b8a2879639d0911ddda97162395b1c430.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2">https://dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-borough-council-brownfield-land-register-2019-(csv-14kb).csv?sfvrsn=2</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/7df14c1993fe3ef6f971a0582ca9ad85f12ca4408720c70025b2d50f52f6dbf7.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv">https://www.thurrock.gov.uk/sites/default/files/assets/documents/brownfield-register-201904-v01.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/5da90f68b6c33afebaa28e9b90343c3843ae2043c9137ba32252c0aab6c5c096.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0">https://www.rother.gov.uk/CHttpHandler.ashx?id=29528&p=0</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/9bb49d2edb197888e688b36cf91cb6f68cd25b640bd5863a9929e29c685ba81f.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv">https://www.copeland.gov.uk/sites/default/files/attachments/copeland_brownfield_register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/b5fea7e3743937065f3583b20ee1804b0c8830d4d5e22b1a786d9e296dc9bf3c.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv">https://www.newham.gov.uk/Documents/Environment%20and%20planning/NewhamBrownfieldRegister.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/687aab26f2ffbf2738a0b3abf3f164d0795ce933decb3298f696b35761681e36.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv">http://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1069317/exmoor_brownfieldregister2017-12-19_rev1.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/5f600c521173794e63ed8a5725971eae6aec3790ea3ce25737d056650ea3b8ce.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm">https://www.fdean.gov.uk/media/5640/dclg-brownfield-land-register.xlsm</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/84ceb3869c2bc2ba67419d14c9a1dc5b83ce13bffaf27aa39fa519693a6eb723.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv">http://www.cotswold.gov.uk/media/1565830/Brownfield-Land-Register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/20d3494f78924f4f202612668ad78949b8fad0726890e26318b37d3cbe10d12a.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv">https://www.exmoor-nationalpark.gov.uk/__data/assets/file/0009/1699803/Brownfield_Sites.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/6eb2385ddd66412cfa46fc5fefd511a0eac1a6fe37ca12e0634f332f8fc93c2c.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv">http://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/40be6c0f029b6ee0d828b8e42a2c02ce8570c4b986f05ceaeb382ca016693849.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.molevalley.gov.uk/media.cfm?mediaid=37431">https://www.molevalley.gov.uk/media.cfm?mediaid=37431</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/0f6152e272209760b0867036af37fe5ac15f0b9a0605eb32870400e0e34b98c3.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv">https://www.southsomerset.gov.uk/media/2550/j-plan_pol-web-site-2019-brownfield-register-interim-csv.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/97a9833a8c0c8b9c774f9a107d73708f772653072b2028218b1f9682bba1b030.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv">https://www.broads-authority.gov.uk/__data/assets/text_file/0018/1432071/broads_authority_brownfieldregister_2019_12_04.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/71228cf3144a5f1484579202507a2cbab84d0f4f735403b3ab8e7c62f9c85a1a.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv">https://www.westoxon.gov.uk/media/2087868/brownfield-land.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/210b091c0601603879b8a4e99fcd74e53876589caea6fb507f34d1f136e21052.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv">https://www.elmbridge.gov.uk/_resources/assets/attachment/full/0/5674.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/cddc3ff767eecebd21c24c2b6c41d063c32f89c399f810a368ba184106a9347a.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv">https://www.dartmoor.gov.uk/__data/assets/file/0020/1024445/2018-Brownfield-Register.csv</a></div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="endpoint-error-type-heading-2">
+          14 endpoints failed with 200
+        </span>
+      </h2>
+    </div>
+    <div id="endpoint-error-type-content-2" class="govuk-accordion__section-content" aria-labelledby="endpoint-error-type-heading-2">
+      <ul class="govuk-list govuk-list--number">
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/fbc421a2e2a38ec3db2420cda8952fd28a5f1e1a8c595cfd9badee48011265c2.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.kirklees.gov.uk/brownfieldlandregister">https://www.kirklees.gov.uk/brownfieldlandregister</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/69bb33e20f2b9a4f3b5eac2caf432769761ba8b468f2130b8f0b746a366289b5.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.gedling.gov.uk/media/gedlingboroughcouncil/documents/planningpolicy/brownfieldregister/gedling_brownfieldregister_2018-08-31_rev1.csv">https://www.gedling.gov.uk/media/gedlingboroughcouncil/documents/planningpolicy/brownfieldregister/gedling_brownfieldregister_2018-08-31_rev1.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/988424b060b04206906f7c335bcdc8bab5cba6156066d553a3dc4e9a7092c9a5.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.westsuffolk.gov.uk/planning/Planning_Policies/upload/Copy-of-West-Suffolk-Brownfield-Register-2019-DEC-web-version.xlsx">https://www.westsuffolk.gov.uk/planning/Planning_Policies/upload/Copy-of-West-Suffolk-Brownfield-Register-2019-DEC-web-version.xlsx</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/8006f0d83a1e169a95aafa370067e9f042bcca06e3d0665eedc42ca402f7e729.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.brent.gov.uk/media/16412569/brownfield-register-web.xlsx">https://www.brent.gov.uk/media/16412569/brownfield-register-web.xlsx</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/41e36be4938cd04e20058823a88e612e6ed9414c12d8ddbe6c966d92057efc6e.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.royalgreenwich.gov.uk/downloads/file/3572/brownfield_land_register_csv">https://www.royalgreenwich.gov.uk/downloads/file/3572/brownfield_land_register_csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/d9c351d0c55cb447a3d41dcd91f5049d2fddd32d4afc1858b00b668ae4594baf.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://drive.google.com/file/d/1qpyaNoBf3VTCxE9a5IQ3DDapYXIsIbyj/view">https://drive.google.com/file/d/1qpyaNoBf3VTCxE9a5IQ3DDapYXIsIbyj/view</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/e74f26b4f5d9193ace0f891a320ef1a8d97949a52228a0702798c031d731f416.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.richmond.gov.uk/media/15291/brownfield_land_register.csv">https://www.richmond.gov.uk/media/15291/brownfield_land_register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/f7eb4732225c84eba8bb04092fb85c44fb4092ccd6d4adf4d0b1c3c846a78e1b.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.malvernhills.gov.uk/documents/283188/8873213/MalvernHillsBrownfieldLandRegister2017csv.csv/bfef9d76-453a-b239-de88-e24b02a172db">https://www.malvernhills.gov.uk/documents/283188/8873213/MalvernHillsBrownfieldLandRegister2017csv.csv/bfef9d76-453a-b239-de88-e24b02a172db</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/8fcb091366e6c367e81d80fa5a10a3df2a8d1918577f9f3ae74819b74f87573c.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.warwickdc.gov.uk/downloads/file/4705/brownfield_register_2017_-_csv.csv">https://www.warwickdc.gov.uk/downloads/file/4705/brownfield_register_2017_-_csv.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/3627588c16ca74108988817d2dc0253a7d641b1f64932eb06cba5799e9f763dd.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.sheffield.gov.uk/content/dam/sheffield/docs/planning-and-development/housing-land/Sheffield%20Brownfield%20Register.csv">https://www.sheffield.gov.uk/content/dam/sheffield/docs/planning-and-development/housing-land/Sheffield%20Brownfield%20Register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/b853ca716a5d795b330869bc22c5caedc0c8fdca38cca7005435bae16415f89c.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.carlisle.gov.uk/planning-policy/Evidence-Base/Brownfield-Register#">https://www.carlisle.gov.uk/planning-policy/Evidence-Base/Brownfield-Register#</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/2f3a523d8b835409f6215b9a73855f793eceb19af595171be73cad9692c2bcb0.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.richmond.gov.uk/media/16642/brownfield_land_register.csv">https://www.richmond.gov.uk/media/16642/brownfield_land_register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/0cc394aaa08fbe2f79dd179a741c980542ebe935e52902cabba83c0b1dce4def.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.rugby.gov.uk/downloads/file/1475/brownfield_land_register_csv">https://www.rugby.gov.uk/downloads/file/1475/brownfield_land_register_csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/a26001953045fa4adbe8fba0255cae4798be23490e50e506a1fed9e15cec800b.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.ne-derbyshire.gov.uk/component/edocman/brownfield-land-register-csv">https://www.ne-derbyshire.gov.uk/component/edocman/brownfield-land-register-csv</a></div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="endpoint-error-type-heading-3">
+          21 endpoints failed with Unknown
+        </span>
+      </h2>
+    </div>
+    <div id="endpoint-error-type-content-3" class="govuk-accordion__section-content" aria-labelledby="endpoint-error-type-heading-3">
+      <ul class="govuk-list govuk-list--number">
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/4cdf6c2b4debfee964fab04c2607c7c70b7200ca3c8d597f03db2ec93d653e71.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www2.merton.gov.uk/Merton%20Brownfield%20Register%202017%20Web%20Ready%20CSV%20Version.csv">https://www2.merton.gov.uk/Merton%20Brownfield%20Register%202017%20Web%20Ready%20CSV%20Version.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/b1be54f56dac42a66fb573ec158b43d39d90d8c1529454c1e9e126ae54f00136.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.southdowns.gov.uk/wp-content/uploads/2019/12/Brownfield-Register-Dec-2019.pdf">https://www.southdowns.gov.uk/wp-content/uploads/2019/12/Brownfield-Register-Dec-2019.pdf</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/df5b32ddb038b606fe02b3119f4a4801440b12d13dbb4455ffa79c2fdda85966.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.highpeak.gov.uk/media/2795/Brownfield-Register-CSV/Excel/High_Peak_Brownfield_Land_CSV_3.csv">https://www.highpeak.gov.uk/media/2795/Brownfield-Register-CSV/Excel/High_Peak_Brownfield_Land_CSV_3.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/d3eb94a7c59f7db3ebad3697d1286ab9aec3e2071e6460af0e639c64280c56e1.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.highpeak.gov.uk/media/3859/HPBC-brownfield-register-2018-CSV/Excel/HPBC_brownfield_register_2018_csv.csv">https://www.highpeak.gov.uk/media/3859/HPBC-brownfield-register-2018-CSV/Excel/HPBC_brownfield_register_2018_csv.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/f6977ba4e98603494f56336bd766e9b117612139c4d3e06e4027b029bb51f996.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.staffsmoorlands.gov.uk/media/3861/SM-2018-brownfield-register-CSV/Excel/SM_2018_Brownfield_register_csv.csv">https://www.staffsmoorlands.gov.uk/media/3861/SM-2018-brownfield-register-CSV/Excel/SM_2018_Brownfield_register_csv.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/d52edc1e3f112ac4b7af4acf7367b7ed003b34beb51ce5afbf4b42150abcf673.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.solihull.gov.uk/Portals/0/Planning/BLR/Brownfield-Land-Register.csv">https://www.solihull.gov.uk/Portals/0/Planning/BLR/Brownfield-Land-Register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/224e2b298f076be0a10d5bf0dd70293a983846a6b73ab057737868f081ae3ec5.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.southdowns.gov.uk/wp-content/uploads/2017/12/Brownfield-Register-Dec-2017.pdf">https://www.southdowns.gov.uk/wp-content/uploads/2017/12/Brownfield-Register-Dec-2017.pdf</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/a1e653dc6fb8c219a6d733afcf521f39e89cb44ef3d1588b7d03365c6829e712.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476">https://www.poole.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=42476</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/3d3635e0cde95f5ed70571ffcf048d6bd6472e84a03a9fdcb0d52bedbad39c6d.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv">https://www.staffsmoorlands.gov.uk/media/2796/Brownfield-Register-CSV-File/Excel/SM_Brownfield_Land_CSV.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/0231c5a97fa63be2944720d73ad7bf31e159cf04045b275bd83635bcd06cd995.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="http://opendata.northumberland.gov.uk/static/datasets/brownfield-register/brownfield-register.csv">http://opendata.northumberland.gov.uk/static/datasets/brownfield-register/brownfield-register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/21ca7e14957872ceecc3e2500b78a281bd206a9804ab8f24aa97fc52850559b5.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="http://www.newforest.gov.uk/media/35744/New-Forest-District-Council-Brownfield-Register-21-December-2018/Spreadsheet/newforest_brownfieldregister_2018-12-31_rev1_.xlsx">http://www.newforest.gov.uk/media/35744/New-Forest-District-Council-Brownfield-Register-21-December-2018/Spreadsheet/newforest_brownfieldregister_2018-12-31_rev1_.xlsx</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/35ef8520652b4e541aa97ea4bf08a9a6c293f3f268e46361f2c69c9943122e93.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv">https://beta.horsham.gov.uk/__data/assets/file/0005/67721/horsham-brownfield-register.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/f657b9103a417cb5858f565cf28e877c8201239452f89353d0fd11337c5fcb4a.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.chelmsford.gov.uk/_resources/assets/attachment/full/0/1095043.csv">https://www.chelmsford.gov.uk/_resources/assets/attachment/full/0/1095043.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/029cb9e14e0428ef9dc4a2d7afe8a8a904f19af1ad4cfc47dbd251b009714967.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043">https://www.chelmsford.gov.uk/EasySiteWeb/GatewayLink.aspx?alId=1095043</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/c04b2e2c87983db3653b9faf92b1b138474e29048b92dd8318a1458d3baa0377.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://data.hounslow.gov.uk/View/planning/brownfield-land">https://data.hounslow.gov.uk/View/planning/brownfield-land</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/cc9d8a6f628d8e2484019afa480ad49c43e9247701a2eb9d372cd210b7b4fb84.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.highpeak.gov.uk/media/3859/HPBC-Brownfield-Register-CSV/Excel/BLR_HPBC_19_CSV.csv">https://www.highpeak.gov.uk/media/3859/HPBC-Brownfield-Register-CSV/Excel/BLR_HPBC_19_CSV.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/4e83e382960083f7a117a41d19cb73b978d8d60e0bd1d0d8a280e183d95e0bcb.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV">https://www.highpeak.gov.uk/media/4893/Brownfield-Land-Register-2019-CSV-Mar20/Excel/hp_brownfield-land.csv.CSV</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/77b624e97bc09a1c9e0e605bb627aff3ee35651e7eb27ff4cddff4f7f7305db9.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://ex.broxbourne.gov.uk/sites/default/files/documents/Communications/Brownfield%20Register%20-%202019.xlsx">https://ex.broxbourne.gov.uk/sites/default/files/documents/Communications/Brownfield%20Register%20-%202019.xlsx</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/212e02c778cc93e00e569c00955a78ced368a07954b71097a9db29537cd25878.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv">https://www.staffsmoorlands.gov.uk/media/3861/SM-2019-Brownfield-Register-CSV/Excel/BLR_SMDC_19_CSV.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/25698f7239942c7fff6a06f0068f80355a777a93792673cbf579038f60ca58e8.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv">https://www.staffsmoorlands.gov.uk/media/4895/brownfield-land.csv-Mar20/Excel/sm_brownfield-land.csv.csv</a></div>
+          </li>
+        
+          <li class="issue-list__item">
+            <div class="govuk-grid-column-one-quarter">
+              Endpoint
+              <div class="issue-list__item__text-s">&mdash; <a href="" class="govuk-link">documentation page</a></div>
+              <div class="issue-list__item__text-s">&mdash; <a href="https://raw.githubusercontent.com/digital-land/brownfield-land-collection/main/collection/log/2020-06-12/110d1feccabea662a02fc393b1e8156f4d4e04f3d65b131c2668a0bffd7cecf6.json" class="govuk-link">raw log</a></div>
+            </div>
+            <div class="govuk-grid-column-three-quarters"><a class="govuk-link--text-colour long-link" href="https://www.southdowns.gov.uk/wp-content/uploads/2018/12/Brownfield-Register-Dec-2018.pdf">https://www.southdowns.gov.uk/wp-content/uploads/2018/12/Brownfield-Register-Dec-2018.pdf</a></div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+<h2 id="resources" class="govuk-heading-l">Resources</h2>
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      What is a resource?
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+    <p class="govuk-body">A resource is the name given to anything collected by the collector. It usually refers to a file collected from an endpoint.</p>
+    <p class="govuk-body">A new resource is either something collected for the first time or an updated version of a file previously collected.</p>
+  </div>
+</details>
+
+
+<p class="govuk-body">No new resources collected.</p>
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <div class="dlf-pg-feedback ">
+    <div class="dlf-pg-feedback__prompt">
+      <a href="mailto:digitalland@communities.gov.uk?subject=Feedback on Digital Land /collection/brownfield-land/log/2020-06-12 page" class="dlf-pg-feedback__link">Do you have feedback about this page?</a>
+    </div>
+</div>
+
+  
+      <footer class="govuk-footer " role="contentinfo"
+        >
+  <div class="govuk-width-container ">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+        <svg
+          role="presentation"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewbox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+
+    <script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-cookies.js"></script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<!-- end google analytics -->
+	
+
+	<script src="https://digital-land-design.herokuapp.com/static/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+	<script>
+		// initiate all GOVUK components
+		window.GOVUKFrontend.initAll();
+	</script>
+
+	
+	
+	<script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-frontend.js"></script>
+	<script>
+		// adds any necessary polyfills
+		window.DLFrontend.polyfill();
+	</script>
+	
+
+
+  </body>
+</html>
